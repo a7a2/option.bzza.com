@@ -1,0 +1,477 @@
+[{
+	"id": "1",
+	"name": "EURUSD",
+	"symbolName": "EURUSD",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"745\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"746\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"747\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "2",
+	"name": "GBPUSD",
+	"symbolName": "GBPUSD",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"8\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"9\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"10\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "3",
+	"name": "USDCHF",
+	"symbolName": "USDCHF",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"274\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"275\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"30\"},{\"id\":\"276\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"55\"},{\"id\":\"277\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"100\"},{\"id\":\"278\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"150\"},{\"id\":\"279\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"200\"},{\"id\":\"280\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"250\"},{\"id\":\"281\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"250\"},{\"id\":\"282\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"700\"}]"
+}, {
+	"id": "4",
+	"name": "USDJPY",
+	"symbolName": "USDJPY",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"22\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"23\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"24\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "5",
+	"name": "NZDUSD",
+	"symbolName": "NZDUSD",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"29\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"30\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"31\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "6",
+	"name": "AUDUSD",
+	"symbolName": "AUDUSD",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"36\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"37\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"38\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "7",
+	"name": "XAUUSD",
+	"symbolName": "XAUUSD",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"43\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"44\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"45\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "8",
+	"name": "XAGUSD",
+	"symbolName": "XAGUSD",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"50\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"51\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"52\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "9",
+	"name": "USDCAD",
+	"symbolName": "USDCAD",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"57\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"58\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"59\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "11",
+	"name": "EURAUD",
+	"symbolName": "EURAUD",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"71\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"72\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"73\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "12",
+	"name": "EURCAD",
+	"symbolName": "EURCAD",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"78\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"79\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"80\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "13",
+	"name": "EURJPY",
+	"symbolName": "EURJPY",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"85\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"86\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"87\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "14",
+	"name": "GBPCAD",
+	"symbolName": "GBPCAD",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"92\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"93\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"94\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "15",
+	"name": "GBPCHF",
+	"symbolName": "GBPCHF",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"99\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"100\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"101\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "16",
+	"name": "GBPJPY",
+	"symbolName": "GBPJPY",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"106\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"107\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"108\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "17",
+	"name": "EURCHF",
+	"symbolName": "EURCHF",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"113\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"114\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"115\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "19",
+	"name": "GBPUSD",
+	"symbolName": "GBPUSD",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"11\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"12\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"13\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"14\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "20",
+	"name": "USDCHF",
+	"symbolName": "USDCHF",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"18\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"19\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"20\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"21\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "21",
+	"name": "USDJPY",
+	"symbolName": "USDJPY",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"25\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"26\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"27\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"28\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "22",
+	"name": "NZDUSD",
+	"symbolName": "NZDUSD",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"32\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"33\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"34\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"35\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "23",
+	"name": "AUDUSD",
+	"symbolName": "AUDUSD",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"39\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"40\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"41\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"42\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "25",
+	"name": "XAGUSD",
+	"symbolName": "XAGUSD",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"53\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"54\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"55\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"56\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "26",
+	"name": "USDCAD",
+	"symbolName": "USDCAD",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"60\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"61\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"62\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"63\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "27",
+	"name": "AUDJPY",
+	"symbolName": "AUDJPY",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"67\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"68\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"69\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"70\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "28",
+	"name": "EURAUD",
+	"symbolName": "EURAUD",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"74\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"75\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"76\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"77\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "29",
+	"name": "EURCAD",
+	"symbolName": "EURCAD",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"230\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"231\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"232\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"233\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "32",
+	"name": "GBPCHF",
+	"symbolName": "GBPCHF",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"102\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"103\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"104\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"105\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "33",
+	"name": "GBPJPY",
+	"symbolName": "GBPJPY",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"109\",\"period\":\"900\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"110\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"111\",\"period\":\"2700\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"112\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "49",
+	"name": "GBPUSD",
+	"symbolName": "GBPUSD",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"293\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"30\"},{\"id\":\"294\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"60\"},{\"id\":\"295\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"65\"},{\"id\":\"296\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"200\"},{\"id\":\"297\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"300\"},{\"id\":\"298\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"300\"},{\"id\":\"299\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"350\"},{\"id\":\"300\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"350\"},{\"id\":\"301\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"900\"}]"
+}, {
+	"id": "50",
+	"name": "USDJPY",
+	"symbolName": "USDJPY",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"302\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"50\"},{\"id\":\"303\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"65\"},{\"id\":\"304\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"80\"},{\"id\":\"305\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"90\"},{\"id\":\"306\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"307\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"250\"},{\"id\":\"308\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"350\"},{\"id\":\"309\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"450\"},{\"id\":\"310\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"1500\"}]"
+}, {
+	"id": "51",
+	"name": "USDCAD",
+	"symbolName": "USDCAD",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"311\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"25\"},{\"id\":\"312\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"55\"},{\"id\":\"313\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"70\"},{\"id\":\"314\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"100\"},{\"id\":\"315\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"200\"},{\"id\":\"316\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"300\"},{\"id\":\"317\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"350\"},{\"id\":\"318\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"400\"},{\"id\":\"319\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"1000\"}]"
+}, {
+	"id": "52",
+	"name": "AUDUSD",
+	"symbolName": "AUDUSD",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"320\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"321\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"30\"},{\"id\":\"322\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"60\"},{\"id\":\"323\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"90\"},{\"id\":\"324\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"150\"},{\"id\":\"325\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"200\"},{\"id\":\"326\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"300\"},{\"id\":\"327\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"350\"},{\"id\":\"328\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"750\"}]"
+}, {
+	"id": "53",
+	"name": "EURJPY",
+	"symbolName": "EURJPY",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"329\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"80\"},{\"id\":\"330\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"100\"},{\"id\":\"331\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"150\"},{\"id\":\"332\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"150\"},{\"id\":\"333\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"350\"},{\"id\":\"334\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"500\"},{\"id\":\"335\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"700\"},{\"id\":\"336\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"700\"},{\"id\":\"337\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"1500\"}]"
+}, {
+	"id": "54",
+	"name": "GBPJPY",
+	"symbolName": "GBPJPY",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"338\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"40\"},{\"id\":\"339\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"55\"},{\"id\":\"340\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"80\"},{\"id\":\"341\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"150\"},{\"id\":\"342\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"450\"},{\"id\":\"343\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"750\"},{\"id\":\"344\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"1500\"},{\"id\":\"345\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"1500\"},{\"id\":\"346\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"2000\"}]"
+}, {
+	"id": "55",
+	"name": "GBRCHF",
+	"symbolName": "GBPCHF",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"347\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"300\"},{\"id\":\"348\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"350\"},{\"id\":\"349\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"350\"},{\"id\":\"350\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"550\"},{\"id\":\"351\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"800\"},{\"id\":\"352\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"1000\"},{\"id\":\"353\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"1000\"},{\"id\":\"354\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"1000\"},{\"id\":\"355\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"2000\"}]"
+}, {
+	"id": "56",
+	"name": "NZDJPY",
+	"symbolName": "NZDJPY",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"356\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"50\"},{\"id\":\"357\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"85\"},{\"id\":\"358\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"150\"},{\"id\":\"359\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"200\"},{\"id\":\"360\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"250\"},{\"id\":\"361\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"300\"},{\"id\":\"362\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"400\"},{\"id\":\"363\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"650\"},{\"id\":\"364\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"1500\"}]"
+}, {
+	"id": "57",
+	"name": "NZDUSD",
+	"symbolName": "NZDUSD",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"365\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"25\"},{\"id\":\"366\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"45\"},{\"id\":\"367\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"55\"},{\"id\":\"368\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"100\"},{\"id\":\"369\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"150\"},{\"id\":\"370\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"200\"},{\"id\":\"371\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"300\"},{\"id\":\"372\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"400\"},{\"id\":\"373\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"1000\"}]"
+}, {
+	"id": "58",
+	"name": "EURGBP",
+	"symbolName": "EURGBP",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"374\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"35\"},{\"id\":\"375\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"65\"},{\"id\":\"376\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"150\"},{\"id\":\"377\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"200\"},{\"id\":\"378\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"250\"},{\"id\":\"379\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"350\"},{\"id\":\"380\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"400\"},{\"id\":\"381\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"600\"},{\"id\":\"382\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"1000\"},{\"id\":\"383\",\"period\":\"172800\",\"stopLine\":\"14400\",\"payoutPercentage\":\"90\",\"earlyClosing\":\"40\",\"interval\":\"2000\"},{\"id\":\"384\",\"period\":\"345600\",\"stopLine\":\"32400\",\"payoutPercentage\":\"95\",\"earlyClosing\":\"40\",\"interval\":\"4500\"}]"
+}, {
+	"id": "59",
+	"name": "EURCAD",
+	"symbolName": "EURCAD",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"385\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"55\"},{\"id\":\"386\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"80\"},{\"id\":\"387\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"90\"},{\"id\":\"388\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"150\"},{\"id\":\"389\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"200\"},{\"id\":\"390\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"250\"},{\"id\":\"391\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"250\"},{\"id\":\"392\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"400\"},{\"id\":\"393\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"1000\"}]"
+}, {
+	"id": "60",
+	"name": "EURAUD",
+	"symbolName": "EURAUD",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"394\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"40\"},{\"id\":\"395\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"65\"},{\"id\":\"396\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"85\"},{\"id\":\"397\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"150\"},{\"id\":\"398\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"300\"},{\"id\":\"399\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"400\"},{\"id\":\"400\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"650\"},{\"id\":\"401\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"800\"},{\"id\":\"402\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"2000\"},{\"id\":\"403\",\"period\":\"172800\",\"stopLine\":\"14400\",\"payoutPercentage\":\"90\",\"earlyClosing\":\"40\",\"interval\":\"2000\"}]"
+}, {
+	"id": "61",
+	"name": "AUDJPY",
+	"symbolName": "AUDJPY",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"404\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"60\"},{\"id\":\"405\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"80\"},{\"id\":\"406\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"85\"},{\"id\":\"407\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"90\"},{\"id\":\"408\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"95\"},{\"id\":\"409\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"150\"},{\"id\":\"410\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"650\"},{\"id\":\"411\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"700\"},{\"id\":\"412\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"1000\"},{\"id\":\"413\",\"period\":\"172800\",\"stopLine\":\"14400\",\"payoutPercentage\":\"90\",\"earlyClosing\":\"40\",\"interval\":\"1500\"},{\"id\":\"414\",\"period\":\"345600\",\"stopLine\":\"32400\",\"payoutPercentage\":\"95\",\"earlyClosing\":\"40\",\"interval\":\"1500\"}]"
+}, {
+	"id": "62",
+	"name": "GBPAUD",
+	"symbolName": "GBPAUD",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"415\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"45\"},{\"id\":\"416\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"150\"},{\"id\":\"417\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"200\"},{\"id\":\"418\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"350\"},{\"id\":\"419\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"400\"},{\"id\":\"420\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"500\"},{\"id\":\"421\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"850\"},{\"id\":\"422\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"900\"},{\"id\":\"423\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"1500\"},{\"id\":\"424\",\"period\":\"172800\",\"stopLine\":\"14400\",\"payoutPercentage\":\"90\",\"earlyClosing\":\"40\",\"interval\":\"2500\"},{\"id\":\"425\",\"period\":\"345600\",\"stopLine\":\"32400\",\"payoutPercentage\":\"95\",\"earlyClosing\":\"40\",\"interval\":\"2500\"}]"
+}, {
+	"id": "63",
+	"name": "GBPCAD",
+	"symbolName": "GBPCAD",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"426\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"100\"},{\"id\":\"427\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"100\"},{\"id\":\"428\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"150\"},{\"id\":\"429\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"250\"},{\"id\":\"430\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"350\"},{\"id\":\"431\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"450\"},{\"id\":\"432\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"900\"},{\"id\":\"433\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"2000\"},{\"id\":\"434\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"2000\"},{\"id\":\"435\",\"period\":\"172800\",\"stopLine\":\"14400\",\"payoutPercentage\":\"90\",\"earlyClosing\":\"40\",\"interval\":\"2500\"},{\"id\":\"436\",\"period\":\"345600\",\"stopLine\":\"32400\",\"payoutPercentage\":\"95\",\"earlyClosing\":\"40\",\"interval\":\"3000\"}]"
+}, {
+	"id": "64",
+	"name": "XAUUSD",
+	"symbolName": "XAUUSD",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"437\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"3500\"},{\"id\":\"438\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"5000\"},{\"id\":\"439\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"8000\"},{\"id\":\"440\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"10000\"},{\"id\":\"441\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"15000\"},{\"id\":\"442\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"85000\"}]"
+}, {
+	"id": "65",
+	"name": "XAGUSD",
+	"symbolName": "XAGUSD",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"443\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"50\"},{\"id\":\"444\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"85\"},{\"id\":\"445\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"446\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"447\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"150\"},{\"id\":\"448\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"200\"}]"
+}, {
+	"id": "66",
+	"name": "XBRUSD",
+	"symbolName": "XBRUSD",
+	"type": "One Touch",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"449\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"5\"},{\"id\":\"450\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"8\"},{\"id\":\"451\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"15\"},{\"id\":\"452\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"25\"},{\"id\":\"453\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"40\"},{\"id\":\"454\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"90\"}]"
+}, {
+	"id": "67",
+	"name": "EURUSD",
+	"symbolName": "EURUSD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"455\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"10\"},{\"id\":\"456\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"457\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"458\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"25\"},{\"id\":\"459\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"35\"},{\"id\":\"460\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"60\"},{\"id\":\"461\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"85\"},{\"id\":\"462\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"463\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"600\"}]"
+}, {
+	"id": "68",
+	"name": "GBPUSD",
+	"symbolName": "GBPUSD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"464\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"465\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"45\"},{\"id\":\"466\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"50\"},{\"id\":\"467\",\"period\":\"900\",\"stopLine\":\"40\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"65\"},{\"id\":\"468\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"80\"},{\"id\":\"469\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"95\"},{\"id\":\"470\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"150\"},{\"id\":\"471\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"150\"},{\"id\":\"472\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"250\"}]"
+}, {
+	"id": "69",
+	"name": "USDCHF",
+	"symbolName": "USDCHF",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"473\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"7\"},{\"id\":\"474\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"475\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"476\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"477\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"25\"},{\"id\":\"478\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"35\"},{\"id\":\"479\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"40\"},{\"id\":\"480\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"45\"},{\"id\":\"481\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"100\"}]"
+}, {
+	"id": "70",
+	"name": "USDJPY",
+	"symbolName": "USDJPY",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"482\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"483\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"484\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"485\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"30\"},{\"id\":\"486\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"80\"},{\"id\":\"487\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"85\"},{\"id\":\"488\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"150\"},{\"id\":\"489\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"150\"},{\"id\":\"490\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"300\"}]"
+}, {
+	"id": "71",
+	"name": "USDCAD",
+	"symbolName": "USDCAD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"491\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"492\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"25\"},{\"id\":\"493\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"25\"},{\"id\":\"494\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"30\"},{\"id\":\"495\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"35\"},{\"id\":\"496\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"50\"},{\"id\":\"497\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"70\"},{\"id\":\"498\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"75\"},{\"id\":\"499\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"150\"}]"
+}, {
+	"id": "72",
+	"name": "AUDUSD",
+	"symbolName": "AUDUSD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"500\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"9\"},{\"id\":\"501\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"10\"},{\"id\":\"502\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"503\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"504\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"25\"},{\"id\":\"505\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"40\"},{\"id\":\"506\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"50\"},{\"id\":\"507\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"65\"},{\"id\":\"508\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"150\"}]"
+}, {
+	"id": "73",
+	"name": "EURJPY",
+	"symbolName": "EURJPY",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"509\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"510\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"511\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"512\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"513\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"90\"},{\"id\":\"514\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"515\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"516\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"517\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"250\"}]"
+}, {
+	"id": "74",
+	"name": "GBPJPY",
+	"symbolName": "GBPJPY",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"518\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"519\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"520\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"521\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"25\"},{\"id\":\"522\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"70\"},{\"id\":\"523\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"524\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"525\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"526\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"550\"}]"
+}, {
+	"id": "75",
+	"name": "GBPCHF",
+	"symbolName": "GBPCHF",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"527\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"8\"},{\"id\":\"528\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"529\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"25\"},{\"id\":\"530\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"30\"},{\"id\":\"531\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"40\"},{\"id\":\"532\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"55\"},{\"id\":\"533\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"60\"},{\"id\":\"534\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"95\"},{\"id\":\"535\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"200\"}]"
+}, {
+	"id": "76",
+	"name": "NZDJPY",
+	"symbolName": "NZDJPY",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"536\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"10\"},{\"id\":\"537\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"538\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"30\"},{\"id\":\"539\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"50\"},{\"id\":\"540\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"60\"},{\"id\":\"541\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"65\"},{\"id\":\"542\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"75\"},{\"id\":\"543\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"80\"},{\"id\":\"544\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"150\"}]"
+}, {
+	"id": "77",
+	"name": "NZDUSD",
+	"symbolName": "NZDUSD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"545\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"7\"},{\"id\":\"546\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"10\"},{\"id\":\"547\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"548\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"549\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"25\"},{\"id\":\"550\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"35\"},{\"id\":\"551\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"50\"},{\"id\":\"552\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"70\"},{\"id\":\"553\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"100\"}]"
+}, {
+	"id": "78",
+	"name": "EURGBP",
+	"symbolName": "EURGBP",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"554\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"10\"},{\"id\":\"555\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"556\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"557\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"558\",\"period\":\"1800\",\"stopLine\":\"600\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"25\"},{\"id\":\"559\",\"period\":\"3600\",\"stopLine\":\"900\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"30\"},{\"id\":\"560\",\"period\":\"7200\",\"stopLine\":\"1800\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"40\"},{\"id\":\"561\",\"period\":\"14400\",\"stopLine\":\"2400\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"55\"},{\"id\":\"562\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"95\"},{\"id\":\"563\",\"period\":\"172800\",\"stopLine\":\"14400\",\"payoutPercentage\":\"90\",\"earlyClosing\":\"40\",\"interval\":\"150\"},{\"id\":\"564\",\"period\":\"345600\",\"stopLine\":\"21600\",\"payoutPercentage\":\"95\",\"earlyClosing\":\"40\",\"interval\":\"250\"}]"
+}, {
+	"id": "79",
+	"name": "EURCAD",
+	"symbolName": "EURCAD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"565\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"10\"},{\"id\":\"566\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"25\"},{\"id\":\"567\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"30\"},{\"id\":\"568\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"35\"},{\"id\":\"569\",\"period\":\"1800\",\"stopLine\":\"600\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"40\"},{\"id\":\"570\",\"period\":\"3600\",\"stopLine\":\"900\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"55\"},{\"id\":\"571\",\"period\":\"7200\",\"stopLine\":\"1800\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"60\"},{\"id\":\"572\",\"period\":\"14400\",\"stopLine\":\"2400\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"85\"},{\"id\":\"573\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"150\"}]"
+}, {
+	"id": "80",
+	"name": "EURAUD",
+	"symbolName": "EURAUD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"574\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"575\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"25\"},{\"id\":\"576\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"35\"},{\"id\":\"577\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"40\"},{\"id\":\"578\",\"period\":\"1800\",\"stopLine\":\"600\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"45\"},{\"id\":\"579\",\"period\":\"3600\",\"stopLine\":\"900\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"50\"},{\"id\":\"580\",\"period\":\"7200\",\"stopLine\":\"1800\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"55\"},{\"id\":\"581\",\"period\":\"14400\",\"stopLine\":\"2400\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"80\"},{\"id\":\"582\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"200\"},{\"id\":\"583\",\"period\":\"172800\",\"stopLine\":\"14400\",\"payoutPercentage\":\"90\",\"earlyClosing\":\"40\",\"interval\":\"200\"},{\"id\":\"584\",\"period\":\"345600\",\"stopLine\":\"21600\",\"payoutPercentage\":\"95\",\"earlyClosing\":\"40\",\"interval\":\"500\"}]"
+}, {
+	"id": "81",
+	"name": "AUDJPY",
+	"symbolName": "AUDJPY",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"585\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"15\"},{\"id\":\"586\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"30\"},{\"id\":\"587\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"35\"},{\"id\":\"588\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"45\"},{\"id\":\"589\",\"period\":\"1800\",\"stopLine\":\"600\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"65\"},{\"id\":\"590\",\"period\":\"3600\",\"stopLine\":\"900\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"70\"},{\"id\":\"591\",\"period\":\"7200\",\"stopLine\":\"1800\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"80\"},{\"id\":\"592\",\"period\":\"14400\",\"stopLine\":\"2400\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"90\"},{\"id\":\"593\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"200\"},{\"id\":\"594\",\"period\":\"172800\",\"stopLine\":\"14400\",\"payoutPercentage\":\"90\",\"earlyClosing\":\"40\",\"interval\":\"650\"},{\"id\":\"595\",\"period\":\"345600\",\"stopLine\":\"21600\",\"payoutPercentage\":\"95\",\"earlyClosing\":\"40\",\"interval\":\"800\"}]"
+}, {
+	"id": "82",
+	"name": "GBPAUD",
+	"symbolName": "GBPAUD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"596\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"597\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"35\"},{\"id\":\"598\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"55\"},{\"id\":\"599\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"60\"},{\"id\":\"600\",\"period\":\"1800\",\"stopLine\":\"600\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"65\"},{\"id\":\"601\",\"period\":\"3600\",\"stopLine\":\"900\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"80\"},{\"id\":\"602\",\"period\":\"7200\",\"stopLine\":\"1800\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"90\"},{\"id\":\"603\",\"period\":\"14400\",\"stopLine\":\"2400\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"604\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"200\"},{\"id\":\"605\",\"period\":\"172800\",\"stopLine\":\"14400\",\"payoutPercentage\":\"90\",\"earlyClosing\":\"40\",\"interval\":\"550\"},{\"id\":\"606\",\"period\":\"345600\",\"stopLine\":\"21600\",\"payoutPercentage\":\"95\",\"earlyClosing\":\"40\",\"interval\":\"750\"}]"
+}, {
+	"id": "83",
+	"name": "GBPCAD",
+	"symbolName": "GBPCAD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"607\",\"period\":\"60\",\"stopLine\":\"10\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"20\"},{\"id\":\"608\",\"period\":\"180\",\"stopLine\":\"25\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"60\",\"interval\":\"40\"},{\"id\":\"609\",\"period\":\"300\",\"stopLine\":\"40\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"60\",\"interval\":\"45\"},{\"id\":\"610\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"55\"},{\"id\":\"611\",\"period\":\"1800\",\"stopLine\":\"600\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"70\"},{\"id\":\"612\",\"period\":\"3600\",\"stopLine\":\"900\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"75\"},{\"id\":\"613\",\"period\":\"7200\",\"stopLine\":\"1800\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"80\"},{\"id\":\"614\",\"period\":\"14400\",\"stopLine\":\"2400\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"100\"},{\"id\":\"615\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"250\"},{\"id\":\"616\",\"period\":\"172800\",\"stopLine\":\"14400\",\"payoutPercentage\":\"90\",\"earlyClosing\":\"40\",\"interval\":\"500\"},{\"id\":\"617\",\"period\":\"259200\",\"stopLine\":\"21600\",\"payoutPercentage\":\"95\",\"earlyClosing\":\"40\",\"interval\":\"800\"}]"
+}, {
+	"id": "84",
+	"name": "XAUUSD",
+	"symbolName": "XAUUSD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"723\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"400\"},{\"id\":\"724\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"500\"},{\"id\":\"725\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"750\"},{\"id\":\"726\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"900\"},{\"id\":\"727\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"1000\"},{\"id\":\"728\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"8000\"}]"
+}, {
+	"id": "85",
+	"name": "XAGUSD",
+	"symbolName": "XAGUSD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"624\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"10\"},{\"id\":\"625\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"15\"},{\"id\":\"626\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"15\"},{\"id\":\"627\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"25\"},{\"id\":\"628\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"50\"},{\"id\":\"629\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"100\"}]"
+}, {
+	"id": "86",
+	"name": "XBRUSD",
+	"symbolName": "XBRUSD",
+	"type": "Range",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"630\",\"period\":\"900\",\"stopLine\":\"180\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"60\",\"interval\":\"3\"},{\"id\":\"631\",\"period\":\"1800\",\"stopLine\":\"300\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"4\"},{\"id\":\"632\",\"period\":\"3600\",\"stopLine\":\"420\",\"payoutPercentage\":\"75\",\"earlyClosing\":\"50\",\"interval\":\"8\"},{\"id\":\"633\",\"period\":\"7200\",\"stopLine\":\"1080\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"10\"},{\"id\":\"634\",\"period\":\"14400\",\"stopLine\":\"1500\",\"payoutPercentage\":\"80\",\"earlyClosing\":\"50\",\"interval\":\"20\"},{\"id\":\"635\",\"period\":\"86400\",\"stopLine\":\"7200\",\"payoutPercentage\":\"85\",\"earlyClosing\":\"50\",\"interval\":\"50\"}]"
+}, {
+	"id": "143",
+	"name": "EURUSD",
+	"symbolName": "EURUSD",
+	"type": "Classic",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"712\",\"period\":\"300\",\"stopLine\":\"0\",\"payoutPercentage\":\"65\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"713\",\"period\":\"900\",\"stopLine\":\"300\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"2\",\"interval\":\"0\"},{\"id\":\"714\",\"period\":\"1800\",\"stopLine\":\"0\",\"payoutPercentage\":\"60\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"715\",\"period\":\"3600\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}, {
+	"id": "152",
+	"name": "USDCHF",
+	"symbolName": "USDCHF",
+	"type": "Express",
+	"isUseSetting": "1",
+	"optionParams": "[{\"id\":\"738\",\"period\":\"60\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"739\",\"period\":\"120\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"},{\"id\":\"740\",\"period\":\"180\",\"stopLine\":\"0\",\"payoutPercentage\":\"70\",\"earlyClosing\":\"0\",\"interval\":\"0\"}]"
+}]

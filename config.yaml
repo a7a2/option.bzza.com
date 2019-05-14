@@ -1,0 +1,30 @@
+web:
+#只有isMasterServer为true的服务器才能修改json配置文件，主服务器修改了其他服务器就会几秒内同步设置（非同步文件）
+  isMasterServer: true
+  port: 443
+#js目录中config.js配置文件的位置 修改上面的端口时候需要自动替换.
+  jsConfigPath: ./templates/default/settings/config.js
+redis: 
+  server: 127.0.0.1:6379
+  password: ""
+kdb:
+#server1用于5秒查询的及实时数据入库的及结算，只能一台,最好每个server独立一台kdb server1，即使用本地
+  server1: 127.0.0.1:9999
+#server2用于其他时间大于等一分钟间隔的查询的，可多台 英文逗号隔开，数据来源自行导入
+  server2: [127.0.0.1:10000]
+db:
+  driverName: postgres
+  dataSourceName: user=postgres password=postgres dbname=option port=5432 sslmode=disable
+certificate:
+  pem: ./server.pem
+  key: ./server.key.unsecure
+datasource:
+#报价数据采集 建议多个采集节点避免单点故障
+  aliyun:
+#使用http(s)方式。此为数据源节点1，来源阿里云api市场
+    httpORhttps: http://realtime.market.alicloudapi.com/v1/finance
+    appKey: 24835848
+    appSecret: 8a7377a4372ddd296c565e7766f2e65a
+  a7a2:
+#a7a2提供的数据源  基于websocket更快、更高性能  更准确
+    wsORwss: ws://47.91.220.71:81/w1/finance?symbol=AUDUSD,EURAUD,EURCAD,EURCHF,EURJPY,EURUSD,GBPCAD,GBPCHF,GBPJPY,GBPUSD,NZDUSD,USDCAD,USDCHF,USDJPY,XAGUSD,XAUUSD,AUDJPY,EURGBP,GBPAUD,NZDJPY,BRENT_M8

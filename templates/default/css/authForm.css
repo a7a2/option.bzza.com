@@ -1,0 +1,328 @@
+/*--------------------------------------------Auth Container----------------------------------------------------------*/
+/*body {
+    background-color: #007ebe;
+    overflow-x: auto;
+}
+.WTTerminalContainer.AuthState {
+    background-color: #007ebe;
+}*/
+.AuthContainer {
+    display: inline-block;
+    position: absolute;
+    height: 500px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #ffffff;
+}
+.AuthContainer, .AuthContainerContent {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.AuthContainerContent > div {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 33%;
+    height: 100%;
+    white-space: normal;
+}
+.AuthContainer .LeftBlock {
+    text-align: right;
+    width: 280px;
+}
+.AuthContainer .LeftBlock > div {
+    display: inline-block;
+}
+.AuthContainer .LeftBlock .Logo {
+    width: 88px;
+    height: 79px;
+    padding-right: 36px;
+}
+.AuthContainer .LeftBlock .Logo img {
+
+}
+.AuthContainer .LeftBlock .Name {
+    font-size: 18px;
+    margin-top: 2px;
+    padding-right: 30px;
+    font-family: 'Roboto';
+}
+.AuthContainer .LeftBlock .Selectors {
+    width: 150px;
+    margin-top: 20px;
+    border-bottom: solid 2px #3398cb;
+}
+.AuthContainer .LeftBlock .WTButton {
+    width: 100%;
+    height: 49px;
+    border: none;
+    border-top: solid 2px #3398cb;
+    border-radius: 0px;
+}
+.AuthContainer .LeftBlock .WTButton.Hovered {
+    background: none;
+    border-color: #3398cb;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.AuthContainer .LeftBlock .WTButton.Pressed {
+    background: #3398cb;
+    border-color: #3398cb;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.AuthContainer .LeftBlock .WTButton .WTButtonText {
+    font-size: 14px;
+    margin-top: 12px;
+    font-family: 'Roboto';
+}
+.AuthContainer .Title {
+    font-size: 32px;
+    margin-bottom: 50px;
+    margin-top: -6px;
+}
+.AuthContainer .CenterBlock {
+    border-left: solid 1px #3398cb;
+    border-right: solid 1px #3398cb;
+    width: 297px;
+    height: 500px;
+}
+.AuthContainer .CenterBlock .Title.Relative {
+    position: relative;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.AuthContainer .CenterBlock.NoRightBorder {
+    border-right: none;
+}
+.AuthContainer .CenterBlock2 {
+    width: 0px;
+}
+.AuthContainer .CenterBlock2 .Title {
+    height: 37px;
+}
+.AuthContainer .CenterBlock2.Attached {
+    width: 297px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(51, 152, 203);
+}
+.AuthContainer .CenterBlock > div,
+.AuthContainer .CenterBlock2 > div {
+    padding-left: 34px;
+}
+.AuthContainer .RecoveryDescription {
+    font-size: 14px;
+    margin-left: 3px;
+    width: 220px;
+}
+.AuthPackage {
+    position: relative;
+}
+.AuthPackage > div {
+    margin-bottom: 10px;
+}
+.AuthContainer .WTInput {
+    display: inline-block;
+    position: relative;
+}
+.AuthContainer .WTInput .WTInputField {
+    border-radius: 0px;
+    padding-left: 34px;
+    background: #ffffff;
+    border: none;
+}
+.AuthContainer .WTInput .WTInputLabel {
+    margin-right: 0px;
+}
+.AuthContainer .WTInput > input[type="text"],
+.AuthContainer .WTInput > input[type="password"],
+.AuthContainer .WTInput > input[type='number'] {
+    height: 35px;
+    color: #000000;
+}
+.AuthContainer .WTInput.CheckBox {
+    display: block;
+    text-align: left;
+}
+.AuthContainer .WTInput.CheckBox .Check {
+    background-image: url("../res/img/MobileImg/buttons/auth_checkbox.png");
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+}
+.AuthContainer .WTInput.CheckBox.Checked .Check {
+    background-image: url("../res/img/MobileImg/buttons/auth_checkbox_checked.png");
+}
+.AuthContainer .DButton.BigButton, .AuthContainer .DButton.BigButton.Hovered {
+    border-radius: 0px;
+    border: none;
+    margin-left: 3px;
+}
+.AuthContainer .DButton.BigButton .WTButtonText {
+    font-weight: bold;
+    margin-top: 4px;
+}
+.AuthContainer .DButton.BigButton.GreenButton {
+    background: #52BF3B;
+    margin-bottom: 0px;
+}
+.AuthContainer .DButton.BigButton.GreenButton.Absolute {
+    position: absolute;
+    margin-left: 0px;
+}
+.AuthContainer .RightBlock {
+    width: 280px;
+}
+.AuthContainer .Subject {
+    margin-top: 98px;
+    margin-left: 26px;
+    display: none;
+}
+.AuthContainer .SubjectTitle {
+    width: 200px;
+    display: inline-block;
+    font-size: 18px;
+    color: #ffdd55;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 3px;
+
+}
+.AuthContainer .HelpText {
+    margin-top: 2px;
+    margin-left: 35px;
+    width: 190px;
+    font-size: 14px;
+}
+.WTInput .WTInputPicture {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+.LangCircleButton {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    border: solid 2px rgba(255, 255, 255, 0.50);
+    border-radius: 100px;
+    padding: 0;
+}
+.LangCircleButton .WTButtonText {
+    padding-top: 2px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: bold;
+}
+.LangCircleButton.Hovered {
+    border: solid 2px rgba(255, 255, 255, 0.75);
+    background: none;
+}
+.LangCircleButton.Pressed {
+    background: rgba(255, 255, 255, 0.25);
+    border: solid 2px rgba(255, 255, 255, 0.75);
+
+}
+.LangCircleButton.Pressed .WTButtonText {
+    color: #ffffff;
+}
+.AuthLangMenu {
+    background: #007ebe;
+    border: none;
+    padding: 0px;
+    box-shadow: none;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.AuthLangMenu::before {
+    content: '';
+    position: absolute;
+    right: 8px;
+    top: -20px;
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid rgba(255, 255, 255, 0.80);
+}
+.AuthLangMenu .WTMenuItem {
+    height: 36px !important;
+    background: #ffffff;
+    color: #000000;
+    opacity: 0.80;
+}
+.AuthLangMenu .WTMenuItem.Hovered {
+    opacity: 0.75;
+}
+.AuthLangMenu .WTMenuItem .WTMItemTxt {
+    margin-top: 10px;
+}
+.AuthLangMenu .WTMenuItem.Checked .WTMItemImg > div {
+    margin-top: 8px;
+}
+
+.leftContainer {
+    min-width: 180px;
+    float: left;
+}
+
+.rightContainer {
+    min-width: 250px;
+    float: right;
+}
+
+.logotype {
+    height: 60px;
+}
+
+.rightContainer .WTInput,
+.rightContainer .WTButton {
+    width: 100% !important;
+}
+
+.leftContainer .WTButton {
+    width: 100% !important;
+}
+
+.rightContainer .WTInputSelectField {
+    height: 40px !important;
+    width: 100% !important;
+}
+
+.rightContainer .WTInputField {
+    width: 100% !important;
+}
+
+.sheath .WTButton {
+    height: 50px !important;
+}
+
+.leftContainer .openDemoTab,
+.leftContainer .signInTab {
+    height: 50px;
+}
+
+.leftContainer .openDemoTab .WTButtonText,
+.leftContainer .signInTab .WTButtonText {
+    margin-top: auto;
+}
+
+.signInTab, .openDemoTab {
+    display: table;
+}
+
+.signInTab .WTButtonText,
+.openDemoTab .WTButtonText {
+    display: table-cell;
+    min-height: 36px;
+    vertical-align: middle;
+}
+
+.signInTab.selected,
+.openDemoTab.selected {
+    padding-right: 5px;
+}

@@ -1,0 +1,7068 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../res/img/font_icons/fonts/icomoon.eot?v1.11.4.0emb');
+  src:  url('../res/img/font_icons/fonts/icomoon.eot?v1.11.4.0emb#iefix') format('embedded-opentype'),
+    url('../res/img/font_icons/fonts/icomoon.ttf?v1.11.4.0emb') format('truetype'),
+    url('../res/img/font_icons/fonts/icomoon.woff?v1.11.4.0emb') format('woff'),
+    url('../res/img/font_icons/fonts/icomoon.svg?v1.11.4.0emb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto-Bold');
+    src: local('Roboto-Bold'), url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto-Regular');
+    src: local('Roboto-Regular'), url(fonts/Roboto-Regular.ttf);
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mode-1:before {
+    content: "\e915";
+}
+.icon-mode-2:before {
+    content: "\e916";
+}
+.icon-mode-3:before {
+    content: "\e917";
+}
+.icon-mode-4:before {
+    content: "\e918";
+}
+.icon-mode-5:before {
+    content: "\e919";
+}
+.icon-mode-6:before {
+    content: "\e91a";
+}
+.icon-mode-7:before {
+    content: "\e91b";
+}
+.icon-mode-8:before {
+    content: "\e91c";
+}
+.icon-mode-9:before {
+    content: "\e91d";
+}
+.icon-mode-10:before {
+    content: "\e91e";
+}
+.icon-mode-11:before {
+    content: "\e91f";
+}
+.icon-mode-12:before {
+    content: "\e920";
+}
+.icon-mode-13:before {
+    content: "\e921";
+}
+.icon-mode-14:before {
+    content: "\e922";
+}
+.icon-mode-15:before {
+    content: "\e923";
+}
+.icon-mode-16:before {
+    content: "\e924";
+}
+.icon-mode-17:before {
+    content: "\e925";
+}
+.icon-new-outside:before {
+    content: "\e927";
+}
+.icon-new-inside:before {
+    content: "\e928";
+}
+.icon-arrow-down:before {
+    content: "\e900";
+}
+.icon-arrow-up:before {
+    content: "\e901";
+}
+.icon-bottom:before {
+    content: "\e902";
+}
+.icon-buy:before {
+    content: "\e903";
+}
+.icon-buyLimit:before {
+    content: "\e904";
+}
+.icon-buyStop:before {
+    content: "\e905";
+}
+.icon-inside:before {
+    content: "\e906";
+}
+.icon-option-arrow-down:before {
+    content: "\e907";
+}
+.icon-option-arrow-up:before {
+    content: "\e908";
+}
+.icon-outside:before {
+    content: "\e909";
+}
+.icon-sell:before {
+    content: "\e90a";
+}
+.icon-sellLimit:before {
+    content: "\e90b";
+}
+.icon-sellStop:before {
+    content: "\e90c";
+}
+.icon-top:before {
+    content: "\e90d";
+}
+.icon-currency-d:before {
+    content: "\e90e";
+}
+.icon-currency-e:before {
+    content: "\e90f";
+}
+.icon-currency-f:before {
+    content: "\e910";
+}
+.icon-currency-p:before {
+    content: "\e911";
+}
+.icon-currency-r:before {
+    content: "\e912";
+}
+.icon-currency-y:before {
+    content: "\e913";
+}
+.icon-eye:before {
+    content: "\e914";
+}
+.icon-server:before {
+    content: "\e926";
+}
+.icon-account-type:before {
+    content: "\e929";
+}
+.icon-login:before {
+    content: "\e92a";
+}
+.icon-mail:before {
+    content: "\e92b";
+}
+.icon-map-mark:before {
+    content: "\e92c";
+}
+.icon-password-lock:before {
+    content: "\e92d";
+}
+.icon-phone:before {
+    content: "\e92e";
+}
+.icon-user:before {
+    content: "\e92f";
+}
+.icon-deposit:before {
+    content: '\e930';
+}
+.icon-exit-cross:before {
+    content: '\e931';
+}
+.icon-magnifier:before {
+    content: "\e932";
+    color: #e6e6e6;
+}
+
+body {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+    outline: none;
+    resize: none;
+    -webkit-text-size-adjust: none;
+    font-size: 12px;
+    font-family: Roboto !important;
+    margin: 0;
+    overflow: hidden;
+    background-color: #282828;
+    -ms-overflow-style: none;    
+}
+/* в Firefox и IE эти свойства не наследуются от body, принудительно вешаем на всё. Там, где надо разрешить,
+эти свойства переопределены.
+*/
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+    -ms-user-select: none;
+}
+
+@-webkit-keyframes circleAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes circleAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes circleAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes circleAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.preloader {
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+}
+.preloaderCircle {
+    -webkit-animation: circleAnimation 1s infinite;
+    -moz-animation: circleAnimation 1s infinite;
+    -o-animation: circleAnimation 1s infinite;
+    animation: circleAnimation 1s infinite;
+}
+
+
+
+.WTTerminalContainer {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #282828;
+}
+
+/*****************************   Separator   *****************************/
+.WTVerticalSeparator
+{
+    border-left: solid 1px #ACA899;
+    width: 0;
+}
+
+.WTHorisontalSeparator {
+    border-bottom: solid 1px #2e2e2e;
+    height: 0;
+    margin: 2px 0;
+}
+
+/*****************************   Separator end   *****************************/
+
+/*****************************   WTInput   ******************************/
+input, textarea
+{
+    -moz-user-select: text;
+    -o-user-select: text;
+    -khtml-user-select: text;
+    -webkit-user-select: text;
+    user-select: text;
+    -ms-user-select: text;
+    resize: none;
+    outline: none;
+}
+input[type='text'],
+input[type='password']
+{
+    width: 150px;    
+}
+
+.WTInput {
+    padding: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.WTInput .WTInputLabel {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-right: 8px;
+    margin-top: 6px;
+}
+.WTInput .WTInputLabel.PositionTop,
+.WTCheckBoxGroup .WTCheckBoxGroupLabel.PositionTop
+{
+    display: block;
+    text-align: left;
+}
+
+.WTInput .WTInputField {
+    border: solid 1px #181818;
+    border-radius: 2px;
+    padding-left: 8px;
+    font-size: 12px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    background: #282828;
+    color: #e6e6e6;
+    opacity: 1;
+}
+.WTInput > input[type="text"],
+.WTInput > input[type="password"],
+.WTInput > input[type='number']
+{
+    height: 30px
+}
+
+.WTInput > input[type="password"] {
+    font-family: Roboto;
+    font-size: 12px;    
+}
+
+.WTInput .WTInputCheckBoxField > input[type="checkbox"]{
+    display: none;
+}
+
+.WTInput .WTInputCheckBoxField {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    border: solid 1px #E3E9EF;
+    border-top-color: #ABADB3;
+    background-color: #FFFFFF;
+    margin-top: 5px;
+    display: none;
+
+}
+.WTInput.CheckBox {
+    position: relative;
+    cursor: pointer;
+    margin-right: -2px;
+    background-size: 15px 15px;
+
+}
+.WTInput.CheckBox .Check {
+    width: 15px;
+    height: 14px;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    pointer-events: none;
+    background-image: url("../res/img/DarkImg/DarkCheckBox.png?v=1.8.0.0");
+    background-size: 14px 14px;
+}
+.WTInput.CheckBox.Checked .Check {
+    background-image: url("../res/img/DarkImg/DarkcheckBox_Checked.png?v=1.8.0.0");
+}
+
+.WTInput .WTInputCheckBoxField > input
+{
+    border: none;
+    background: transparent;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    -moz-appearance: none;
+    appearance: none;
+    -o-appearance:none;
+    display: none;
+}
+
+
+.WTInput .WTInputNumberField {
+    width: 73px;
+    height: 30px;
+    background-color: #282828;
+    border: solid 1px #181818;
+    overflow: hidden;
+    border-radius: 2px;
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.WTInput .WTInputNumberField .WTInputField {
+    width: 54px;
+    height: 28px;
+    border: none;
+}
+
+.WTInput .WTInputNumberField .InputNumberButton {
+    margin-top: 4px;
+    margin-right: 2px;
+    background-color: #282828;;
+    float: right;
+    background-repeat: no-repeat;
+}
+.WTInput .WTInputNumberField .InputNumberButton > div:hover {
+    cursor: pointer;
+}
+
+.WTInput .WTInputNumberField .InputNumberButton > div {
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 6px 6px;
+}
+.WTInput .WTInputNumberField .InputNumberButton .Up {
+    background-image: url("../res/img/DarkImg/Dark_select_brown_up.png");
+    margin-bottom: 5px;
+}
+.WTInput .WTInputNumberField .InputNumberButton .Down {
+    background-image: url("../res/img/DarkImg/Dark_select_brown.png");
+    margin-top: 0px;
+}
+
+.WTInput .WTInputSelectField,
+.WTInput .WTInputImageField {
+    margin-top: -1px;
+    height: 30px;
+    position: relative;
+    border: solid 1px #181818;
+    border-radius: 2px;
+    background: #282828;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.WTnput.NotEdited .WTInputSelectField
+{
+    background: linear-gradient(to top, #CFCFCF 0%, #DDDDDD 53%, #EBEBEB 53%,  #F2F2F2 100%);
+    border-color: #707070;
+}
+.WTInput.Locked .WTInputSelectField > input
+{
+    pointer-events: none;
+}
+.WTInput .WTInputSelectField > input {
+    left: 0;
+    position: relative;
+    height: 28px;
+    float: left;
+    border: none;
+    font-family: Roboto;
+    background-color: transparent;
+    color: #e6e6e6;
+}
+
+.WTInput .WTInputImageField > input {
+    left: 0;
+    top: 2px;
+    position: absolute;
+    height: 22px;
+    float: left;
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: repeat-x;
+    margin-left: 4px;
+    padding-right: 20px;
+    cursor: pointer;
+    color: transparent;
+}
+
+.WTTradePanel.Disabled .WTInput .WTInputSelectField .InputSelectButton {
+    display: none;
+}
+
+.WTInput .WTInputSelectField .InputSelectButton,
+.WTInput .WTInputImageField .InputSelectButton {
+    float: right;
+    width: 26px;
+    height: 26px;
+    border: solid 1px transparent;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-top: -1px;
+    margin-right: -1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: left;
+}
+
+.WTInput .Disabled
+{
+    float: right;
+    width: 16px;
+    height: 22px;
+    border: solid 1px transparent;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-top: -1px;
+    margin-right: -1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.WTInputSelectArrowImg {
+    width: 27px;
+    height: 29px;
+    background-image: url("../res/img/DarkImg/Dark_select_brown.png");
+    background-position: 10px 12px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 7px 7px;
+    cursor: pointer;
+}
+
+.NotEdited .WTInputSelectArrowImg {
+    width: 27px;
+    height: 29px;
+    background-image: url("../res/img/DarkImg/Light_select_brown.png");
+    background-position: 10px 12px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 7px 7px;
+}
+
+.InputSelectOptionsMenu
+{
+    border-color: #646464;
+    padding: 0;
+    max-height: 130px;
+    min-width: 90px;
+    overflow: auto;
+}
+
+.InputSelectOptionsMenu.InputImageSelectOptionsMenu
+{
+    max-height: 160px;
+}
+
+.InputSelectOptionsMenu .WTMenuLeftIconsBackground,
+.InputSelectOptionsMenu .WTMenuItem .WTMItemImg
+{
+    display: none;
+    max-height: 130px;
+}
+
+.InputSelectOptionsMenu .WTMenuItem .WTMItemTxt {
+    color: #e6e6e6;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.WTInput .WTInputSelectField .InputSelectButton:active,
+.WTInput.Active .WTInputSelectField .InputSelectButton,
+.WTInput.NotEdited .WTInputSelectField:active,
+.WTInput .WTInputImageField .InputSelectButton:active,
+.WTInput.Active .WTInputImageField .InputSelectButton,
+.WTInput.NotEdited .WTInputImageField:active,
+.WTInput.NotEdited.Active .WTInputImageField {
+    background: #282828;
+    border-top: solid 1px #181818;
+    border-right: solid 1px #181818;
+}
+.WTInput.NotEdited.Active .WTInputSelectField {
+    background: #646464;
+    border-top: solid 1px #181818;
+    border-right: solid 1px #181818;
+}
+
+.WTInput.NotEdited .WTInputSelectField .InputSelectButton:active,
+.WTInput.NotEdited.Active .WTInputSelectField .InputSelectButton,
+.WTInput.NotEdited .WTInputSelectField .InputSelectButton:hover,
+.WTInput.NotEdited .WTInputImageField .InputSelectButton:active,
+.WTInput.NotEdited.Active .WTInputImageField .InputSelectButton,
+.WTInput.NotEdited .WTInputImageField .InputSelectButton:hover
+{
+    background: none;
+    border-color: transparent;
+}
+
+.WTInput.NotEdited .WTInputSelectField,
+.WTInput.NotEdited .WTInputImageField {
+    background: linear-gradient(to top, #656565, #929292);
+    border: solid 1px #303030;
+    height: 30px;
+    cursor: pointer;
+}
+
+.WTInput.NotEdited .WTInputSelectField input,
+.WTInput.NotEdited .WTInputImageField {
+    background: none;
+}
+
+.WTCheckBoxGroup.Horizontal > div {
+    display: inline-block;
+}
+
+.WTCheckBoxGroup.Horizontal .WTCheckBoxGroupInputs > div {
+    display: inline-block;
+    background-image: url("../res/img/DarkImg/DarkRadio.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+.WTCheckBoxGroup.Horizontal .WTCheckBoxGroupInputs > div.Checked {
+    background-image: url("../res/img/DarkImg/DarkRadio_Checked.png");
+
+}
+
+.WTCheckBoxGroup.Horizontal .WTCheckBoxGroupInputs .WTInputCheckBoxField,
+.WTCheckBoxGroup.Horizontal .WTCheckBoxGroupInputs .Check {
+    display: none;
+}
+.WTCheckBoxGroup.Horizontal .WTCheckBoxGroupInputs .WTInputLabel {
+    margin-left: 18px;
+    margin-top: -2px;
+    color: #F2F2F2;
+}
+.PipSizeVal,
+.MarginSizeVal {
+    color: #F2F2F2;
+}
+.WTCheckBoxGroup .WTCheckBoxGroupLabel {
+    vertical-align: top;
+    margin-right: 8px;
+    margin-top: 0px;
+}
+
+.Disabled .WTInputContentField input {
+    pointer-events: none;
+}
+
+.Disabled .WTInputSelectField,
+.Disabled .WTInputImageField
+{
+    pointer-events: none;
+}
+.Disabled .WTInputSelectField input,
+.Disabled .WTInputImageField input
+{
+
+}
+
+
+.Disabled .WTInputSelectArrowImg
+{
+    background-position: 10px 12px;
+    opacity: 0.5;
+}
+.WTInput.Password {
+    position: relative;
+}
+.PasswordEye {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    background: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-repeat: no-repeat;
+    background-position: -32px -384px;
+}
+.PasswordEye.Pressed {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    background: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-repeat: no-repeat;
+    background-position: 0px -1186px
+}
+input::-ms-clear, input::-ms-reveal {
+    display: none;
+}
+/*****************************   WTInput end   *****************************/
+/*****************************   StatusBar   *****************************/
+.WTTerminalStatusBar {
+    height: 35px;
+    font-size: 13px;
+    text-align: center;
+    cursor: default;
+    color: #e6e6e6;
+    background-color: #282828;
+    padding-top: 3px;
+}
+.WTTerminalStatusBar div div {
+    display: inline-block;
+    margin-left: 5px;
+}
+.WTTerminalStatusBarLeft > div {
+    min-width: 78px;
+}
+.WTTerminalStatusBarLeft .Equity .DepositSymbol {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    font-size: 11px;
+    background-repeat: no-repeat;
+    background-size: 10px auto;
+    margin-right: -2px;
+}
+.WTTerminalStatusBarLeft .Equity {
+    background-color: #3c3c3c;
+    border-radius: 3px;
+    color: #e6e6e6;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.WTTerminalStatusBarLeft .EquityVal {
+    font-family: 'RobotoBold';
+    padding-right: 6px;
+    color: #e6e6e6;
+}
+.WTTerminalStatusBarLeft > div {
+    color: #e6e6e6;
+}
+.WTTerminalStatusBarLeft > div > div:first-child {
+    color: #969696;
+}
+.WTTerminalStatusBarRight > .icon-server {
+    font-size: 15px;
+    margin-top: 0;
+    color: #878787;
+    float: left;
+    margin-right: 5px;
+}
+.WTTerminalStatusBarRight > .Server {
+    color: #e6e6e6;
+}
+.WTTerminalStatusBarRight > .Time {
+    color: #969696;
+    margin-right: 20px;
+}
+.WTTerminalStatusBarRight {
+    margin-top: 10px;
+}
+.WTTerminalStatusBarLeft {
+    float: left;
+    padding-top: 2px;
+}
+.WTTerminalStatusBarRight {
+    float: right;
+}
+.WTTerminalStatusBar .Icon {
+    margin-top: -2px;
+    margin-right: 5px;
+    width: 20px;
+    min-width: 15px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    border: solid 1px transparent;
+    background-image: url("../res/img/DarkImg/icon_dark_20.svg");
+    vertical-align: middle;
+}
+.Icon.EquityImg {
+    background-position: -224px -80px;
+    margin-top: 8px;
+}
+.Icon.ServerImg {
+    background-position: -0px -720px;
+}
+/*****************************   StatusBar end   *****************************/
+/*****************************   Swiper   *****************************/
+.WTSwiper {
+    background: #282828;
+}
+
+.WTSwiperTabsBlock {
+    border: solid 1px #141414;
+    border-right: none;
+}
+
+.EmptySwiperTabsBlock {
+    border: 0px;
+}
+
+.Compact .WTSwiperTabsBlock {
+    background: linear-gradient(to top, #E6E1C4, #FFFFFF);
+}
+
+.Normal .WTSwiperTabsBlock {
+    background-color: transparent;
+    border: none;
+    height: 30px;
+}
+
+.Compact .WTSwiperTabsBlock .WTButton,
+.Compact .WTSwiperTabsBlock .WTButton.Hovered {
+    background: linear-gradient(to top, #E6E1C4, #FFFFFF);
+    border: none;
+    border-right: solid 1px #ACA899;
+    border-radius: 0;
+    height: 16px;
+    padding: 0 10px;
+}
+
+.Normal .WTSwiperTabsBlock .WTButton {
+    margin-top: 1px;
+}
+
+.Normal .WTSwiperTabsBlock .WTButton.Hovered {
+    background: none;
+    background-color: #505050;
+}
+
+.WTSplitterContent2 .Normal .WTSwiperTabsBlock .WTButton.Hovered {
+    background: none;
+    background-color: #505050;
+}
+
+.Normal .WTSwiperTabsBlock .WTButton {
+    border: solid 1px #1e1e1e;
+    border-radius: 5px;
+    background: #3c3c3c;
+    margin: 0;
+    height: 30px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+.WTSplitterContent2 .Normal .WTSwiperTabsBlock .WTButton {
+    border: solid 1px #141414;
+    border-radius: 5px;
+    background: #3c3c3c;
+    height: 30px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Compact .WTSwiperTabsBlock .WTButton .WTButtonText {
+    margin-top: 1px;
+}
+
+.Normal .WTSwiperTabsBlock .WTButton.Pressed .WTButtonText {
+    margin-top: 3px;
+    color: #e6e6e6;
+}
+.Normal .WTSwiperTabsBlock .WTButton.Disabled .WTButtonText {
+    color: #333333;
+}
+
+.Normal .WTSwiperTabsBlock .WTButton .WTButtonText {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #969696;
+}
+
+.WTSplitterContent1 .WTSplitterContent2 .Normal .WTSwiperTabsBlock .WTButton .WTButtonText {
+    float: left;
+    font-size: 12px;
+}
+
+.Compact .WTSwiperTabsBlock .WTButton.Pressed {
+    background: none;
+    background-color: #DCD6BC;
+}
+
+.Normal .WTSwiperTabsBlock .WTButton.Pressed {
+    background: none;
+    background-color: #505050;
+    border-bottom: none;
+    height: 30px;
+    padding-top: 5px;
+}
+.Normal .WTSwiperTabsBlock .WTButton .TabCross {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    margin-right: -10px;
+    background: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0 -1087px;
+    display: none;
+}
+
+.Normal .WTSwiperTabsBlock .WTButton.Hovered .TabCross,
+.Normal .WTSwiperTabsBlock .WTButton.Pressed .TabCross {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    background: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0 -1087px;
+    float: right;
+    margin-right: -9px;
+}
+
+.Normal .WTSwiperTabsBlock .WTButton .TabCross:hover {
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-position: 0 -1119px;
+}
+
+
+.Normal .WTSwiperTabsBlock .WTButton.Pressed .TabCross {
+    margin-top: 1px;
+    float: right;
+    margin-right: -9px;
+}
+
+.WTSwiperContent {
+    overflow: hidden;
+    border: 1px solid #1e1e1e;
+    background: #3c3c3c;
+}
+
+.WTSwiperContentChart {
+    border: 1px solid #1e1e1e;
+    overflow: hidden;
+}
+
+.EmptySwiperContentChart {
+    border-top: 0;
+    overflow: hidden;
+}
+
+.WTSwiperScrollArrows {
+    position: absolute;
+    right: 4px;
+    top: 48px;
+}
+
+.WTButton.WTSwiperScrollArrowLeft .WTButtonImage, .WTButton.WTSwiperScrollArrowRight .WTButtonImage {
+    width: 11px;
+}
+.WTButton.WTSwiperScrollArrowLeft .TabCross > div, .WTButton.WTSwiperScrollArrowRight .TabCross > div {
+    width: 20px;
+    height: 20px;
+    background: url("../res/img/icon.svg");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    opacity: 1;
+    background-position: -80px -400px;
+}
+
+.WTButton.WTSwiperScrollArrowLeft.Hovered .WTButtonImage > div {
+    background-position: 0px -1024px !important;
+}
+.WTButton.WTSwiperScrollArrowRight.Hovered .WTButtonImage > div {
+    background-position: 0px -1056px !important;
+}
+.WTButton.WTSwiperScrollArrowLeft.Hovered, .WTButton.WTSwiperScrollArrowLeft.Disabled,
+.WTButton.WTSwiperScrollArrowRight.Hovered, .WTButton.WTSwiperScrollArrowRight.Disabled {
+    border-color: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
+    opacity: 1;
+}
+.WTButton.WTSwiperScrollArrowLeft.Hovered,
+.WTButton.WTSwiperScrollArrowRight.Hovered {
+    cursor: pointer;
+}
+.WTButton.WTSwiperScrollArrowLeft.Disabled .WTButtonImage > div,
+.WTButton.WTSwiperScrollArrowRight.Disabled .WTButtonImage > div {
+    opacity: 0.6;
+}
+/*****************************   Swiper end   *****************************/
+/*****************************   Table   *****************************/
+.WTTable tfoot td
+{
+    background-color: #FFD669;
+}
+.WTTable
+{
+    box-sizing: border-box;
+    table-layout: fixed;
+    border-spacing: 0;
+    width: 100%;
+	border-left: solid 1px #282828;
+}
+.WTTable.ReportTableWithColSpans {
+    table-layout: fixed;
+}
+.WTTable tr {
+    background-color: #3c3c3c;
+    height: 30px;
+}
+.WTTable td div, .WTTable td img {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.WTTable tfoot td div{
+    display: inline-block;
+}
+
+.WTTable tr.Selected
+{
+    background-color: #424f3a;
+}
+
+.WTTable thead tr td{
+    background-color: #505050;
+    border-bottom: none;
+}
+.WTTable td {
+    border-top: none;
+    border-right: none;
+    height: 28px;
+    vertical-align: middle;
+    line-height: 1.5;
+    cursor: default;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 4px;
+    position: relative;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    padding-left: 12px;
+}
+.WTTable .Resizer,
+.DivTable .Resizer,
+.DivTableHeader .Resizer {
+    position: absolute;
+    width: 7px;
+    height: 100%;
+    top: 0;
+    right: -4px;
+    z-index:10;
+}
+.WTTable td div
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.WTDialog.DialogReport .WTDialogContent {
+    border: none;
+    font-size: 12px;
+}
+.DialogReport .WTSwiperTabsBlock {
+    border: none;
+}
+.DialogReport .WTSwiperContent {
+    border: solid 1px #181818;
+    border-right: none;
+}
+.DialogReport .DivTableHeader {
+    border: none;
+    border-bottom: solid 1px #181818;
+}
+.ReportContent {
+    margin-top: 0;
+}
+
+.ReportTable {
+    border-top: solid 1px #A0A0A0;
+    margin-top: 1px;
+}
+.ReportTableContent {
+    width: 100%;
+    height: 372px;
+}
+
+.DialogReportTableRow {
+    height: 30px;
+}
+.DialogReportTableRow div {
+    background-repeat: no-repeat;
+}
+.DivTableRow.DialogReportTableRow > div,
+.DialogReport .DivTableHeader > div {
+    height: 30px;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.DialogReport .DFooterControls {
+    padding-top: 1px;
+    margin-bottom: -8px;
+}
+.DialogReport .DFooterControls .WTInput {
+    padding: 0px;
+    margin-left: 6px;
+}
+.DialogReport .DFooterControls .WTInputSelectField {
+    height: 30px;
+    padding-top: 1px;
+}
+.DialogReport .DFooterControls .WTInputLabel {
+    margin-top: 6px;
+}
+.DialogReport .DFooterControls .WTButton {
+    float: right;
+}
+.DialogReport .DFooterControls .WTButton:hover {
+    background: linear-gradient(to top, #747474, #a0a0a0);
+}
+.DialogReport .DFooterControls .WTButton:active {
+    background: #646464;
+}
+.GeneralReportDepositRow .DepositVolume {
+    text-align: right;
+}
+.GeneralReportTableRow .Number > div:nth-child(1),
+.GeneralReportTableRow .Type > div:nth-child(1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.DialogReport .DivTableHeader .Number,
+.DialogReport .DivTableHeader .Type,
+.DialogReport .DivTableHeader .Symbol,
+.DialogReport .DivTableHeader .Comment,
+.DialogReport .DivTableHeader .Name,
+.DialogReport .DivTableHeader .SymbolName,
+.DialogReport .DivTableHeader .Date,
+.DialogReport .DivTableHeader .Type_of_closure {
+    text-align: left;
+}
+.DialogReport .DivTableRow .Open_date,
+.DialogReport .DivTableRow .Open_date,
+.DialogReport .DivTableRow .Close_date,
+.DialogReport .DivTableRow .Volume,
+.DialogReport .DivTableRow .Open_price,
+.DialogReport .DivTableRow .Close_price,
+.DialogReport .DivTableRow .TakeProfit,
+.DialogReport .DivTableRow .StopLoss,
+.DialogReport .DivTableRow .Swap,
+.DialogReport .DivTableRow .Commission,
+.DialogReport .DivTableRow .Profit,
+.DialogReport .DivTableRow .Sum,
+.DialogReport .DivTableRow .Price,
+.DialogReport .DivTableRow .Balance,
+.DialogReport .DivTableRow .SpentBonus,
+.DialogReport .DivTableRow .Payout {
+    text-align: right;
+}
+
+.TradeContent .DivTableHeader .Symbol,
+.TradeContent .DivTableHeader .Number,
+.TradeContent .DivTableHeader .Type {
+    text-align: left;
+}
+
+.TableQuotesHeader.DivTableHeader .Symbol {
+    text-align: left;
+    padding-left: 24px;
+}
+
+.ReportTableWithColSpans
+{
+    box-sizing: border-box;
+}
+.SymbolInfoTable thead tr td{
+    border-bottom: solid 1px #303030;
+}
+
+.WTTableTotal {
+    margin-right: 15px;
+}
+
+.WTTableBtn
+{
+    background-color: #FDEB9F;
+}
+.WTTableIndexRow {
+    color: #ABADB3;
+}
+
+.TableQuotesRow.DivTableRow.TableDivTradeForbidden > div {
+    opacity: 0.5;
+}
+
+.WTTableHeader {
+    table-layout: fixed;
+    text-overflow: ellipsis;
+    background-color: #505050;
+    border-bottom: solid 1px #1e1e1e;
+}
+
+.WTTableBody{
+    overflow: auto;
+}
+.WTTableHeader .WTTable{
+
+}
+/*****************************   Table end   *****************************/
+
+/*****************************   Splitter   *****************************/
+.WTSplitter > div {
+    float: left;
+    overflow: hidden;
+}
+
+.WTSplitterContent2 {
+    overflow: visible !important;
+}
+
+.WTSplitter .WTSplitterResizer {
+    float: left;
+    cursor: col-resize;
+    position: absolute;
+}
+
+.WTSplitter.Horizontal {
+    margin: -5px 5px 0 5px;
+    background-color: #282828;
+    border: none;
+}
+
+.WTSplitter.Horizontal > .WTSplitterResizer {
+    width: 100%;
+    height: 5px;
+    cursor: row-resize;
+    border-left: none;
+    border-right: none;
+    z-index: 1;
+}
+
+.WTSplitter.Vertical > .WTSplitterResizer {
+    width: 5px;
+    height: 100%;
+    border-top: none;
+    border-bottom: none;
+}
+
+.WTSplitter.Horizontal > .WTSplitterContent2 {
+    padding-top: 5px;
+}
+
+.WTSplitter.Vertical > .WTSplitterContent1 {
+    height: 100%;
+}
+
+.WTSplitter.Vertical > .WTSplitterContent2 {
+    padding-left: 5px;
+    margin-left: 40px;
+}
+
+.WTSplitter.IsCollapse.Vertical > .WTSplitterContent2 {
+    padding-left: 17px;
+    margin-left: 60px;
+}
+
+.WTSplitter .Vertical .WTSplitterContent2 .Normal .WTSwiperTabsBlock {
+    border-left: none;
+    margin-left: -40px;
+}
+
+.WTSplitter .WTSplitterPhantom {
+    float: left;
+    background-color: rgba(110, 110, 110, 0.5);
+    position: absolute;
+    z-index: 14;
+}
+
+.WTSplitter.Vertical > .WTSplitterPhantom {
+    width: 6px;
+    cursor: col-resize;
+}
+
+.WTSplitter.Horizontal > .WTSplitterPhantom {
+    height: 6px;
+    cursor: row-resize;
+}
+
+.WTSplitter.IsCollapse.Vertical > .WTSplitterResizer {
+    width: 28px;
+    left: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #3c3c3c;
+    border: 1px solid #1e1e1e;
+}
+
+.WTSplitter.IsCollapse.Vertical > .WTSplitterResizer > .CollapsedContentTitle {
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    padding-top: 5px;
+    position: relative;
+    left: -36px;
+    font-size: 13px;
+    border-left: solid 1px #181818;
+    color: #969696;
+}
+
+.WTSplitter.IsCollapse.Horizontal > .WTSplitterResizer > .CollapsedContentTitle {
+    width: 100px;
+    height: 22px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 6px;
+    color: #969696;
+    font-size: 13px;
+}
+
+.WTSplitter.IsCollapse.Horizontal > .WTSplitterResizer {
+    height: 28px;
+    cursor: pointer;
+    border: 1px solid #1e1e1e;
+    background: #3c3c3c;
+}
+
+.WTSplitter .WTSplitterCollapseBtn {
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.WTSplitter > .WTSplitterCollapseBtn {
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+}
+
+.WTSplitter.Vertical > .WTSplitterCollapseBtn {
+    width: 30px;
+    height: 30px;
+    background-position: -25px -24px;
+    cursor: pointer;
+}
+
+.WTSplitter.Horizontal > .WTSplitterCollapseBtn {
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+    background-position: -25px -88px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.WTSplitter.IsCollapse.Vertical > .WTSplitterCollapseBtn {
+    margin-left: 18px;
+    width: 28px;
+    height: 29px;
+    background-position: -24px -56px;
+    border-bottom: solid 1px #1e1e1e;
+    cursor: pointer;
+}
+
+.WTSplitter.IsCollapse.Horizontal > .WTSplitterCollapseBtn {
+    background-position: -25px -121px;
+    width: 30px;
+    height: 30px;
+}
+/*****************************   Splitter end   *****************************/
+
+/*****************************   Button   *****************************/
+.WTButton
+{
+    cursor: default;
+    border: solid 1px transparent;
+    border-radius: 3px;
+    padding: 3px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 26px;
+    padding-left: 7px;
+    padding-right: 7px;
+    overflow: hidden;
+}
+.WTButtonImage,
+.WTButtonText
+{
+    display: inline-block;
+    height: 100%;
+}
+.WTButtonText {
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-top: 2px;
+    font-size: 12px;
+    color: #e6e6e6;
+}
+
+.WTButtonImage {
+    width: 16px;
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    border: solid 1px transparent;
+    height: auto;
+}
+
+.WTButton.Hovered
+{
+    border-color: #141414;
+    background-color: #4c4c4c;
+}
+.WTButton.Pressed
+{
+    border-color: #141414;
+    background-color: #3c3c3c;
+}
+
+.WTButton.Disabled,
+.Disabled .WTButton {
+    pointer-events: none;
+    background: linear-gradient(to top, #57971b, #6bbb1c);
+    color: #ffffff;
+    opacity: 0.5;
+}
+.WTCloseButton,
+.WTCloseButton.Disabled,
+.WTCloseButton.Hovered {
+    cursor: pointer;
+    border-color: transparent;
+    background: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    border: 0;
+    padding: 0;
+    margin-top: 6px;
+    background-position: -32px -321px;
+}
+.WTCloseButton.Hovered {
+    background-position: -32px -1121px;
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+}
+/*****************************   Button end   *****************************/
+
+/*****************************   HeaderPanel   *****************************/
+.WTHeaderPanel {
+    display: inline-block;
+    border-left-width: 0;
+    border-right-width: 0;
+    font-size: 12px;
+    height: 40px;
+    padding-top: 10px;
+}
+.WTHeaderPanel .bzzaLogo {
+    position: relative;
+    width: auto;
+    max-height: calc(100% - 10px);
+}
+
+.WTHeaderPanel .mainLogoContainer {
+    margin-left: 10px;
+    float: left;
+}
+
+.WTHeaderPanel .vertical {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    top: -3px;
+}
+
+.DialogSymbolList .SelectAllBtn .WTButtonImage > div {
+    background-image: url('../res/img/DarkImg/select_all.png');
+}
+
+.DialogSymbolList .DeselectAllBtn .WTButtonImage > div {
+    background-image: url('../res/img/DarkImg/deselect_all.png');
+}
+
+.WTHeaderPanel .WTButton,
+.WTHeaderPanel .WTVerticalSeparator {
+    display: inline-block;
+    float: right;
+    margin: 6px 2px;
+    height: 25px;
+}
+.WTHeaderPanel .WTButton.MainMenuBtn .WTButtonText {
+    text-decoration: underline;
+}
+
+.WTHeaderPanel .WTButton.MainMenuBtn {
+    width: 73px;
+    height: 37px;
+    padding: 0px;
+    margin-top: -2px;
+}
+.WTHeaderPanel .WTButton.MainMenuBtn.Hovered, .WTHeaderPanel .WTButton.MainMenuBtn.Pressed {
+    border-color: #F9F7F1;
+    background: #F9F7F1;
+}
+.WTHeaderPanel .WTButton.MainMenuBtn .WTButtonImage {
+    width: 70px;
+    height: 37px;
+    padding: 0px;
+}
+.WTHeaderPanel .WTButton.MainMenuBtn .WTButtonImage div {
+    width: 70px;
+    height: 37px;
+    padding: 0px;
+}
+
+.HeaderMenuButton .WTButtonText {
+    margin-top: 1px;
+    font-size: 12px;
+    color: white;
+    width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.WTHeaderPanel .WTButton.MyProfileBtn.Pressed,
+.WTHeaderPanel .WTButton.GraphicsBtn.Pressed,
+.WTHeaderPanel .WTButton.WindowsLayoutBtn.Pressed,
+.WTHeaderPanel .WTButton.WindowsLayoutBtnOffice.Pressed,
+.WTHeaderPanel .WTButton.ProfileBtn.Pressed {
+    background: #3c3c3c;
+}
+
+.WTHeaderPanel .WTButton.MyProfileBtn,
+.WTHeaderPanel .WTButton.GraphicsBtn,
+.WTHeaderPanel .WTButton.WindowsLayoutBtnOffice,
+.WTHeaderPanel .WTButton.ProfileBtn {
+    font-size: 14px;
+    float: right;
+    height: 25px;
+    border: solid 1px #141414;
+    border-left: none;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 6px;
+    padding-top: 0px;
+    background: #646464;
+}
+.WTHeaderPanel .WTButton.MyProfileBtn .WTButtonText,
+.WTHeaderPanel .WTButton.GraphicsBtn .WTButtonText {
+    font-size: 14px;
+}
+.WTHeaderPanel .WTButton.WindowsLayoutBtn .WTButtonImage,
+.WTHeaderPanel .WTButton.ProfileBtn .WTButtonImage {
+    width: 20px;
+}
+.WTHeaderPanel .WTButton.WindowsLayoutBtnOffice {
+    border-left: solid 1px #141414;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.WTHeaderPanel .WTButton.ProfileBtn {
+    width: 30px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-right: 6px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
+.WTHeaderPanel .WTButton {
+    float: right;
+    cursor: pointer;
+}
+
+/*****************************   HeaderPanel end   *****************************/
+/*****************************   ChartPanel   **********************************/
+.Canvas {
+    float: left;
+}
+.WTTradePanel {
+    position: absolute;
+    display: inline-block;
+    width: 160px;
+    height: 100%;
+    float: right;
+    background: #3c3c3c;
+    border-left: 1px solid #1e1e1e;
+    right: 6px;
+}
+.DialogChart .WTTradePanel {
+    right: 1px;
+    top: 0;
+    opacity: .5;
+    float: right;
+}
+
+.DialogChartColorSelected .WTTradePanel,
+.WTSwiperContentChart .WTTradePanel {
+    opacity: 1.00;
+}
+.WTTradePanel.Active {
+    display: inline-block;
+}
+.WTTradePanel.NotActive {
+    display: none;
+}
+.WTTradePanel.Minimize {
+    width: 140px;
+}
+
+.WTTradePanel.Exist .Content .Buttons .WTButton.GreenButton .WTButtonImage,
+.WTTradePanel.Exist .Content .Buttons .WTButton.RedButton .WTButtonImage {
+    display: inline-block !important;
+    width: 22px;
+    height: 22px;
+    margin-top: 7px;
+    margin-left: -10px;
+    margin-right: 4px;
+}
+.WTTradePanel.Minimize .Content .Buttons .WTButton.GreenButton .WTButtonImage,
+.WTTradePanel.Minimize .Content .Buttons .WTButton.RedButton .WTButtonImage {
+    margin-left: initial;
+}
+.WTTradePanel.Minimize .Content .Buttons .WTButton.GreenButton.New .WTButtonImage,
+.WTTradePanel.Minimize .Content .Buttons .WTButton.RedButton.CloseEarly .WTButtonImage {
+    margin-left: 2px;
+}
+.WTTradePanel.Exist .Content .Buttons .WTButton.RedButton .WTButtonImage {
+    background: url('../res/img/ExistOptionIcon/closeEarlyIcon.png') !important;
+}
+.WTTradePanel.Exist .Content .Buttons .WTButton.GreenButton .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/plusIcon.png') !important;
+}
+
+.WTTradePanel.Disabled .Type {
+    background: transparent;
+}
+.WTTradePanel.Disabled .Checker {
+    pointer-events: none;
+}
+.WTTradePanel .WTInput.Select.NewSelect {
+    padding-bottom: 0;
+    padding-left: 5px;
+}
+.WTTradePanel .WTInput.Select.NewSelect input {
+    height: 30px;
+}
+.WTTradePanel .PendingOrder .Image {
+    width: 140px;
+    margin: 10px 10px;
+    margin-bottom: 8px;
+    height: 100px;
+    position: relative;
+}
+.WTTradePanel .PendingOrder.BuyLimit .Image {
+    background-image: url(../res/img/sprite_limitstops_new.png);
+    background-position: -30px -30px;
+}
+.WTTradePanel .PendingOrder.BuyStop .Image {
+    background-image: url(../res/img/sprite_limitstops_new.png);
+    background-position: -200px -30px;
+}
+.WTTradePanel .PendingOrder.SellLimit .Image {
+    background-image: url(../res/img/sprite_limitstops_new.png);
+    background-position: -370px -30px;
+}
+.WTTradePanel .PendingOrder.SellStop .Image {
+    background-image: url(../res/img/sprite_limitstops_new.png);
+    background-position: -540px -30px;
+}
+
+.WTTradePanel .MarketOrder .WTInput.Select input,
+.WTTradePanel .PendingOrder .WTInput.Select input,
+.WTTradePanel .BinaryOption .WTInput.Select input {
+    height: 29px;
+    padding-right: 10px;
+}
+
+.WTTradePanel .Type {
+    color: #898989;
+    width: 100%;
+    height: 60px;
+    background: #505050;
+    border-bottom: solid 1px #2e2e2e;
+}
+.WTTradePanel .Type.Active {
+    background: #5a5a5a;
+}
+.WTTradePanel.Minimize .Type {
+    height: 50px;
+}
+.WTTradePanel .Type.Disabled {
+    background: transparent;
+}
+.WTTradePanel .Type .Group {
+    padding: 14px 10px;
+    padding-bottom: inherit;
+    height: 14px;
+}
+.WTTradePanel.Minimize .Type .Group {
+    padding: 10px 10px;
+    white-space: nowrap;
+}
+.WTTradePanel.Minimize .Type .Group.IPad {
+    padding: 7px 10px;
+    white-space: nowrap;
+    margin-bottom: 12px;
+}
+.WTTradePanel .MarketOrder .Price {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.WTTradePanel .MarketOrder .Price .Bid {
+    color: #cb3a3a;
+}
+.WTTradePanel .MarketOrder .Price .Separator {
+    color: #888888;
+}
+.WTTradePanel .MarketOrder .Price .Ask {
+    color: #5ca831;
+}
+
+
+.WTTradePanel.NotExist .Content .BinaryOption .Borders {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border-top: 1px solid #282828;
+    display: none;
+}
+.WTTradePanel.NotExist .Content .BinaryOption .Borders.Active {
+    display: block;
+}
+.WTTradePanel.Exist .Content .BinaryOption .Borders {
+    display: none;
+}
+.WTTradePanel.NotExist .Content .BinaryOption .Borders .TopBorder {
+    color: #5ca831;
+}
+.WTTradePanel.NotExist .Content .BinaryOption .Borders .BottomBorder {
+    color: #cb3a3a;
+}
+.WTTradePanel.NotExist .Content .BinaryOption .Borders .Separator {
+    color: #888888;
+}
+.WTTradePanel.NotExist .Content .BinaryOption .Borders > div {
+    display: inline-block;
+}
+.WTTradePanel.NotMinimize.NotExist .Content .BinaryOption .Borders {
+    margin-bottom: 5px;
+}
+
+
+.WTTradePanel .WTInput.NewSelect .InputSelectButton .WTInputSelectArrowImg {
+    width: 20px;
+    height: 20px;
+}
+.WTTradePanel .WTInput.NewSelect .InputSelectButton {
+    margin-top: -32px;
+    left: -5px;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+}
+.WTTradePanel.Minimize .WTInput.NewSelect .InputSelectButton {
+    margin-top: -32px;
+    height: 50px;
+}
+.WTTradePanel .WTInput.NewSelect.Active .InputSelectButton {
+    background: transparent;
+    border: none;
+}
+.WTTradePanel .WTInput.NewSelect.Active .InputSelectButton .WTInputSelectArrowImg {
+    background-image: url("../res/img/DarkImg/Light_select_brown.png");
+    transform: rotate(180deg);
+}
+.WTTradePanel .WTInput.NewSelect .InputSelectButton .WTInputSelectArrowImg {
+    background-position: 6px 7px;
+    float: right;
+    margin-top: 22px;
+    margin-right: 10px;
+}
+.WTTradePanel.Minimize .WTInput.NewSelect .InputSelectButton .WTInputSelectArrowImg {
+    margin-top: 18px;
+}
+.WTTradePanel .WTInput.NewSelect .InputSelectButton:active {
+    background: none;
+    border: none;
+}
+.WTTradePanel .WTInput.NewSelect.Disabled .InputSelectButton,
+.WTTradePanel.Disabled .WTInput.NewSelect .InputSelectButton {
+    display: none;
+}
+
+.WTTradePanel .MarketOrder .Price > div {
+    display: inline-block;
+}
+
+.WTTradePanel .MarketOrder .Buttons > div,
+.WTTradePanel .PendingOrder .Buttons > div:first-child {
+    
+}
+.WTTradePanel .MarketOrder .Buttons > div,
+.WTTradePanel .PendingOrder .Buttons > div,
+.WTTradePanel .BinaryOption .Buttons > div {
+    margin: 10px;
+    margin-bottom: 0;
+    border-radius: 2px;
+}
+
+.WTTradePanel.Minimize .Content .PendingOrder .Image {
+    display: none;
+}
+.WTTradePanel.Minimize .Content .BinaryOption .Buttons .WTButton,
+.WTTradePanel.Minimize .Content .MarketOrder .Buttons .WTButton {
+    width: 58px;
+    height: 50px !important;
+}
+.WTTradePanel.Minimize .Content .BinaryOption .Buttons .WTButton,
+.WTTradePanel.Minimize .Content .MarketOrder .Buttons .WTButton {
+    display: inline-block;
+
+    margin-top: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.WTTradePanel.Minimize .Content .PendingOrder .Buttons .WTButton {
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: calc(100% - 12px) !important;
+}
+.WTTradePanel.Minimize.Exist .Content .PendingOrder .Buttons .WTButton {
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 58px !important;
+    height: 50px !important;
+}
+.WTTradePanel.Minimize .Content .BinaryOption .Buttons .WTButton .WTButtonText,
+.WTTradePanel.Minimize .Content .BinaryOption .Buttons .WTButton .Content,
+.WTTradePanel.Minimize .Content .MarketOrder .Buttons .WTButtonText {
+    display: none;
+}
+.WTTradePanel.Minimize .Buttons {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.WTTradePanel.Minimize .MarketOrder .Buttons {
+    margin-top: 13px;
+}
+
+.WTTradePanel .WTInput.Select.Icons,
+.WTTradePanel .WTInput.Icons {
+    width: calc(100% - 14px);
+}
+.WTTradePanel.Disabled.Exist .BinaryOption .WTInput.Select.Icons {
+    pointer-events: none;
+}
+.WTTradePanel .WTInput.Select.Icons .WTInputSelectField,
+.WTTradePanel .WTInput.Icons .WTInputContentField {
+    width: 100% !important;
+}
+
+.WTTradePanel .Buttons .DButton.BigButton.GreenButton {
+    background: linear-gradient(to top, #539f29, #63bf31);
+    border: 1px solid #282828;
+}
+.WTTradePanel .Buttons .DButton.BigButton.GreenButton:hover {
+    background: linear-gradient(to top, #64bf31, #78d048);
+}
+.WTTradePanel .Buttons .DButton.BigButton.GreenButton:active {
+    background: #539f29;
+}
+.WTTradePanel .BinaryOption .Buttons .DButton.BigButton .WTButtonImage {
+    width: 22px;
+    margin-top: 7px;
+    display: inline-block !important;
+}
+
+.WTTradePanel.Exist .TP-SL .ChangeTPSLControls .WTButton {
+    width: 67px;
+    float:right;
+}
+
+.WTTradePanel.Minimize.Exist .TP-SL .ChangeTPSLControls .WTButton {
+    width: 57px;
+}
+
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls {
+    display: inline-block;
+    margin: 7px 7px;
+    margin-bottom: 0;
+    padding: 3px;
+    padding-top: 2px;
+}
+.WTTradePanel .MarketOrder .TP-SL .ChangeTPSLControls.Disabled,
+.WTTradePanel .PendingOrder .TP-SL .ChangeTPSLControls.Disabled {
+    display: none;
+}
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn {
+    background: linear-gradient(to top, #646464, #8c8c8c);
+}
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn:hover,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn:hover {
+    background: linear-gradient(to top, #747474, #a0a0a0);
+}
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn:active,
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn:pressed,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn:active,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn:pressed {
+    background: #646464;
+}
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn .WTButtonImage,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn .WTButtonImage {
+    background: url(../res/img/DarkImg/icon_dark_16.svg);
+    background-repeat: no-repeat;
+    background-position: -30px -1183px;
+}
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn {
+    margin-left: 6px;
+    background: linear-gradient(to top, #539f29, #63bf31);
+}
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn:hover,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn:hover {
+    background: linear-gradient(to top, #64bf31, #78d048);
+}
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn:active,
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn:pressed,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn:active,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn:pressed {
+    background: #539f29;
+}
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn.Disabled,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn.Disabled {
+    pointer-events: none;
+    background: linear-gradient(to top, #57971b, #6bbb1c);
+    color: #ffffff;
+    opacity: 0.5;
+}    
+.WTTradePanel.Exist .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn .WTButtonImage,
+.WTTradePanel.Exist .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn .WTButtonImage {
+    background: url(../res/img/DarkImg/icon_dark_16.svg);
+    background-repeat: no-repeat;
+    background-position: -32px -1216px;
+}
+.WTTradePanel.NotExist.NotMinimize .BinaryOption .Buttons .WTButton.DButton,
+.WTTradePanel.NotExist.NotMinimize .MarketOrder .Buttons .WTButton.DButton {
+    text-align: left;
+}
+.WTTradePanel.NotExist.NotMinimize .MarketOrder .Buttons .DButton.BigButton .WTButtonImage,
+.WTTradePanel.NotExist.NotMinimize .BinaryOption .Buttons .DButton.BigButton .WTButtonImage {
+    margin-left: 25px;
+    margin-right: 5px;
+}
+.WTTradePanel .BinaryOption.Express .Buttons .DButton.BigButton.GreenButton .WTButtonImage,
+.WTTradePanel .BinaryOption.Classic .Buttons .DButton.BigButton.GreenButton .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/highIcon.png');
+}
+.WTTradePanel .BinaryOption.OneTouch .Buttons .DButton.BigButton.GreenButton .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/topIcon.png');
+}
+.WTTradePanel .BinaryOption.Range .Buttons .DButton.BigButton.GreenButton .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/insideIcon.png');
+}
+.WTTradePanel .Buttons .DButton.BigButton.RedButton {
+    border: 1px solid #282828;
+    background: linear-gradient(to top, #b32929, #dd3b3b);
+}
+.WTTradePanel .MarketOrder .Buttons .DButton.BigButton.RedButton,
+.WTTradePanel .PendingOrder .Buttons .DButton.BigButton.RedButton {
+    width: 140px;
+    height: 50px
+}
+.WTTradePanel.Minimize .Buttons .DButton.BigButton.RedButton {
+    width: 58px;
+}
+.WTTradePanel .BinaryOption .Buttons .DButton.BigButton.RedButton {
+    height: 70px
+}
+.WTTradePanel .Buttons .DButton.BigButton.RedButton:hover {
+    background: linear-gradient(to top, #d03434, #e35d5d);
+}
+.WTTradePanel .Buttons .DButton.BigButton.RedButton:active {
+    background: #b32929;
+}
+.WTTradePanel .BinaryOption.Express .Buttons .DButton.BigButton.RedButton .WTButtonImage,
+.WTTradePanel .BinaryOption.Classic .Buttons .DButton.BigButton.RedButton .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/lowIcon.png');
+}
+.WTTradePanel .BinaryOption.OneTouch .Buttons .DButton.BigButton.RedButton .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/bottomIcon.png');
+}
+.WTTradePanel .BinaryOption.Range .Buttons .DButton.BigButton.RedButton .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/outsideIcon.png');
+}
+
+.WTTradePanel .MarketOrder .Buttons > div .WTButtonImage > div {
+    width: 13px !important;
+    height: 13px !important;
+    margin-top: 13px;
+    margin-left: 2px;
+    background-size: cover;
+}
+.WTTradePanel .BinaryOption .Buttons > div .WTButtonImage > div {
+    margin-top: 9px;
+}
+.WTTradePanel .MarketOrder .Buttons > div .WTButtonText,
+.WTTradePanel .PendingOrder .Buttons > div .WTButtonText,
+.WTTradePanel .BinaryOption .Buttons > div .WTButtonText {
+    text-transform: uppercase;
+    font-family: 'RobotoBold';
+    font-size: 13px;
+    margin-top: 8px;
+    margin-left: 0;
+    height: auto;
+}
+.WTTradePanel .MarketOrder .Buttons > div .WTButtonText {
+    margin-left: 0;
+}
+.WTTradePanel .BinaryOption .Buttons .CloseEarly .WTCommission {
+    float: left;
+    color: #e09696;
+    margin-left: 5px;
+}
+.WTTradePanel .BinaryOption .Buttons .CloseEarly .WTStopLineTime {
+    float: right;
+    color: #e09696;
+    margin-right: 5px;
+}
+.WTTradePanel.Disabled .BinaryOption .Buttons .WTButton.DButton.BigButton.RedButton.CloseEarly.Blocked,
+.WTTradePanel.Disabled .MarketOrder .Buttons .WTButton.DButton.BigButton.RedButton.CloseEarly.Disabled,
+.WTTradePanel.Disabled .PendingOrder .Buttons .WTButton.DButton.BigButton.RedButton.CloseEarly.Disabled,
+.WTTradePanel.Disabled .BinaryOption .Buttons .WTButton.DButton.BigButton.GreenButton.CloseEarly.Blocked,
+.WTTradePanel.Disabled .MarketOrder .Buttons .WTButton.DButton.BigButton.GreenButton.CloseEarly.Disabled,
+.WTTradePanel.Disabled .PendingOrder .Buttons .WTButton.DButton.BigButton.GreenButton.CloseEarly.Disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+.WTTradePanel.Disabled .BinaryOption .Buttons .WTButton.DButton.BigButton.RedButton.CloseEarly.Blocked {
+    height: 50px;
+}
+
+.WTTradePanel .WTInput.NewSelect .WTInputSelectField {
+    background: transparent;
+    height: 31px;
+    border: none;
+    width: calc(100% + 10px) !important;
+}
+.WTTradePanel.Minimize .WTInput.NewSelect .WTInputSelectField {
+    margin-top: -7px;
+    height: 21px;
+}
+.WTTradePanel .WTInput.NewSelect .WTInputSelectField > input {
+    margin-left: 3px;
+    font-size: 18px;
+    font-family: 'RobotoBold';
+    margin-top: -4px;
+}
+.WTTradePanel.Minimize .WTInput.NewSelect .WTInputSelectField > input {
+    margin-top: -12px;
+}
+.WTTradePanel .WTInput.NewSelect .WTInputSelectField > input,
+.WTTradePanel.Minimize .WTInput.NewSelect .WTInputSelectField > input,
+.WTTradePanel .WTInput.Locked .WTInputSelectField > input,
+.WTTradePanel .WTInput .WTInputContentField > input[readonly='readonly'] {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.WTMenu.InputSelectOptionsMenu.NewSelect {
+    padding: 0;
+    border: none;
+    margin-left: -5px;
+    box-shadow: 1px 7px 4px rgba(0, 0, 0, 0.2);
+}
+.WTMenu.InputSelectOptionsMenu.NewSelect.Order {
+    max-height: 360px;
+    height: auto;
+}
+.WTMenu.InputSelectOptionsMenu.NewSelect.Option {
+    max-height: 120px;
+    height: 120px;
+}
+.WTMenu.InputSelectOptionsMenu.NewSelect .WTMenuItem {
+    cursor: pointer;
+    padding-left: 13px;
+    height: 30px !important;
+    padding-top: 1.5px;
+    padding-bottom: 2.5px;
+}
+.WTMenu.InputSelectOptionsMenu.NewSelect .WTMenuItem.Disabled {
+    border-bottom: 1px solid #2e2e2e;
+}
+.WTMenu.InputSelectOptionsMenu.NewSelect .WTMenuItem.Disabled .WTMItemTxt {
+    color: #939393;
+    white-space: nowrap;
+    width: calc(100% - 5px);
+}
+
+
+.WTMenu.InputSelectOptionsMenu.OptionalNewSelect {
+    border: none;
+    padding: 0;
+    max-height: 120px;
+}
+.WTMenu.InputSelectOptionsMenu.OptionalNewSelect.Minimize {
+    width: 120px !important;
+}
+.WTMenu.InputSelectOptionsMenu.NewSelect .WTMenuItem.Hovered,
+.WTMenu.InputSelectOptionsMenu.OptionalNewSelect .WTMenuItem.Hovered {
+    background: #53604b;
+}
+.WTMenu.InputSelectOptionsMenu.OptionalNewSelect .WTMenuItem {
+    cursor: pointer;
+    padding-left: 12px;
+    height: 30px !important;
+    padding-top: 1.5px;
+    padding-bottom: 2.5px;
+}
+
+
+.WTInput.Icons .Checker {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 6px 13px;
+    margin-right: 5px;
+    display: inline-block;
+    float: left;
+    background: url('../res/img/DarkImg/stops_notuse.png');
+}
+.WTInput.Icons .Checker.None {
+    display: none;
+}
+.WTInput.Icons .Checker.Use {
+    background: url('../res/img/DarkImg/stops_use.png');
+}
+
+.WTTradePanel .WTInput.Icons.New {
+    margin: 7px 7px;
+    margin-bottom: -3px;
+    padding-bottom: 0;
+}
+.Icons.Locked.New.TakeProfit.WTInput,
+.Icons.Locked.New.StopLoss.WTInput {
+    pointer-events: none;
+}
+.WTTradePanel .WTInput.Icons.New .WTInputLabel {
+    display: none;
+}
+.WTTradePanel .WTInput.Icons.New .WTInputContentField {
+    margin-top: -1px;
+    height: 30px;
+    position: relative;
+    border: solid 1px #181818;
+    border-radius: 2px;
+    background: #282828;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.WTTradePanel .WTInput.Icons.New.TakeProfit .WTInputNumberField .WTInputFieldCaption,
+.WTTradePanel .WTInput.Icons.New.StopLoss .WTInputNumberField .WTInputFieldCaption {
+    width: auto;
+    cursor: pointer;
+    color: #ffffff;
+    padding-right: 7px;
+}
+.WTTradePanel .WTInput.Icons.New .WTInputNumberField {
+    width: 100% !important;
+}
+.WTTradePanel .WTInput.Icons.New.TakeProfit .WTInputNumberField .WTInputField,
+.WTTradePanel .WTInput.Icons.New.StopLoss .WTInputNumberField .WTInputField {
+    padding-left: 5px;
+}
+.WTTradePanel .WTInput.Icons.New .WTInputNumberField .InputNumberButton.NotUse {
+    display: none;
+}
+.WTTradePanel .WTInput.Icons.New .WTInputNumberField .InputNumberButton .Down {
+    margin-top: 5px;
+}
+.WTTradePanel .WTInput.Icons.New .WTInputNumberField .WTInputFieldCaption {
+    background: linear-gradient(to top, #656565, #8b8b8b);
+    color: #e6e6e6;
+}
+.WTTradePanel .WTInput.Icons.New.TakeProfit .WTInputNumberField .WTInputFieldCaption.Use {
+    background: linear-gradient(to top, #54a029, #63be31);
+}
+.WTTradePanel .WTInput.Icons.New.StopLoss .WTInputNumberField .WTInputFieldCaption.Use {
+    background: linear-gradient(to top, #b52a2a, #dc3b3b);
+}
+.WTTradePanel .WTInput.Icons.New .WTInputField {
+    padding-left: 5px;
+    height: 28px;
+    padding-top: 1px;
+    font-family: Roboto;
+}
+.WTTradePanel .WTInput .WTInputField {
+    border: none;
+    padding-top: 0;
+    border-radius: 2px;
+    padding-left: 2px;
+    font-size: 13px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    color: #e6e6e6;
+    background: transparent;
+}
+
+.WTTradePanel .WTInput.Active .WTInputSelectField .InputSelectButton,
+.WTTradePanel .WTInput .WTInputSelectField .InputSelectButton:active {
+    background: transparent;
+    border: 1px solid transparent;
+}
+.WTTradePanel .WTInput.NotEdited .WTInputSelectField {
+    height: 30px;
+    cursor: pointer;
+}
+.WTInput.NotEdited.NotActive .WTInputSelectField:hover {
+    background: linear-gradient(to top, #787878, #a0a0a0);
+}
+.WTTradePanel .Content .WTInput .WTInputSelectField .InputSelectButton .WTInputSelectArrowImg {
+    background-position: 10px 12px;
+    cursor: pointer;
+}
+.WTTradePanel .Content .MarketOrder .Volume .WTInput .WTInputSelectField,
+.WTTradePanel .Content .MarketOrder .Volume .WTInput .WTInputSelectField .WTInputSelectArrowImg {
+    pointer-events: all;
+}
+
+.WTTradePanel.Disabled .Content .MarketOrder .Volume .WTInput .WTInputSelectField .InputSelectButton {
+    display: block;
+}
+
+.WTInput .WTInputSelectIcon {
+    display: none;
+}
+.WTTradePanel .WTInput.Select.Icons .WTInputSelectIcon,
+.WTTradePanel .WTInput.Icons.New .WTInputFieldIcon {
+    display: none;
+    float: left;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    width: 6px;
+    height: 6px;
+    padding: 5px 5px;
+    margin: 6px;
+}
+.WTTradePanel .WTInput.Select.Icons .WTInputSelectCaption,
+.WTTradePanel .WTInput.Icons.New .WTInputFieldCaption {
+    display: none;
+    height: 14px;
+    float: left;
+    background-size: cover;
+    color: #818181;
+    font-size: 13px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    padding-right: 3px;
+}
+.WTTradePanel .Volume .WTInput:first-child .WTInputSelectCaption,
+.WTTradePanel .Volume-Price .WTInput:first-child .WTInputSelectCaption {
+    width: 30px;
+}
+
+.WTTradePanel .WTInput.Select.Icons {
+    margin: 5px 7px;
+    margin-top: 7px;
+    margin-bottom: -3px;
+    padding-bottom: 0;
+}
+.WTTradePanel .WTInput.Select.Icons.Active .WTInputSelectArrowImg {
+    background-image: url("../res/img/DarkImg/Light_select_brown.png");
+    transform: rotate(180deg);
+}
+.WTTradePanel .WTInput.Select.Icons.Sums .WTInputField,
+.WTTradePanel .WTInput.Select.Icons.Periods .WTInputField {
+    width: calc(100% - 46px) !important;
+    font-size: 13px;
+}
+.WTTradePanel .WTInput.Select.Icons.Sums .WTInputSelectIcon {
+    display: inline-block !important;
+    background: url('../res/img/DarkImg/sumIcon.png');
+}
+.WTTradePanel .WTInput.Select.Icons.Periods .WTInputSelectIcon {
+    display: inline-block !important;
+    background: url('../res/img/DarkImg/periodIcon.png');
+}
+.WTTradePanel .WTInput.Select.NewSelect .WTInputLabel.PositionLeft,
+.WTTradePanel .WTInput.Select.Icons .WTInputLabel.PositionLeft {
+    display: none;
+}
+
+.WTTradePanel .BinaryOption .Profit {
+    margin: 20px 11px;
+    width: calc(100% - 22px);
+    height: 14px;
+}
+.WTTradePanel .BinaryOption .Profit > div {
+    display: inline-block;
+    float: left;
+}
+.WTTradePanel .BinaryOption .Profit .Caption {
+    color: #969696;
+    font-size: 14px;
+}
+.WTTradePanel .BinaryOption .Profit .Value {
+    color: #63bf31;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.WTTradePanel .BinaryOption .CurrentProfit {
+    margin-left: 11px;
+    font-size: 20px;
+    color: #63bf31;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.WTTradePanel .BinaryOption .CurrentProfit.Loss {
+    color: #d63838;
+}
+
+.WTTradePanel.Disabled .MarketOrder .Buttons .WTButton.DButton.BigButton.GreenButton.New,
+.WTTradePanel.Disabled .MarketOrder .Buttons .WTButton.DButton.BigButton.RedButton.CloseEarly,
+.WTTradePanel.Disabled .PendingOrder .Buttons .WTButton.DButton.BigButton.GreenButton.New,
+.WTTradePanel.Disabled .PendingOrder .Buttons .WTButton.DButton.BigButton.RedButton.CloseEarly,
+.WTTradePanel.Disabled .BinaryOption .Buttons .WTButton.DButton.BigButton.GreenButton.New,
+.WTTradePanel.Disabled .BinaryOption .Buttons .WTButton.DButton.BigButton.RedButton.CloseEarly,
+.WTTradePanel.Disabled .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn,
+.WTTradePanel.Disabled .MarketOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn,
+.WTTradePanel.Disabled .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.ApplyBtn,
+.WTTradePanel.Disabled .PendingOrder .TP-SL .ChangeTPSLControls .WTButton.DButton.DiscardBtn{
+     pointer-events: all;
+     color: inherit;
+     opacity: 1;
+}
+
+.WTTradePanel.Disabled .MarketOrder .Buttons .WTButton.DButton.BigButton.GreenButton.New.disable,
+.WTTradePanel.Disabled .PendingOrder .Buttons .WTButton.DButton.BigButton.GreenButton.New.disable,
+.WTTradePanel.Disabled .BinaryOption .Buttons .WTButton.DButton.BigButton.GreenButton.New.disable {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.WTChartPanel {
+    display: inline-block;
+    background-color: #3c3c3c;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+}
+.WTDialog.DialogChart.DialogChartColor {
+    background-color: #282828;
+}
+.WTDialog.DialogChart.DialogChartColorSelected {
+    background-color: #505050;
+}
+
+.newChartBtn {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+    background: linear-gradient(to top, #3C3C3C, #4F4F4F);;
+    margin-left: 5px;
+    margin-top: 9px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: solid 1px #141414;
+    padding: 4px 0px 0px 0px;
+}
+
+.newChartBtn .WTButtonImage {
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.newChartBtn .WTButtonImage > div {
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-position: -34px -288px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.WTChartPanel .WTButton.Pressed {
+    background: #282828;
+}
+.WTChartPanel .WTButton {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    background: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: none;
+}
+
+.WTChartPanel .WTButton.Hovered {
+    border: none;
+    background-color: #646464;
+    cursor: pointer;
+}
+
+.WTChartPanel .WTButton .WTButtonImage {
+    width: 20px;
+    height: 20px;
+}
+.cross {
+    cursor: url('../Res/img/cursor.cur'), crosshair;
+}
+
+
+/*****************************   ChartPanel end   ******************************/
+/*****************************   Menu   ****************************************/
+.WTMenu {
+    z-index: 15;
+    font-size: 12px;
+    position: absolute;
+    background-color: #505050;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: #e6e6e6;
+    opacity: 0;
+}
+.WTMenu.Animate {
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+}
+.WTMenu.Animate.FadeIn {
+    opacity: 1;
+}
+.WTMenu.BigMenu {
+    margin-left: -1px;
+    margin-top: 2px;
+}
+.WTMenu.BigMenu .WTMenuItem {
+    white-space: nowrap;
+
+    height: 40px !important;
+    font-size: 13px;
+    padding-top: 7px;
+}
+.WTMenu.AmazingMenu .WTMItemTxt {
+    margin-top: 10px;
+    margin-left: 20px;
+
+    font-size: 14px;
+}
+.WTMenu .WTMenuLeftIconsBackground {
+    position: absolute;
+    z-index: -10;
+}
+.WTMenu .WTMenuLeftText {
+    width: 26px;
+    position: absolute;
+    z-index: -10;
+}
+.WTMenuItem {
+    padding-right: 7px;
+    padding-top: 2px;
+    cursor: pointer;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.WTMenuItem .Arrow {
+    display: none;
+}
+
+.WTMenuItem .Hotkey {
+    display: none;
+}
+
+.WTMenuItem.Disabled
+{
+    pointer-events: none;
+    color: #9b9b9b;
+}
+
+.WTMenuItem.WithMenu .Arrow
+{
+    background-image: url('../res/img/main_sprite16x16.png');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: -64px -96px;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+}
+
+.WTMenuItem.WithHotkey .Hotkey
+{
+    vertical-align: top;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+
+}
+
+.WTMenuItem.WithHotkey .WTMItemGap, .WTMenuItem.WithMenu .WTMItemGap {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    height: 10px;
+    width: 15px;
+}
+
+.WTMenuItem.Hovered.WithMenu .Arrow
+{
+    background-position: -80px -96px;
+}
+
+.WTMenuItem.Hovered
+{
+    border-color: #FFFFFF;
+    background-color: #FEEFBB;
+}
+
+.WTMenuItem .WTMItemImg {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border: solid 1px transparent;
+}
+
+.WTMenuItem .WTMItemImg > div {
+    width: 16px;
+    height: 16px;
+    margin: 4px;
+    background-repeat: no-repeat;
+}
+
+.WTMenuItem .WTMItemTxt
+{
+    vertical-align: top;
+    margin: 6px;
+    padding-left: 0px;
+    display: inline-block;
+}
+
+.WTMenuItem.Checked .WTMItemImg > div {
+    width: 20px;
+    height: 20px;
+    background-image: url('../res/img/icon_menu.svg');
+    background-position: -32px -414px;
+}
+
+.WTMenuItem.Checked.Hovered .WTMItemImg > div {
+    background-position: -32px -414px;
+}
+
+.WTImageMenuItem
+{
+    padding-left: 4px;
+    padding-right: 8px;
+
+}
+
+.WTImageMenuItem .WTMItemImg >div
+{
+    width: 100%;
+    height: 14px;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+.WTImageMenuItem.Hovered
+{
+    border-color: #0A246A;
+    background-color: #53604b;
+}
+
+.MenuImage .WTImageMenuItem .WTMItemImg {
+    width: 58%;
+    height: 14px;
+    display: inline-block;
+    border: solid 1px transparent;
+    margin-top: 8px;
+}
+
+
+.MenuImage .WTImageMenuItem .WTMItemTxt {
+    vertical-align: top;
+    width: 40%;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.WTLayoutMenu {
+    padding: 10px 0px 20px 10px;
+}
+.WTLayoutMenuCaption {
+    height: 20px;
+    margin-left: -10px;
+    border-bottom: solid 1px #4e4e4e;
+}
+.WTLayoutMenuCaptionText {
+    margin-left: 20px;
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #969696;
+}
+.WTLayoutMenuItem {
+    display: inline-block;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    vertical-align: top;
+    background: #323232;
+}
+.WTLayoutMenuItem:before {
+    font-size: 20px;
+    color: #969696;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.WTLayoutMenuItem.Hovered:before {
+    color: #dcdcdc;
+}
+.WTLayoutMenuItem.Active:before {
+    color: #419f4c;
+}
+.layout01:before {
+    content: "\e915";
+}
+.layout02:before {
+    content: "\e916";
+}
+.layout03:before {
+    content: "\e917";
+}
+.layout04:before {
+    content: "\e918";
+}
+.layout05:before {
+    content: "\e919";
+}
+.layout06:before {
+    content: "\e91a";
+}
+.layout07:before {
+    content: "\e91b";
+}
+.layout08:before {
+    content: "\e91c";
+}
+.layout09:before {
+    content: "\e91d";
+}
+.layout10:before {
+    content: "\e91e";
+}
+.layout11:before {
+    content: "\e91f";
+}
+.layout12:before {
+    content: "\e920";
+}
+.layout13:before {
+    content: "\e921";
+}
+.layout14:before {
+    content: "\e922";
+}
+.layout15:before {
+    content: "\e923";
+}
+.layout16:before {
+    content: "\e924";
+}
+.layout17:before {
+    content: "\e925";
+}
+
+.WTLayoutMenuItem.fakeLayout {
+    background: transparent;
+}
+/*****************************   Menu end   *****************************/
+
+/*****************************   Dialog   *****************************/
+.WTDialog {
+    cursor: default;
+    z-index: 12;
+    background-color: #282828;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    border: solid 1px #161616;
+    border-radius: 0px;
+    position: fixed;
+    display: inline;
+    color: #a0a0a0;
+
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+    opacity: 0;
+}
+.WTDialog.FadeIn {
+    opacity: 1;
+}
+.WTDialog.DialogChart {
+    border: 1px solid #1e1e1e;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.WTDialog.DialogChart .WTCloseButton {
+    margin-top: 6px;
+}
+.WTDialog .WTCloseButton {
+    margin-top: 8px;
+}
+
+.WTDialogClBtnContainer {
+     width: 20px;
+     height: 20px;
+ }
+.Right {
+   float: right;
+}
+.Left {
+    float: left;
+}
+.WTDialogClBtnContainer.disabled {
+    pointer-events: none;
+    touch-action: none;
+    opacity: .5;
+}
+
+.WTDialog.dialogNewOrder .WTDialogContent {
+    background-color: #3c3c3c;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+}
+
+.WTDialog .WTDialogContent {
+    background-color: #303030;
+    border: solid 1px #181818;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+}
+.WTDialog.DialogChart .WTDialogContent {
+    background: #3c3c3c;
+}
+
+.dialogModifyPosition .WTDialogContent {
+    background-color: #505050;
+    border: solid 1px #181818;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+}
+
+.dialogModifyPosition .DCloseBtn .DButton.BigButton .WTButtonText {
+    margin-top: 5px;
+}
+
+.DialogClosePosition .WTDialogContent {
+    background-color: #505050;
+    border: solid 1px #181818;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+}
+
+.WTDialog.dialogOpenDemo .WTDialogContent {
+    background-color: #3c3c3c;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+}
+
+.WTDialog.dialogColorScheme .WTDialogContent {
+    background-color: #3c3c3c;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+}
+
+.WTDialog.dialogAccountInfo .WTDialogContent {
+    background-color: #3c3c3c;
+    border: solid 1px #181818;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+}
+
+.WTDialog.DialogSymbolInfo .WTDialogContent {
+    background-color: #505050;
+    border: solid 1px #181818;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+    color: #e6e6e6;
+}
+
+.WTDialog .WTDialogContent.Disabled {
+    pointer-events: none;
+    color: #9b9b9b;
+}
+
+.WTDialog .WTDialogTitle {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    height: 21px;
+    padding-top: 8px;
+    font-size: 12px;
+    padding-left: 16px;
+    color: #a0a0a0;
+}
+.WTDialogTopBlock {
+    width: 100%;
+    height: 26px;
+    text-align: center
+}
+.WTDialog .WTDialogImg {
+    display: inline-block;
+    height: 21px;
+    width: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#WTBlockscreen {
+    background: black;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 11;
+    position: fixed;
+}
+
+#WTDialogBlockscreen {
+    opacity: 0;
+    background: black;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    position: fixed;
+}
+#WTDialogBlockscreen.RestartMode {
+    z-index: 13;
+    opacity: 0;
+}
+
+.DButton {
+    background: linear-gradient(to top, #539f29, #63bf31);
+    color: #ffffff;
+    border: 1px solid #282828;
+    width: 140px;
+    height: 30px;
+    padding-top: 4px;
+}
+.DButton.ImgBtn {
+    min-width: 26px;
+}
+.DButton.Hovered {
+    cursor: pointer;
+    background: linear-gradient(to top, #64bf31, #78d048);
+    border: 1px solid #282828;
+}
+.DButton.GreenButton:active {
+    background: #539f29;
+    border: 1px solid #282828;
+}
+.DFooterControls {
+    width: 100%;
+    display: inline-block;
+    background: #282828;
+    margin-bottom: -3px;
+}
+
+.dialogNewOrder .DFooterControls {
+    border-top: solid 1px #282828;
+    width: 100%;
+    display: inline-block;
+    background: #3c3c3c;
+    margin-bottom: -3px;
+}
+
+.DFooterControls > div {
+    margin: 5px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.dialogOpenDemo .DFooterControls .WTButton:active {
+    background: #539f29;
+}
+
+.dialogOpenDemo .DFooterControls > div {
+    margin-top: 8px;
+}
+
+.DContainer {
+    border: solid 1px #303030;
+}
+
+.DFooterControls.Center {
+    text-align: center;
+}
+
+.DFooterControls.Left {
+    text-align: left;
+}
+.DFooterControls .DFooterLeft {
+    float: left;
+}
+.DFooterControls .DFooterRight {
+    float: right;
+}
+
+.DFooterControls .DFooterLeft > div,
+.DFooterControls .DFooterRight > div {
+    margin-left: 5px;
+}
+
+.dialogOpenDemo.WTButton.Hovered {
+    cursor: pointer;
+}
+
+.DControls {
+    margin: 4px;
+    display: inline-block;
+}
+
+.WTErrorImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    border: solid 1px transparent;
+    background-image: url('../res/img/error.png');
+}
+.WTErrorMessage
+{
+    margin-top: 32px;
+    float: left;
+    margin-right: 10px;
+}
+/*****************************   DialogResizingFrames ***************************/
+.DialogResizingFrame {
+    position: absolute;
+    background: transparent;
+    border: solid 6px rgba(236, 233, 216, 0.7);
+    z-index: 15;
+}
+
+/*****************************   DialogSymbolInfo   *****************************/
+.DialogSymbolInfo .WTDialogContent {
+    border: none;
+    overflow: inherit;
+    font-size: 12px;
+}
+.DialogSymbolInfoContent {
+
+}
+.DialogSymbolInfoContent .Left,
+.DialogSymbolInfoContent .Right {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-top: -2px;
+    box-sizing: border-box;
+}
+.DialogSymbolInfoContent .Left {
+    border-right: solid 1px #303030;
+    width: 219px;
+}
+.DialogSymbolInfoContent .Right {
+    width: 179px;
+}
+.DialogSymbolInfoContent .SymbolDescription {
+    margin: 12px;
+}
+.DialogSymbolInfoContent .SymbolInfoTable .WTTable {
+    width: 432px;
+    margin-left: -1px;
+    margin-bottom: -2px;
+}
+
+.SymbolDetails .Lbl,
+.SymbolDetails .Val {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.SymbolDetails .Left .Lbl {
+    width: 53%;
+    text-align: right;
+}
+.SymbolDetails .Right .Lbl {
+    width: 65%;
+    text-align: right;
+}
+.SymbolDetails .Val {
+    padding-left: 6px;
+    font-family: 'RobotoBold';
+}
+
+.DialogSymbolInfoContent .SymbolInfoTable table {
+    border-top: solid 1px #303030;
+    border-right: solid 1px #303030;
+    border-bottom: solid 1px #303030;
+}
+.DialogSymbolInfoContent .SymbolInfoTable table td {
+    padding-left: 12px;
+    border: solid 1px #141414;
+    border-top: none;
+    border-left: none;
+}
+/*****************************   DialogSymbolInfo end   *****************************/
+/*****************************   Dialogs Content   *****************************/
+
+.WTDialogContent .DControls > div {
+    float: right;
+    margin-top: 2px;
+}
+
+.WTDialogContent .DControls > .WTHorisontalSeparator {
+    width: 100%;
+}
+
+.WTDialogContent .DControls .PassChecks {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 30px;
+    min-width: 140px;
+    margin-left: 41px;
+    float: left;
+}
+.PassChecks > div {
+    display: inline-block;
+}
+
+.dialogOpenDemo .DLeftControls,
+.dialogOpenDemo .DRightControls {
+    padding-top: 18px;
+}
+
+.DLeftControls,
+.DRightControls {
+    padding-top: 25px;
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 15px;
+    height: 100%;
+}
+
+.dialogLineSettings .DTabControlContainer .DLeftControls,
+.dialogLineSettings .DTabControlContainer .DRightControls {
+    height: auto;
+}
+
+.DLeftControls > div,
+.DRightControls > div {
+    float: right;
+    padding-right: 15px;
+}
+.DDownLeftControls,
+.DDownRightControls {
+    border-top: solid 1px #303030;
+    border-bottom: solid 1px #303030;
+    width: 50%;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.DDownRightControls > div {
+    padding-bottom: 1px;
+}
+
+.DBottomControls {
+    width: 100%;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.DDownLeftControls > div,
+.DDownRightControls > div {
+    padding-right: 15px;
+    float: right;
+}
+
+.EmptyChartPanel {
+    border-top: none;
+    border-left: none;
+    background: transparent;
+}
+
+.NotEmptyChartPanel {
+    background: #3C3C3C;
+    border: solid 1px #1e1e1e;
+}
+
+.DAnyControls .WTHorisontalSeparator {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.WTHeadLabel {
+    font-size: 16px;
+    margin-bottom: 9px;
+    margin-top: 5px;
+}
+.DInfoBlock {
+    display: table;
+    border-spacing: 5px 2px;
+    margin-left: 23px;
+    margin-bottom: 8px;
+}
+.DInfoLabel {
+    width: 142px;
+    color: #878787;
+    text-align: right;
+    padding-right: 4px;
+}
+.DInfoVal {
+    text-align: left;
+    padding-right: 4px;
+    color: #b1b1b1;
+}
+.DInfoRow {
+    display: table-row;
+}
+.DInfoRow > div {
+    display: table-cell;
+}
+.DPersonalInfoControls,
+.DTradeInfoControls {
+    padding: 6px;
+    text-align: center;
+    font-size: 12px;
+}
+.DPersonalInfoControls .WTHorisontalSeparator,
+.DTradeInfoControls .WTHorisontalSeparator {
+    max-width: 200px;
+}
+
+.DLockImage {
+    width: 48px;
+    height: 48px;
+    background-image: url("../res/img/lock.png");
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+.DCurrentPassInput {
+    margin-top: 0;
+    margin-bottom: 3px;
+    margin-right: 35px;
+    float: right;
+}
+
+.DCurrentPassInput .WTInputField,
+.DNewPassContainer .WTInputField {
+    border: solid 1px #1e1e1e;
+}
+
+.DPasswordTypeInput {
+    margin-top: 17px;
+    margin-bottom: 0;
+    margin-right: 35px;
+    float: right;
+}
+
+.DRulesContainer {
+    float: left;
+    margin: 8px 26px;
+    color: #818181;
+}
+
+.dialogChangePass .DPasContent {
+    border: solid 1px #181818;
+    height: 228px;
+    font-size: 12px;
+    background-color: #3c3c3c;
+}
+
+.dialogChangePass .WTInputField{
+    margin-top: -1px;
+}
+
+.dialogChangePass .WTDialogTopBlock .WTDialogTitle{
+    color: #a0a0a0;
+}
+
+.dialogChangePass .WTDialogContent {
+    border: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+}
+
+.dialogChangePass .Right {
+    text-align: center;
+}
+
+.DNewPassContainer {
+    float: right;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
+
+.DNewPassContainer > div {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    float: right;
+}
+
+.DialogAbout {
+    min-width: 368px;
+}
+
+.DialogAbout .WTDialogContent {
+    background: linear-gradient(to top, #EDEAD9, #FFFFFF);
+    height: 210px;
+}
+.DialogAbout .WTDialogContent > div {
+    height: 200px;
+}
+
+.DVersionLogo {
+    width: 150px;
+    height: 210px;
+    background-size: 150px 210px;
+    display: block;
+    background-image: url("../res/img/about.png");
+    background-repeat: no-repeat;
+    margin-bottom: -2px;
+    float: left;
+}
+
+.DVersionInfo {
+    display: block;
+    width: auto;
+    padding: 10px;
+    vertical-align: top;
+    font-family: 'Roboto';
+    background: #3c3c3c;
+    height: 188px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.DVersionInfo * {
+    user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    -khtml-user-select: text;
+    -webkit-user-select: text;
+    -ms-user-select: text;
+}
+.DVersionInfo a {
+    color: #2181e7;
+    text-decoration: none;
+}
+.DVersionInfo div div {
+    padding-bottom: 3px;
+    line-height: 16px;
+}
+.DVersionInfo div a {
+    padding-bottom: 2px;
+}
+.DVersionInfo .mainHeader {
+    font-size: 22px;
+    color: #f6f6f6;
+    line-height: 27px;
+}
+.DVersionInfo .version {
+    font-size: 13px;
+    color: #f6f6f6;
+}
+
+.DVersionInfo .company {
+    font-size: 13px;
+    margin-top: 26px;
+}
+.DVersionInfo .companySite {
+    font-size: 13px;
+}
+
+.DVersionInfo .mainHeader span
+{
+    color: #0577F1;
+}
+
+.DVersionInfo .subHeader
+{
+    font-weight: bold;
+}
+.DVersionInfo .copyright {
+    margin-top: 28px;
+    font-size: 12px;
+}
+.DialogAbout.no-copyrights-site .DVersionInfo .copyright {
+    margin-top: 45px;
+}
+.DVersionInfo .copyrightLink a {
+    font-size: 13px;
+}
+.DialogNewOrderContent, .DialogPendingOrderContent {
+    font-size: 12px;
+    text-align: center;
+}
+.DialogPendingOrderContent .ExtendedSymbolName,
+.DialogPendingOrderContent .NewOrderInfo,
+.DialogNewOrderContent .ExtendedSymbolName,
+.DialogNewOrderContent .NewOrderInfo {
+    text-align: left;
+    margin-left: 5px;
+}
+.DialogPendingOrderContent .DFooterControls,
+.DialogNewOrderContent .DFooterControls {
+    padding-bottom: 20px;
+    padding-top: 22px;
+    text-align: center;
+}
+.DialogPendingOrderContent .DFooterControls > div,
+.DialogNewOrderContent .DFooterControls > div {
+    margin: 2px 3px;
+}
+.DialogPendingOrderContent .DFooterControls > .WTInput,
+.DialogNewOrderContent .DFooterControls > .WTInput {
+    display: inline-block;
+}
+.DialogPendingOrderContent .DFooterControls .WTCheckBoxGroup.Horizontal .WTCheckBoxGroupInputs > div,
+.DialogNewOrderContent .DFooterControls .WTCheckBoxGroup.Horizontal .WTCheckBoxGroupInputs > div {
+    margin-left: 0px;
+}
+.NewOrderInfo div {
+    display: inline-block;
+    margin-right: 3px;
+}
+.NewOrderInfo > div
+{
+    margin-right: 5px;
+}
+.DialogNewOrderContent .DOrderSettsContainer {
+    margin-top: 8px;
+}
+.DOrderSettsContainer .NewOrderCurrentQuote,
+.DialogClosePositionContent .CurrentPrice {
+    text-align: center;
+    color: #64ae1c;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.NewOrderCurrentQuote .Status {
+    color: #9b9b9b;
+}
+
+.DialogModifyPositionContent {
+    text-align: center;
+}
+
+.DOrderSettsContainer .NewOrderCurrentQuote > div,
+.DialogClosePositionContent .CurrentPrice > div,
+.DialogModifyPositionContent .CurrentPrice > div {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.PriceLbl {
+    color: #fafafa;
+}
+.dialogModifyPosition .WTInputLabel {
+    color: #fafafa;
+}
+
+.DOrderSettsContainer .NewOrderCurrentQuote .Separate {
+    margin-left: 3px;
+    margin-right: 3px;
+    color: #818181;
+}
+.DialogClosePositionContent .CurrentPrice .PriceVal,
+.DialogModifyPositionContent .CurrentPrice .PriceVal {
+    margin-left: 6px;
+    color: #63AE1B;
+}
+
+.DialogModifyPositionContent.Disabled .TakeProfitRow,
+.DialogModifyPositionContent.Disabled .StopLossRow {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.DOrderSettsContainer .NewOrderDetails {
+    margin: 3px 16px;
+}
+
+.DOrderSettsContainer .WTInput {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+.DOrderSettsContainer .WTInput.Disabled {
+    pointer-events: none;
+    opacity: .5;
+}
+.DOrderSettsContainer .WTInput .WTInputLabel {
+    margin-bottom: 9px;
+}
+
+.DButton.BigButton {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.DButton.BigButton .WTButtonText {
+    font-size: 15px;
+}
+.DButton.BigButton.RedButton {
+    background: linear-gradient(to top, #b32929, #dd3b3b);
+    color: #ffffff;
+    border: solid 1px #282828;
+}
+.DButton.BigButton.RedButton.Hovered {
+    background: linear-gradient(to top, #d03434, #e35d5d);
+}
+.DButton.BigButton.RedButton:active {
+    background: #b32929;
+}
+
+.DButton.BigButton.GreenButton {
+    background: linear-gradient(to top, #539f29, #63bf31);
+    color: #e6e6e6;
+    border: solid 1px #282828;
+}
+
+.DButton.BigButton.GreenButton.Hovered {
+    background: linear-gradient(to top, #80ae49, #8ec64a);
+}
+.DButton.BigButton.GreenButton:active {
+    background: #539f29;
+}
+
+.DButton.BigButton .WTButtonImage > div {
+    margin-top: 12px;
+    background-repeat: no-repeat;
+}
+
+.DButton.BigButton .WTButtonText {
+    vertical-align: top;
+    line-height: 2;
+    margin-top: 2px;
+    margin-left: -2px;
+    color: #F9E8E7;
+}
+.DPOSettsContent .WTSwiperTabsBlock .WTButtonText {
+    font-size: 12px;
+}
+.DPOVolume.WTInput .WTInputSelectField
+{
+    width: 74px;
+}
+.DPOVolume.WTInput .WTInputSelectField input
+{
+    width: 54px;
+}
+
+.dialogPendingOrder .DialogPendingOrderContent {
+    padding-bottom: 3px;
+}
+.dialogPendingOrder .WTDialogContent,
+.dialogBuyOption .WTDialogContent{
+    border: none;
+}
+.dialogPendingOrder .WTSwiperContent {
+    border: solid 1px #1e1e1e;
+    background: #3c3c3c;
+    border-bottom: none;
+    border-top: none;
+}
+.dialogPendingOrder .WTSwiperTabsBlock,
+.dialogBuyOption .WTSwiperTabsBlock {
+    border: none;
+}
+
+.dialogBuyOption .Status {
+    padding-top: 4px;
+}
+.dialogPendingOrder .WTSwiperTabsBlock .WTButton {
+    width: 105.75px;
+}
+.dialogPendingOrder .WTSwiperTabsBlock.Disabled .WTButton.Pressed {
+    width: 105.75px;    
+    opacity: 1;
+}
+.dialogPendingOrder .WTSwiperTabsBlock .WTButton:nth-child(1) {
+
+}
+.dialogPendingOrder .WTSwiperTabsBlock .WTButton:nth-child(2),
+.dialogPendingOrder .WTSwiperTabsBlock .WTButton:nth-child(3) {
+
+}
+.dialogPendingOrder .WTSwiperTabsBlock .WTButton:nth-child(4) {
+
+}
+.dialogPendingOrder .WTSwiperTabsBlock .WTButton.Pressed,
+.dialogBuyOption .WTSwiperTabsBlock .WTButton.Pressed {
+    height: 30px;
+    background-color: #3c3c3c;
+    border: solid 1px #141414;
+    border-bottom: none;
+}
+.PendingOrderSetts {
+
+}
+.PendingOrderSetts > div {
+    margin: 0px 20px;
+}
+.PendingOrderSetts .ExtendedSymbolName {
+    margin-right: 6px;
+    margin-bottom: 12px;
+    text-align: right;
+    margin-top: 2px;
+}
+.PendingOrderSetts .Top {
+    margin-top: 20px;
+}
+.PendingOrderSetts .Top,
+.PendingOrderSetts .Center {
+    text-align: right;
+    display: block;
+}
+.PendingOrderSetts .Center {
+    height: 88px;
+}
+.PendingOrderSetts .Center.Disabled {
+    pointer-events: none;
+    opacity: .5;    
+}
+.PendingOrderSetts .Bottom {
+    margin-top: 0px;
+    text-align: center;
+}
+.DialogNewOrderContent .DFooterControls.Disabled .WTInput .WTInputNumberField .InputNumberButton {
+    opacity: .5;
+    pointer-events: none;
+}
+.dialogPendingOrder .DFooterControls.Disabled,
+.DialogNewOrderContent .DFooterControls.Disabled {
+    pointer-events: none;
+    opacity: .5;  
+}
+.dialogPendingOrder .DFooterControls {
+    border-right: solid 1px #141414;
+    border-left: solid 1px #141414;
+    border-bottom: solid 1px #141414;
+    width: 418px;
+    display: inline-block;
+    background: #3c3c3c;
+    margin-bottom: -3px;
+    border-top: solid 1px #141414;
+}
+
+
+.PendingOrderSetts .Bottom .BigButton {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dialogNewOrder.dialogPendingOrder .DButton.BigButton .WTButtonText,
+.dialogPendingOrder .DButton.BigButton .WTButtonText {
+    margin-top: 4px;
+}
+.dialogNewOrder .DButton.BigButton .WTButtonText,
+.dialogBuyOption .DButton.BigButton .WTButtonText{
+    margin-top: 1px;
+}
+.PendingOrderImg {
+    width: 178px;
+    height: 128px;
+    background-image: url("../res/img/Dark_sprite_limitstops.png");
+    background-color: #FFFFFF;
+    border: solid 1px #303030;
+    float: left;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.PendingOrderImg  .SymbolPrice,
+.PendingOrderImg .MyPrice {
+    position: absolute;
+    font-size: 12px;
+    width: 54px;
+    text-align: center;
+    color: #000000;
+}
+
+.PendingOrderImg.BuyLimit {
+    background-position: -202px -1px;
+}
+.PendingOrderImg.BuyLimit .SymbolPrice {
+    top: 30px;
+    left: 61px;
+}
+.PendingOrderImg.BuyLimit .MyPrice {
+    top: 100px;
+    left: 61px;
+}
+
+.PendingOrderImg.SellLimit {
+    background-position: -202px -156px;
+}
+.PendingOrderImg.SellLimit .MyPrice {
+    top: 12px;
+    left: 61px;
+}
+.PendingOrderImg.SellLimit .SymbolPrice {
+    top: 81px;
+    left: 61px;;
+}
+
+.PendingOrderImg.BuyStop {
+    background-position: -1px -1px;
+}
+.PendingOrderImg.BuyStop .MyPrice {
+    top: 30px;
+    left: 60px;
+}
+.PendingOrderImg.BuyStop .SymbolPrice {
+    top: 82px;
+    left: 60px;
+}
+
+.PendingOrderImg.SellStop {
+    background-position: -1px -156px;
+}
+.PendingOrderImg.SellStop .SymbolPrice {
+    top: 24px;
+    left: 60px;
+}
+.PendingOrderImg.SellStop .MyPrice {
+    top: 76px;
+    left: 60px;
+}
+
+.NewOrderDetails
+{
+    line-height: 1.5;
+}
+
+.DialogLoginPassword  .WTDialogContent {
+    border: none;
+}
+
+.DialogLoginPassword .WTInput.CheckBox {
+    margin-bottom: 33px;
+}
+
+.DialogLoginPasswordContent {
+    background-color: #eeebde;
+}
+
+.DialogLoginPasswordContent .DFooterControls > div {
+    margin-left: 6px;
+}
+
+.DialogLoginPasswordContent .WTInput.CheckBox .Check {
+    margin-left: 150px;
+}
+
+.DialogLoginPasswordContent {
+    text-align: center;
+	font-size: 12px;
+}
+
+.DialogLoginPasswordContent .WTInput .WTInputLabel {
+    margin-top: 7px;
+    color: #a0a0a0;
+}
+.DialogLoginPasswordContent .WTInput.CheckBox .WTInputLabel {
+    color: #ffffff;
+    margin-top: 3px;
+    position: absolute;
+    width: 200px;
+    left: 153px;
+    padding-left: 19px;
+    text-align: left;
+}
+.DialogLoginPasswordContent > div > .WTInput
+{
+    margin-top: 5px;
+}
+.DialogLoginPasswordContent .WTInput .WTInputField {
+    font-family: Roboto; 
+    color: #ffffff;    
+}
+
+.DialogLoginPasswordContent .ElemsBlock {
+    border: solid 1px #181818;
+    background-color: #3c3c3c;
+    width: 386px;
+    height: 100%;
+}
+
+.DialogLoginPasswordContent .RegSuccess {
+    color: #76cd23;
+    margin-bottom: 9px;
+    margin-top: 23px;
+}
+
+.DialogLoginPasswordContent .LoginPasswordVal {
+    text-align: right;
+    padding-right: 119px;
+}
+
+.DialogLoginPasswordContent .WTInput {
+    margin-bottom: 3px;
+}
+
+.DialogLoginPasswordContent .LoginPasswordLbl {
+    margin-bottom: 22px;
+    color: #a0a0a0;
+}
+
+.DialogLoginPasswordContent > div
+{
+    display: inline-block;
+}
+
+.DialogLoginPasswordContent .PasswordInput {
+    margin-bottom: 3px;
+}
+
+.DialogLoginPasswordContent .PasswordInput.Short {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.DialogLoginPasswordContent .InvestorPasswordInput {
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+
+.dialogOpenDemo .WTDialogContent {
+    border: none;
+    font-size: 12px;
+}
+.dialogOpenDemo .DBottomControls > div {
+    margin-left: -46px;
+}
+/*****************************   Dialogs Content end  *****************************/
+
+/*****************************   Dialog Close, Modify Position Content   *****************************/
+.DialogClosePositionContent .DCloseBtn .DButton.BigButton {
+    margin: 12px 0 22px 9px;
+}
+.WTConfirmMessage, .WTErrorMessage {
+    display: inline-block;
+    width: 172px;
+    margin-top: 78px;
+    vertical-align: top;
+    float: none;
+}
+.DialogConfirmContent .WTErrorImg, .ErrorDialog .WTErrorImg {
+    margin-top: 64px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+.DialogConfirmContent .WTErrorImg {
+    background-image: url('../res/img/warning.png');
+    margin-left: 5px;
+}
+.ErrorDialog.NoticeDialog .WTErrorImg {
+    background-image: url('../res/img/warning.png');
+    margin-right: 10px;
+}
+.DialogConfirm .WTDialogContent, .ErrorDialog .WTDialogContent {
+    border: none;
+    background: transparent;
+}
+.DialogConfirm .Info, .ErrorDialog .Info {
+    text-align: center;
+    height: 175px;
+    font-size: 12px;
+    background-color: #505050;
+    border: solid 1px #181818;
+}
+.DialogConfirmContent  .DFooterControls {
+    text-align: center;
+}
+.DialogConfirmContent .WTButton {
+    width: 114px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+.NoButton {
+    color: #e6e6e6;
+    background: linear-gradient(to top, #656565, #8d8d8d);
+}
+
+.NoButton.Hovered {
+    background: linear-gradient(to top, #667a56, #879c74);;
+}
+.Disabled .NoButton {
+    background: linear-gradient(to top, #656565, #8d8d8d);
+}
+.DialogClosePositionContent {
+    text-align: left;
+}
+.DialogClosePositionContent .DCloseBtn {
+    text-align: center;
+}
+.DialogClosePositionContent .DClosePosSetts {
+    margin: 10px;
+    font-size: 12px;
+}
+.DialogClosePositionContent .DClosePosSetts .WTCheckBoxGroup > div {
+    margin-right: 0px;
+}
+.DialogClosePositionContent .DClosePosSetts .WTCheckBoxGroup .WTInput {
+    margin-left: 0px;
+    margin-right: 12px;
+}
+.DialogClosePositionContent .VolumeCombo {
+    margin-top: 6px;
+}
+.DialogClosePositionContent .DClosePosSetts .WTCheckBoxGroupLabel {
+    margin-bottom: 10px;
+    text-align: left;
+}
+.DialogClosePositionContent .PriceLbl {
+    color: #fafafa;
+}
+.TakeProfitRow, .StopLossRow {
+    margin-top: 10px;
+    float: left;
+}
+.TakeProfitRow,
+.StopLossRow {
+    margin-left: 10px;
+}
+
+.TakeProfitRow > div,
+.StopLossRow > div {
+    display: inline-block;
+    font-size: 12px;
+    float: left;
+}
+
+.ModifyPosDif {
+    color: #63AE1B;
+    margin-top: 12px;
+}
+
+.TakeProfitRow > .WTInput.CheckBox,
+.StopLossRow > .WTInput.CheckBox {
+    width: 80px;
+}
+
+.DialogModifyPositionContent .WTInput.CheckBox {
+    position: relative;
+    cursor: pointer;
+    margin-right: -13px;
+    background-size: 15px 15px;
+    margin-left: 16px;
+    padding-left: 15px;
+    width: 100px;
+    float: left;
+    margin-top: 8px;
+}
+
+.DialogModifyPositionContent .WTInput {
+    padding: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-left: -9px;
+}
+
+.DialogModifyPositionContent .WTInput.CheckBox .Check {
+    top: 3px;
+}
+
+.DialogModifyPositionContent .CurrentPrice {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+	margin-left: 18px;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.dialogModifyPosition .WTInput .WTInputLabel {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 0;
+}
+
+.DialogModifyPositionContent .DButton.BigButton {
+    margin: 5px 10px 20px 25px;
+}
+.DialogModifyPositionContent .DButton.BigButton {
+    margin-top: 5px;
+}
+/*****************************   DialogClosePositionContent end   *****************************/
+
+/*****************************   Dialog end   *****************************/
+
+/*****************************   Tooltip   *****************************/
+.WTTooltip
+{
+    z-index: 14;
+    position: fixed;
+    border: solid 1px #B4B4B4;
+    background-color: #FBFAFD;
+    padding: 3px;
+    font-family: 'Roboto';
+
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+}
+.WTTooltip .TailBorder
+{
+    border-style: solid;
+    border-width: 10px;
+    height:0;
+    width:0;
+    position: fixed;
+}
+
+.WTTooltip .Tail
+{
+    border-style: solid;
+    border-width: 10px;
+    height:0;
+    width:0;
+    position: fixed;
+}
+.WTTooltip .Tail.Top
+{
+    border-color: #FBFAFD transparent transparent transparent;
+}
+.WTTooltip .TailBorder.Top
+{
+    border-color: #B4B4B4 transparent transparent transparent;
+}
+.WTTooltip .Tail.Bottom
+{
+    border-color: transparent transparent #FBFAFD transparent;
+}
+.WTTooltip .TailBorder.Bottom
+{
+    border-color: transparent transparent #B4B4B4 transparent;
+}
+.WTTooltip .Tail.Left
+{
+    border-color: transparent transparent transparent #FBFAFD;
+}
+.WTTooltip .TailBorder.Left
+{
+    border-color: transparent transparent transparent #B4B4B4;
+}
+.WTTooltip .Tail.Right
+{
+    border-color: transparent #FBFAFD transparent transparent ;
+}
+.WTTooltip .TailBorder.Right
+{
+    border-color: transparent #B4B4B4 transparent transparent;
+}
+/*****************************   Tooltip end   *****************************/
+
+/*****************************   Tree   *****************************/
+.WTTree
+{
+
+}
+
+.TreeUlContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.TreeUlContainer li {
+    list-style-type: none;
+}
+
+.ExpandOpen .TitleEnvelope {
+    background-color: #51564b;
+}
+
+
+.WTTreeNode.ExpandLeaf:hover {
+    background-color: #445534;
+}
+
+/* indent for all tree children excepts root */
+.WTTreeNode {
+
+}
+.WTTreeNode.ExpandLeaf {
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background: #3c3c3c;
+}
+.TitleEnvelope {
+    border-bottom: solid 1px #303030;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background-color: #505050;
+}
+.WTTreeNode.Disabled {
+    pointer-events: none;
+    color: #AFAFAF;
+}
+
+.WTTreeNode.Disabled .Title {
+    color: #AFAFAF;
+}
+
+.WTTreeNode.Disabled .CheckBox {
+    opacity: 0.5;
+}
+
+.WTTreeNodeIcon {
+
+}
+.ExpandLeaf .WTTreeNodeIcon
+{
+    background-position: -176px -32px;
+}
+
+.WTTreeNode .CheckBox {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 1px;
+    background-image: url("../res/img/DarkImg/DarkCheckBox.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.WTTreeNode .CheckBox.IsChecked {
+    background-image: url("../res/img/DarkImg/DarkcheckBox_Checked.png");
+}
+
+.WTTreeNode .CheckBox.Indeterminate {
+    background-image: url("../res/img/DarkImg/DarkcheckBox_Checked.png");
+}
+
+.IsRoot {
+    margin-left: 0;
+}
+.WTTreeNode.ExpandLeaf .CheckBox {
+    margin-left: 24px;
+}
+/* left vertical line (grid) for all nodes */
+.IsLast {
+}
+
+.ExpandOpen .Expand {
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-position: -34px -100px;
+}
+.ExpandOpen .Expand:hover {
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-position: -34px -100px;
+}
+
+/* closed is higher priority than open */
+.ExpandClosed .Expand {
+    margin-top: 3px;
+    margin-left: 27px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-position: -37px -66px;
+}
+.ExpandClosed .Expand:hover {
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-position: -37px -66px;
+}
+
+.ExpandLeaf .Expand,
+.ExpandLeaf .Expand:hover {
+    background-color: transparent;
+    background-image: none;
+}
+
+.Title {
+    display: inline-block;
+    margin-left: 6px;
+    margin-top: 1px
+}
+
+* html  .Title {
+    height: 18px;
+}
+
+.Expand {
+    margin-left: 24px;
+    margin-right: 8px;
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.ExpandOpen .TreeUlContainer {
+    display: block;
+}
+
+.ExpandClosed .TreeUlContainer {
+    display: none;
+}
+
+.ExpandOpen .Expand, .ExpandClosed .Expand {
+    cursor: pointer;
+}
+.ExpandLeaf .Expand {
+    cursor: auto;
+}
+.DialogSymbolList .ImgBtn {
+    background: none;
+    border: none;
+    width: auto;
+    height: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 9px;
+}
+.DialogSymbolList .SaveBtn {
+    margin-left: 64px;
+}
+.DialogSymbolList .ImgBtn .WTButtonImage > div {
+    background-repeat: no-repeat;
+}
+.DialogSymbolList .WTDialogContent {
+    border: none;
+}
+.DialogSymbolList .DTreeListContainer {
+    height: 362px !important;
+    overflow-y: scroll;
+    background: #303030;
+    border: solid 1px #181818;
+}
+/*****************************   Tree end   *****************************/
+
+#upArrow, #downArrow
+{
+    background: #666666;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    height: 30px;
+    z-index: 100;
+}
+#upArrow
+{
+    box-shadow: 2px -1px 2px rgba(0, 0, 0, 0.5);
+}
+#downArrow
+{
+    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+#upArrow img
+{
+    opacity: 0.25;
+    padding: 11px;
+}
+
+#downArrow img
+{
+    opacity: 1;
+    padding: 11px;
+}
+
+/*****************************   DialogColorScheme   *****************************/
+.dialogColorScheme .WTDialogContent {
+    border: none;
+}
+.dialogColorScheme .DTopControls {
+    padding-top: 19px;
+    padding-bottom: 15px;
+    border: solid 1px #181818;
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+.dialogColorScheme .DTopControls .WTInput.Select {
+    text-align: center;
+}
+.dialogColorScheme .DTopControls .WTInput.Select .WTInputLabel {
+    display: none;
+}
+.dialogColorScheme .DCenterControls {
+    border: solid 1px #181818;
+    border-top: solid 1px #181818;
+    height: 475px;
+}
+.dialogColorScheme .DCenterControls .DLeftControls {
+    width:  45%;
+}
+.dialogColorScheme .DCenterControls .DRightControls {
+    width:  55%;
+}
+.dialogColorScheme .DCenterControls > div {
+    display: inline-block;
+    height: 100%;
+    float: none;
+    vertical-align: top;
+}
+.DLeftControls .SelectorsContainer {
+    float: none;
+    border: solid 1px #181818;
+    margin-left: 20px;
+    background-color: #505050;
+    height: 340px;
+    padding-right: 0px;
+ }
+.DLeftControls .SelectorsContainer > div {
+    float: none;
+    padding: 6px;
+    border-bottom: solid 1px #181818;
+    font-size: 12px;
+    padding-left: 12px;
+    color: #F2F2F2;
+}
+.DLeftControls .SelectorsContainer > div.Selected {
+    background-color: #445534;
+}
+.ColorSchemeSets {
+    margin-left: 7px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.WTContainerLabel {
+    position: absolute;
+    font-size: 16px;
+    left: 20px;
+    top: -10px;
+    background-color: #F5F4EB;
+    display: inline-block;
+}
+.ColorSchemeSets .InputsContainer {
+    position: absolute;
+    top: -2px;
+    right: 16px;
+}
+.ColorSchemeSets .InputsContainer .WTInput {
+    text-align: right;
+    margin-bottom: 3px;
+}
+.ColorSchemeSets .WTInputLabel {
+    font-size: 12px;
+    margin: 7px 8px;
+}
+.ColorSchemeSets .WTInputSelectField {
+    width: 34px;
+    height: 30px;
+    border-radius: 3px;
+    background: linear-gradient(to top, #656565, #929292);
+    border: solid 1px #303030;
+}
+.ColorSchemeSets .WTInputSelectField input {
+    width: 24px;
+    height: 18px;
+    border-radius: 0px;
+    margin-top: -9px;
+    margin-left: -12px;
+    left: 50%;
+    top: 50%;
+    cursor: pointer;
+    color: transparent !important;
+}
+.dialogColorScheme .DFooterControls {
+    text-align: center;
+    margin-bottom: 0px;
+}
+/*****************************   DialogColorScheme end  *****************************/
+/*****************************   DialogLineSettings   *****************************/
+
+.DialogIndicatorSettingsContent {
+    height: 100%;
+    font-size: 13px;
+}
+.DialogIndicatorSettingsContent .DCenterControls {
+    padding-top: 16px
+}
+.DialogIndicatorSettingsContent .DCenterControls .WTInput {
+    margin-bottom: 5px;
+}
+.DialogIndicatorSettingsContent .DCenterControls .SourceParent .WTInput {
+    display: inline-block;
+}
+.DialogIndicatorSettingsContent .DCenterControls .WTInput .WTInputLabel {
+    width: 110px;
+    text-align: right;
+}
+.DialogIndicatorSettingsContent .DCenterControls .SourceParent .WTInput:nth-child(1) .WTInputLabel {
+    width: 110px;
+    text-align: right;
+}
+.DialogIndicatorSettingsContent .DCenterControls .SourceParent .WTInput:nth-child(2) .WTInputLabel  {
+    display: none;
+}
+.DialogLineSettingsContent {
+    height: 211px;
+    height: 100%;
+    background: #dcd6bc;
+}
+
+.dialogLineSettings .LineStyleContent {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+
+.dialogLineSettings .DAnyControls .WTInput {
+    display: inline-block;
+    float: right;
+    margin-right: 16px;
+    margin-top: -16px;
+}
+
+.dialogLineSettings .DAnyControls .WTInput.CheckBox {
+    display: inline-block;
+    float: left;
+}
+
+
+.dialogLineSettings .DialogLineSettingsContent {
+    height: 100%;
+    background-color: #505050;
+    font-size: 12px;
+}
+
+.dialogLineSettings .DialogLineSettingsContent.LevelsSettings .WTTableBody {
+    height: 166px;
+}
+
+.dialogLineSettings .WTInput.CheckBox {
+    width: 50px;
+}
+
+.dialogLineSettings .PositionRight {
+    width: 60px;
+}
+.dialogLineSettings .WTDialogContent {
+    border: none;
+}
+
+.dialogLineSettings .WTSwiperTabsBlock {
+    border: none;
+}
+
+.dialogLineSettings .WTSwiperContent {
+    border: solid 1px #303030;
+}
+
+.dialogLineSettings .FiboLinesStyleSettings {
+    border: none;
+    margin-left: 6px;
+    margin-bottom: 0px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    border-left: none;
+}
+
+.dialogLineSettings .DButton {
+    background: linear-gradient(to top, #656565, #8d8d8d);
+    border-color: #303030;
+    color: #000000;
+    width: 140px;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.dialogLineSettings .DButton.Hovered {
+    background: linear-gradient(to top, #80ae49, #8ec64a);
+    border-color: #303030;
+    color: #000000;
+    width: 140px;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.dialogLineSettings .Right {
+    text-align: center;
+}
+
+.dialogLineSettings .DGreenButton {
+    background: linear-gradient(to top, #57971b, #6bbb1c);
+    color: #e6e6e6;
+    width: 125px;
+    height: 30px;
+    padding-top: 4px;
+    border: solid 1px #181818;
+}
+
+.dialogLineSettings .WTInput .WTInputSelectField,
+.WTInput .WTInputImageField {
+    width: 88px;
+}
+
+.dialogLineSettings .SelectedColor input {
+    margin-left: 9px;
+    height: 18px;
+    margin-top: 4px;
+    cursor: pointer;
+    color: transparent !important;
+}
+
+.topBorder {
+    width: 100%;
+    border-top: solid 1px #303030;
+    margin-top: -2px
+}
+
+.WTDialog.dialogIndicatorSettings .WTSwiperContent {
+    background: #3c3c3c;
+    padding-bottom: 5px;
+}
+.dialogIndicatorSettings.WTDialog .WTDialogContent {
+    background-color: #505050;
+    box-sizing: border-box;
+    border: none;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+}
+
+.dialogIndicatorSettings .DialogLineSettingsContent .WTInputSelectField,
+.dialogIndicatorSettings .DialogIndicatorSettingsContent .LineStyleContent .WTInputSelectField{
+    width: 100px;
+    height: 29px;
+    border-radius: 4px;
+}
+
+
+.DialogIndicatorSettingsContent  .DLeftControls,
+.DialogIndicatorSettingsContent  .DRightControls {
+    padding-top: 0px;
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.DialogIndicatorSettingsContent  .DLeftControls {
+    width: 70px;
+    text-align: right;
+}
+
+.dialogIndicatorSettings .DialogLineSettingsContent .WTInputSelectField input,
+.dialogIndicatorSettings .DialogIndicatorSettingsContent .LineStyleContent .WTInputSelectField input{
+    width: 80px;
+    height: 16px;
+    border-radius: 0px;
+    margin-top: -8px;
+    margin-left: -40px;
+    left: 50%;
+    top: 50%;
+    cursor: pointer;
+    color: transparent !important;
+}
+
+.dialogIndicatorSettings .DialogLineSettingsContent .LineStyleContent,
+.dialogIndicatorSettings .DialogIndicatorSettingsContent .LineStyleContent {
+     margin-top: 19px;
+ }
+.dialogIndicatorSettings .DialogLineSettingsContent .LineStyleContent .WTInput:nth-child(1) .WTInputLabel,
+.dialogIndicatorSettings .DialogIndicatorSettingsContent .LineStyleContent .WTInput:nth-child(1) .WTInputLabel,
+.dialogLineSettings .DialogLineSettingsContent .LineStyleContent .WTInput:nth-child(1) .WTInputLabel {
+    width: 80px;
+    text-align: right;
+}
+
+.dialogIndicatorSettings .WTSwiperTabsBlock {
+    height: 30px;
+    border-left-color: #303030;
+    border-right-color: #303030;
+    border-top: none;
+    border-bottom: none;
+}
+
+.dialogIndicatorSettings .Normal .WTSwiperTabsBlock .WTButton {
+    margin-top: 1px;
+}
+.dialogIndicatorSettings .Normal .WTSwiperTabsBlock .WTButton.Pressed {
+    border-bottom: none;
+    padding-top: 5px;
+    background-color: #3c3c3c;
+}
+
+.dialogIndicatorSettings .WTDialogContent {
+    background-color: #505050;
+    border: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+}
+
+
+.dialogIndicatorSettings .DialogLineSettingsContent .LineStyleContent .WTInput,
+.dialogIndicatorSettings .DialogIndicatorSettingsContent .LineStyleContent .WTInput {
+    display: inline;
+}
+
+.dialogIndicatorSettings .DialogLineSettingsContent .DLeftControls,
+.dialogIndicatorSettings .DialogLineSettingsContent .DRightControls {
+    width: 45%;
+}
+
+.DialogLineSettingsContent .DLeftControls > div,
+.DialogLineSettingsContent .DRightControls > div {
+    float: left;
+    text-align: right;
+}
+.dialogIndicatorSettings .WTSwiperTabsBlock {
+    border: none;
+}
+
+/******************* third page, fibo levels *******************/
+.DialogLineSettingsContent.LevelsSettings .DLeftControls {
+    width: 210px;
+    border: 1px solid #1e1e1e;
+    border-right: none;
+}
+
+.DialogLineSettingsContent.LevelsSettings .DLeftControls,
+.DialogLineSettingsContent.LevelsSettings .DRightControls {
+    display: inline-block;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    vertical-align: top;
+}
+
+.dialogLevels .SelectedColor input {
+    margin-left: 9px;
+    height: 18px;
+    margin-top: 4px;
+}
+
+.dialogLevels .WTInput .WTInputSelectField, .WTInput .WTInputImageField {
+    margin-top: -1px;
+    height: 30px;
+    position: relative;
+    border: solid 1px #303030;
+    border-top: solid 1px #303030;
+    border-left: solid 1px #303030;
+    border-radius: 4px;
+    background-color: #282828;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 88px;
+}
+
+
+.dialogLevels .Right {
+    text-align: center;
+}
+
+.dialogLevels .DGreenButton {
+    background: linear-gradient(to top, #539f29, #63bf31);
+    color: #ffffff;
+    border: solid 1px #282828;
+    width: 125px;
+    height: 30px;
+    padding-top: 4px;
+}
+.dialogLevels .DGreenButton.Hovered {
+    background: linear-gradient(to top, #64bf31, #78d048);
+    cursor: pointer;
+}
+.dialogLevels .DGreenButton:active {
+    background: #539f29;
+}
+
+.dialogLevels.WTDialog .WTDialogContent {
+    background-color: #f9f7f1;
+    border: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+    font-size: 12px;
+}
+
+.dialogLevels.DialogLineSettingsContent .DLeftControls,
+.dialogLevels.DialogLineSettingsContent .DRightControls {
+    margin-top: 10px;
+}
+
+
+.dialogLevels .DButton {
+    background: linear-gradient(to top, #646464, #8c8c8c);
+    border-color: #303030;
+    color: #000000;
+    width: 140px;
+    height: 30px;
+    padding-top: 4px;
+}
+.dialogLevels .DButton.Hovered {
+    background: linear-gradient(to top, #747474, #a0a0a0);
+}
+.dialogLevels .DButton:active {
+    background: #646464;
+}
+
+.dialogLineSettings .LineOption .WTInput.CheckBox {
+    margin-left: 16px;
+    margin-top: -10px;
+}
+.dialogLineSettings .LineOption .WTInput.CheckBox .WTInputLabel {
+    margin-top: 3px;
+}
+
+.dialogLineSettings .LineOption .DLeftControls > div {
+    padding-left: 18px;
+    padding-right: 0px;
+}
+
+.DialogLineSettingsContent.LevelsSettings .DLeftControls .WTTableContent {
+    border-right: solid 1px #303030;
+    background-color: #505050;
+    padding-right: 0px;
+    margin-top: 0;
+}
+
+.DialogLineSettingsContent.LevelsSettings .DRightControls {
+    margin-left: -6px;
+}
+
+.DialogLineSettingsContent.LevelsSettings .DRightControls .DButton{
+    margin-right: -2px;
+    margin-left: 10px;
+}
+
+.dialogLevels .HeadContainer,
+.dialogLineSettings .HeadContainer{
+    text-align: center;
+    width: 225px;
+    border-bottom: solid 1px #1e1e1e;
+}
+
+.dialogIndicatorSettings .LineStyleContent .WTInputSelectArrowImg {
+    background-image: none;
+}
+
+.dialogLineSettings .HeadContainer .WTInput .WTInputLabel {
+    margin-bottom: 4px;
+}
+
+.dialogLevels .DialogLineSettingsContent.LevelsSettings .DLeftControls .WTTableContent {
+    margin-top: 0px;
+}
+
+.dialogLevels .DialogLineSettingsContent.LevelsSettings .DLeftControls .WTTableContent {
+    border: solid 1px #1e1e1e;
+    border-right: none;
+}
+
+.dialogLineSettings .DGreenButton.Hovered {
+    background: linear-gradient(to top, #80ae49, #8ec64a);
+    cursor: pointer;
+}
+
+.dialogLevels .WTInputSelectArrowImg,
+.dialogLineSettings .WTInputSelectArrowImg{
+    background-image: none;
+}
+
+
+
+.dialogLevels .FiboLinesStyleSettings .InputsContainer {
+    width: 210px;
+}
+
+.dialogLevels .HeadContainer input,
+.dialogLineSettings .HeadContainer input{
+    display: none;
+}
+
+.dialogLevels .HeadContainer .WTInput .WTInputLabel {
+    margin-bottom: 4px;
+    margin-top: 6px;
+}
+
+.dialogLevels .InputsContainer .WTInput {
+    margin-bottom: 4px;
+}
+
+.DialogLineSettingsContent.LevelsSettings .WTTableBody {
+    height: 180px;
+}
+
+.WTTable.LevelsTableBody .WTInput .WTInputLabel {
+    display: none;
+}
+.WTTable.LevelsTableBody .WTInput input {
+    background-color: transparent;
+    background: none;
+    border: 0;
+    height: 14px;
+    padding: 0;
+}
+.WTTable.LevelsTableBody, .WTTable.LevelsTableHead {
+
+}
+
+.FiboLinesStyleSettings {
+    border: solid 1px #1e1e1e;
+    margin-left: 6px;
+    margin-bottom: 0px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #505050;
+}
+
+.FiboLinesStyleSettings .WTContainerLabel {
+    position: absolute;
+    font-size: 12px;
+    left: 10px;
+    top: -8px;
+    background-color: #F5F4EB;
+    display: inline-block;
+}
+
+.FiboLinesStyleSettings .InputsContainer {
+    padding: 5px;
+    text-align: right;
+    width: 200px;
+}
+
+/*****************************   DialogLineSettings end  *****************************/
+/*****************************   DialogIndicatorSettings   *****************************/
+.DialogIndicatorSettingsContent .DLeftControls{
+    position: relative;
+}
+.dialogIndicatorSettings .WTDialog .WTDialogContent {
+    background-color: #f9f7f1;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+}
+
+
+.dialogIndicatorSettings .Right {
+    text-align: center;
+}
+
+.DialogIndicatorSettingsContent .DRightControls {
+    position: absolute;
+}
+
+.DialogIndicatorSettingsContent .DLeftControls > div,
+.DialogIndicatorSettingsContent .DRightControls > div
+{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.DialogIndicatorSettingsContent .DLeftControls,
+.DialogIndicatorSettingsContent .DRightControls,
+.DialogIndicatorSettingsContent .DAnyControls
+{
+    margin-left: 10px;
+}
+
+.DialogIndicatorSettingsContent .DRightControls .WTInput {
+    margin-top: 10px;
+}
+
+.DialogIndicatorSettingsContent .DRightControls > div .WTInput {
+    display: inline;
+}
+
+.DialogIndicatorSettingsContent .DLeftControls > div {
+    margin-top: 17px;
+    position: absolute;
+}
+/*****************************   DialogIndicatorSettings end  *****************************/
+/*****************************   DialogChart   ********************************/
+.WTButton.WindowsLayoutBtn {
+    width: 30px;
+    height: 30px;
+    float: right;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-right: 7px;
+}
+
+.WTButton.HeaderMenuButton .WTButtonArrow {
+    background-image: url(../res/img/DarkImg/Dark_select_brown.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 7px 7px;
+    float: right;
+    width: 7px;
+    height: 7px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.WTButton.HeaderMenuButton.Pressed .WTButtonArrow {
+    background-image: url(../res/img/DarkImg/Light_select_brown.png);
+    margin-top: 4px;
+    transform: rotate(180deg);
+}
+
+.WTButton.HeaderMenuButton {
+    margin-top: 0;
+    padding-top: 8px;
+    width: 200px;
+    height: 30px;
+    background-color: #3c3c3c;
+    border: none;
+    text-align: left;
+}
+.WTButton.HeaderMenuButton.Hovered,
+.WTButton.HeaderMenuButton.Pressed {
+    background: none;
+    border: none;
+    background-color: #505050;
+}
+
+.WTButton.WindowsLayoutBtn.Hovered {
+    border-color: #141414;
+}
+
+.WTButton.WindowsLayoutBtn .WTButtonImage {
+    width: auto;
+}
+
+.WTButton.WindowsLayoutBtn .WTButtonImage > div {
+    width: 20px;
+    height: 20px;
+    background-image: url("../res/img/DarkImg/composer.png");
+    background-size: 20px 20px;
+}
+
+.WTButton.ColorSchemeBtn {
+    margin-top: 0;
+    padding-left: 0;
+    padding-top: 1px;
+}
+
+.WTButton.ColorSchemeBtn .WTButtonImage > div {
+    width: 22px;
+    height: 22px;
+    background-image: url("../res/img/DarkImg/colorScheme.png");
+    background-size: 22px 22px;
+}
+
+
+.WTButton.HeaderMenuButton .WTButtonImage {
+    margin-right: 5px;
+    margin-top: -6px;
+    background: url("../res/img/DarkImg/user.png");
+    display: inline-block !important;
+    width: 24px;
+    height: 24px;
+}
+
+.WTButton.WindowsLayoutBtnOffice .WTButtonImage > div {
+    width: 20px;
+    height: 20px;
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+    background-position: -34px 1px;
+    background-repeat: no-repeat;
+    background-size: 52px auto;
+}
+.GreenArrow {
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: -40px -320px;
+    background-size: 60px auto;
+}
+
+.RedArrow {
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: -40px -280px;
+    background-size: 60px auto;
+}
+
+.NoneArrow {
+    background-image: url("../res/img/DarkImg/icon_dark_16.svg");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: -40px -300px;
+    background-size: 60px auto;
+}
+
+.WTButton.ProfileBtn {
+    border: none;
+    float: right;
+}
+
+.ProfileBtn .WTButtonText
+{
+    margin-left: 7px;
+    font-size: 14px;
+}
+.DialogChart .WTDialogTopBlock {
+    text-align: left;
+    height: 21px;
+}
+.DialogChart .WTDialogTopBlock .WTDialogTitle {
+    padding-left: 8px;
+    font-size: 12px;
+    padding-top: 7px;
+}
+.DialogChart .WTDialogTopBlock .WTDialogTitle > div {
+    display: inline-block;
+    color: #969696;
+}
+.DialogChart.DialogChartColorSelected .WTDialogTopBlock .WTDialogTitle .Symbol {
+    color: #e6e6e6;
+}
+/*****************************   DialogChart end  *****************************/
+/*****************************   DialogOptionsSettings  *****************************/
+.OptionsSettingsTypeContent {
+    padding: 10px 10px 0 10px;
+    background: #505050;
+}
+.OptionsSettingsTypeContent .WTInput .WTInputSelectField {
+    height: 30px;
+}
+
+.OptionsSettingsTypeContent .WTInput .WTInputSelectField > input {
+    left: 4px;
+}
+.OptionsSettingsTypeContent .WTInput .WTInputSelectField .WTInputSelectArrowImg {
+    width: 20px;
+    height: 20px;
+    margin: 4px 3px;
+    background-image: url("../res/img/DarkImg/Light_select_brown.png");
+    background-repeat: no-repeat;
+    background-position: 6px 7px;
+    background-size: 8px;
+}
+.OptionsSettingsTypeContent .WTInput.NotEdited .WTInputSelectField, .WTInput.NotEdited .WTInputImageField {
+    background: linear-gradient(to top, #656565, #8d8d8d);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.OptionsSettingsTypeContent .WTInput.NotEdited.Active .WTInputSelectField, .WTInput.NotEdited.Active .WTInputSelectField {
+    background: #646464;
+}
+.WTMenu.MenuOptionTypeSelect {
+    padding: 0px;
+    overflow: hidden;
+}
+.MenuOptionTypeSelect .WTMenuItem {
+    font-size: 12px;
+    padding-right: 0px;
+}
+
+.WTMenuItem.Hovered {
+    background-color: #53604b;
+}
+
+.MenuOptionTypeSelect .WTMenuItem .WTMItemTxt {
+    margin: 6px 13px;
+    margin-bottom: 4px;
+}
+.SwiperQuotes .WTSwiperTabsBlock > .WTButton.Pressed {
+    height: 30px;
+}
+
+.OptionsSettingsContent > div .WTInput {
+    padding: 0px;
+    margin-bottom: -3px;
+}
+
+.OptionsSettingsContent > div .WTInput > .WTInputLabel{
+    margin: 0px;
+}
+
+.OptionsSettingsContent > div .WTInput > .WTInputSelectField{
+    width: 100%;
+}
+/*****************************   DialogOptionsSettings end  *****************************/
+/*****************************   DialogBuyOption   ********************************/
+.dialogBuyOption .WTDialogContent {
+    width: 386px;
+}
+.dialogBuyOption .WTSwiper {
+    height: 100%;
+}
+.dialogBuyOption .WTSwiper .WTSwiperContent {
+    background-color: #3c3c3c;
+    border: solid 1px #1e1e1e;
+    border-top: none;
+}
+.dialogBuyOption .WTSwiperTabsBlock .WTButton {
+    width: 97.25px;
+}
+.dialogBuyOption .WTSwiperTabsBlock .WTButton.Pressed.Disabled {
+    opacity: 1;
+}
+.dialogBuyOption .WTSwiperTabsBlock .WTButton.Pressed.Disabled .WTButtonText {
+    margin-top: 3px;
+    color: #e6e6e6;
+    font-size: 13px;
+}
+.BuyOptionParam {
+    padding-left: 15px;
+    font-size: 12px;
+}
+.BuyOptionParam .DLeftControls, .BuyOptionParam .DRightControls {
+    padding-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: top;
+}
+.BuyOptionParam .DLeftControls > div, .BuyOptionParam .DRightControls > div {
+    float: none;
+}
+.BuyOptionParam .WTInput {
+    padding-top: 0px;
+}
+.BuyOptionParam .WTInput .WTInputLabel {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.BuyOptionContent {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.BuyOptionContent .Top {
+    padding-left: 14px;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+.BuyOptionContent .Top .WTInputLabel {
+    margin-bottom: 8px;
+}
+.OptionTypeButton {
+    background: linear-gradient(to top, #E6E1C4, #FFFFFF);
+    border: solid 0px #C0C0C0;
+    border-bottom: solid 1px #C0C0C0;
+}
+
+.OptionTypeButton > .WTButtonText {
+    margin-top: 12px;
+}
+
+.OptionTypeButton.WTButton.Pressed {
+    background: #E2DDBC;
+}
+
+.OptionTypeButton.WTButton.Hovered {
+    background: linear-gradient(to top, #FEEEBA 0%, #FCE6A3 50%, #FEEFBC 50%, #FEEFBC 100%);
+}
+
+.BuyOptionContent .WTInput {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.BuyOptionContent .BuyOptionParam .LabelPanelContent {
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.BuyOptionContent .LabelPanelContent > div {
+    text-align: left;
+    margin-bottom: 4px;
+}
+.BuyOptionContent .LabelValue {
+    font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 155px;
+    height: 25px;
+    padding-top: 5px;
+    margin-bottom: 1px;
+}
+.BuyOptionContent .LabelPanelContent.Payout .LabelValue {
+    color: #63ae1b;
+}
+.BuyOptionContent .LabelPanelContent.Stop .LabelValue {
+    color: #e73422;
+}
+.BuyOptionContent .CurrentPrice {
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 16px;
+    height: 45px;
+}
+.BuyOptionContent .CurrentPrice > div {
+    font-size: 14px;
+}
+
+.BuyOptionContent .CurrentPriceLabel {
+    margin-right: 5px;
+}
+
+.BuyOptionContent .CurrentPrice .Bid {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    color: #63ae1b;
+}
+
+.BuyOptionContent .CurrentPrice .TopBorderValue {
+    text-align: right;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    color: #63ae1b;
+    display: inline-block;
+    width: 35%;
+}
+
+.BuyOptionContent .CurrentPrice .BottomBorderValue {
+    text-align: left;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    color: #e73422;
+    display: inline-block;
+    width: 35%;
+}
+
+.BuyOptionContent .Buttons {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.BuyOptionContent .DButton.BigButton {
+    margin-bottom: 0px;
+    margin-right: 9px;
+    margin-left: 9px;
+
+}
+/*****************************   DialogBuyOption end  *****************************/
+
+.DivTable {
+    position: relative;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    color: #e6e6e6;
+    font-size: 13px;
+}
+
+.DivTableHeader {
+    background: #505050;
+    border-bottom: solid 1px #323232;
+    width: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: inline-table;
+    font-size: 13px;
+}
+
+.DialogHeader {
+    border-top: solid 1px #ACA899;
+}
+
+.DivTableRow {
+    width: 100%;
+}
+
+.DivTableRow {
+    border-bottom: solid 1px #323232;
+}
+.DivTableRow > div {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 1.5;
+    cursor: default;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.DivTableHeader > div {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 1.5;
+    cursor: default;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 4px;
+    position: relative;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    text-align: right;
+    color: #969696;
+}
+
+.DivTableRow.Selected {
+    background-color: #424f3a;
+}
+/*-----------------------------------------QuotesTable----------------------------------------------------------------*/
+.QuotesTableContent {
+    width: 100%;
+    box-sizing: border-box;    
+}
+
+.TableLevels {
+    position: relative;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+}
+.LevelsContent {
+    width: 100%;
+    height: 100%;
+}
+.LevelsTableContent {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #3c3c3c;
+}
+.LevelsTableContent .scrollable {
+    height: calc(100% - 30px);
+}
+.TableLevelsRow.DivTableHeader {
+    border-bottom: 1px solid #323232;
+}
+.TableLevelsRow.DivTableHeader > div {
+    text-align: left;
+    font-size: 12px;
+    color: #a0a0a0;
+    padding-left: 13px;
+    width: 105px;
+}
+.TableLevelsRow.DivTableRow > div {
+    padding-left: 0;
+    padding-top: 0;
+}
+.TableLevelsRow.DivTableRow > div > input {
+    padding-left: 15px;
+    width: calc(100% - 15px);
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #e6e6e6;
+}
+
+.SymbolInfoTableContent {
+    height: 217px;
+}
+.TableSymbolInfo {
+    background-color: #3c3c3c;
+}
+.TableSymbolInfoHeader {
+    border-top: 1px solid #323232;
+}
+.TableSymbolInfoHeader > div,
+.TableSymbolInfoRow > div {
+    padding-left: 12px;
+    text-align: left;
+}
+
+.TableQuotesHeader {
+    font-size: 12px;
+}
+
+.TableQuotesRow > div {
+    font-size: 12px;
+    padding-top: 7px;
+}
+
+.TableQuotesRow {
+    text-align: right;    
+}
+
+.TableQuotesRow .Symbol {
+    text-align: left;
+    font-family: RobotoBold; 
+}
+.TableQuotesRow .Symbol > div {
+    font-size: 22px;
+    margin-top: -3px;
+    width: 22px;
+}
+.TableQuotesRow .Symbol > .icon-sell {
+    color: #dd3b3b;
+}
+.TableQuotesRow .Symbol > .icon-buy {
+    color: #63bf31;
+}
+/*-----------------------------------------OptionsSettingsTable-------------------------------------------------------*/
+.OptionsSettingsTableContent {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.OptionsSettingsTable .Name,
+.OptionsSettingsTableHeader .Name {
+    width: 20%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.OptionsSettingsTableHeader {
+    font-size: 12px;
+}
+
+.OptionsSettingsTable .Name {
+    font-family: RobotoBold;     
+}
+
+.OptionsSettingsTableRow > div {
+    font-size: 12px;
+    padding-top: 7px;    
+}
+
+.OptionsSettingsTable .Price,
+.OptionsSettingsTableHeader .Price {
+    width: 20%;
+    text-align: right;
+}
+
+.OptionsSettingsTable .Profit,
+.OptionsSettingsTableHeader .Profit {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.OptionsSettingsTableHeader .Period {
+    width: 20%;
+    text-align: left;
+}
+
+.OptionsSettingsTable .Period {
+    width: 20%;
+    padding-top: 4px;
+}
+
+.OptionsSettingsTable .StopTime,
+.OptionsSettingsTableHeader .StopTime {
+    width: 20%;
+    text-align: right;
+}
+
+.OptionsSettingsTable .ProfitPercentage,
+.OptionsSettingsTableHeader .ProfitPercentage {
+    text-align: right;
+    width: 20%;
+}
+
+.OptionsSettingsTable .Period .WTInput {
+    width: 100%;
+    height: 21px;
+    border: 0;
+}
+
+.OptionsSettingsTable .Period .WTInput .WTInputLabel {
+    display: none;
+}
+
+.OptionsSettingsTable .Period .WTInput .WTInputSelectField {
+    position: inherit;
+    border: 0;
+    background: transparent;
+}
+/*-------------------------------------end OptionsSettingsTable-------------------------------------------------------*/
+/*---------------------------------------------TableTrade-------------------------------------------------------------*/
+.TableTradeContent {
+    width: 100%;
+}
+.TableTradeHeader > div.Symbol,
+.TableTradeRow > div.Symbol {
+    padding-left: 20px;
+}
+.TableTradeHeader > div, .TableTradeRow > div {
+    height: 30px;
+    padding-top: 6px;
+}
+
+.TableTradeHeader {
+    font-size: 12px;
+}
+
+.TableTradeHeader > div {
+    padding-top: 6px;
+}
+
+.TableTradeRow .Volume,
+.TableTradeHeader .Volume {
+    text-align: right;
+}
+
+.TableTradeGreenArrow {
+    float: left;
+    margin-right: 2px;
+    background-image: url("../res/img/NewOptionIcon/highGreenIcon.png");
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.TableTradeRedArrow {
+    float: left;
+    margin-right: 2px;
+    background-image: url("../res/img/NewOptionIcon/lowRedIcon.png");
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.TableTradeOutsideArrow {
+    float: left;
+    margin-right: 2px;
+    background-image: url("../res/img/NewOptionIcon/outsideRedIcon.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.TableTradeInsideArrow {
+    float: left;
+    margin-right: 2px;
+    background-image: url("../res/img/NewOptionIcon/insideGreenIcon.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.TableTradeTopArrow {
+    float: left;
+    margin-right: 2px;
+    background-image: url("../res/img/NewOptionIcon/topGreenIcon.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.TableTradeBottomArrow {
+    float: left;
+    margin-right: 2px;
+    background-image: url("../res/img/NewOptionIcon/bottomRedIcon.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.TableTradeHeader .AdditionalParameters {
+    text-align: left;
+}
+
+.TableTradeRow .Margin,
+.TableTradeHeader .Margin {
+    text-align: right;
+}
+
+.TableTradeRow .Date,
+.TableTradeHeader .Date {
+    text-align: right;
+}
+
+.TableTradeRow .OpenPrice,
+.TableTradeHeader .OpenPrice {
+    text-align: right;
+}
+
+.TableTradeRow .OpenPrice.Blocked {
+    color: #FF6759;
+}
+
+.TableTradeRow .AdditionalParameters.Blocked {
+    color: #FF6759;
+    text-align: right;
+}
+
+.TableTradeRow .CurrentPrice,
+.TableTradeHeader .CurrentPrice {
+    text-align: right;
+}
+
+.TableTradeRow .TakeProfit,
+.TableTradeHeader .TakeProfit {
+    text-align: right;
+}
+
+.TableTradeRow .StopLoss,
+.TableTradeHeader .StopLoss {
+    text-align: right;
+}
+
+.TableTradeRow .Swap,
+.TableTradeHeader .Swap {
+    text-align: right;
+}
+
+.TableTradeRow .Payout,
+.TableTradeHeader .Payout {
+    text-align: right;
+}
+
+.TableTradeRow .Commission,
+.TableTradeHeader .Commission {
+    text-align: right;
+}
+
+.TableTradeRow .Profit,
+.TableTradeHeader .Profit {
+    text-align: right;
+}
+
+.TableTradeRow .Modify {
+    text-align: right;
+    padding-top: 6px;
+    padding-right: 4px;
+    text-align: center;
+ }
+
+.TableTradeHeader .Modify {
+    text-align: right;
+}
+
+.TableTradeRow .Close {
+    text-align: right;
+    padding-top: 6px;
+    padding-right: 4px;
+    text-align: center;
+}
+
+.TableTradeHeader .Close {
+    text-align: right;
+}
+
+.TableTradeRow .ExpiryTime {
+    text-align: right;
+}
+
+.TableButton {
+    background: transparent;
+    height: 100%;
+}
+
+.TableButton > .WTButtonText {
+    margin-top: 0;
+}
+.TableButton.CanClose > div > div,
+.TableButton.CanModify > div > div,
+.TableButton.CantClose > div > div,
+.TableButton.CantModify > div > div {
+    background-image: url('../res/img/DarkImg/icon_dark_16.svg?v=1.8.0.0');
+    width: 16px;
+    height: 16px;
+}
+.TableButton.CantClose,
+.TableButton.CantModify {
+    pointer-events: none;
+    cursor: pointer;
+    opacity: .35;
+}
+.Modify .TableButton .WTButtonImage,
+.Close .TableButton .WTButtonImage {
+    display: inline-block !important;
+}
+.Modify .TableButton.CanModify > div > div,
+.Modify .TableButton.CantModify > div > div {
+    background-position: -32px -480px;
+}
+.Modify .TableButton.CanModify.Hovered > div > div {
+    background-position: 0 -1152px;
+}
+.Close .TableButton.CanClose > div > div,
+.Close .TableButton.CantClose > div > div {
+    background-position: -32px -448px;
+}
+.Close .TableButton.CanClose.Hovered > div > div {
+    background-position: -32px -1152px;
+}
+
+.SwiperTrade {
+    position: relative;
+    width: calc(100% - 10px);
+    z-index: 1;
+}
+.SwiperTrade.Normal .WTSwiperTabsBlock {
+    height: 35px;
+}
+.SwiperTrade.Normal .WTSwiperTabsBlock .WTButton {
+    height: 36px;
+}
+.WTSwiperButtonsPlacement {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+.WTSwiperButtonsPlacement .WTButton {
+    background: linear-gradient(to top, #646464, #8c8c8c);
+    border-color: #1e1e1e;
+    margin-left: 4px;
+    font-size: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.WTSwiperButtonsPlacement .WTButton.Disabled {
+    background: #646464;
+}
+.WTSwiperButtonsPlacement .WTButton .WTButtonImage {
+    width: 20px;
+    height: 20px;
+}
+.WTSwiperButtonsPlacement .WTButton .WTButtonImage div {
+    background-repeat: no-repeat;
+}
+.WTSwiperButtonsPlacement .WTButton .WTButtonText {
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.WTSwiperButtonsPlacement .WTButton.Hovered {
+    background: linear-gradient(to top, #747474, #a0a0a0);
+}
+.WTSwiperButtonsPlacement .WTButton.Pressed,
+.WTSwiperButtonsPlacement .WTButton:active {
+    background: #646464;
+}
+.WTSwiperButtonsPlacement .WTButton.OpenLive {
+    border: 1px solid #282828;
+    color: #ffffff;
+    background: linear-gradient(to top, #539f29, #63bf31);
+}
+.WTSwiperButtonsPlacement .WTButton.OpenLive:hover {
+    background: linear-gradient(to top, #64bf31, #78d048);
+}
+.WTSwiperButtonsPlacement .WTButton.OpenLive:active {
+    background: #539f29;
+}
+/*-----------------------------------------end TableTrade-------------------------------------------------------------*/
+
+.DialogOptionInfoContent .OptionName,
+.DialogOptionInfoContent .OptionDescription{
+    background-color: #505050;
+    height: 35px;
+    border-bottom: solid 1px #000;
+    border-left: solid 1px #181818;
+}
+
+.DialogOptionInfoContent .OptionName {
+    height: 45px;
+}
+
+.DialogOptionInfoContent .OptionDescription .OptionType,
+.DialogOptionInfoContent .OptionDescription .SymbolName {
+    display: inline-block;
+    width: 50%;
+}
+
+.DialogOptionInfoContent .OptionName .NameLable,
+.DialogOptionInfoContent .OptionName .NameValue {
+    margin-top: 14px;
+}
+
+.DialogOptionInfoContent .OptionDescription .SymbolName .SymbolNameLable,
+.DialogOptionInfoContent .OptionDescription .OptionType .OptionTypeLable {
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 9px;
+    font-size: 12px;
+}
+
+.DialogOptionInfoContent .OptionName .NameValue,
+.DialogOptionInfoContent .OptionDescription .SymbolName .SymbolNameValue,
+.DialogOptionInfoContent .OptionDescription .OptionType .OptionTypeValue {
+    display: inline-block;
+    margin-left: 7px;
+    font-size: 13px;
+    font-family: 'RobotoBold';
+    margin-right: 15px;
+}
+
+.dialogOptionInfo .WTDialogContent {
+    background-color: #303030;
+    border: solid 1px #181818;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    top: 4px;
+    border-left: none;
+    border-bottom: none;
+}
+.TableOptionsInfoHeader, .TableOptionsInfoRow {
+    height: 30px;
+    width: 485px;
+    border-left: solid 1px #141414;
+    border-right: none;
+}
+.TableOptionsInfoHeader.Template1 > div, .TableOptionsInfoRow.Template1 > div {
+    width: 20%;
+}
+.TableOptionsInfoHeader.Template2 > div, .TableOptionsInfoRow.Template2 > div {
+    width: 25%;
+}
+.TableOptionsInfoHeader > div {
+    height: 30px;
+    text-align: left;
+    padding-top: 5px;
+}
+.TableOptionsInfoRow > div {
+    padding-left: 7px;
+    height: 30px;
+}
+/*-----------------------------------------OptionDealsTable-----------------------------------------------------------*/
+.OptionDealsTableRow .Sum,
+.OptionDealsTableHeader .Sum {
+    text-align: right;
+}
+
+.OptionDealsTableRow .Date,
+.DialogReport .DivTableHeader.OptionDealsTableHeader .Date {
+    text-align: right;
+}
+
+.OptionDealsTableRow .CloseDate,
+.OptionDealsTableHeader .CloseDate {
+    text-align: right;
+}
+
+.OptionDealsTableRow .OpenPrice,
+.OptionDealsTableHeader .OpenPrice {
+    text-align: right;
+}
+
+.OptionDealsTableRow .ClosePrice,
+.OptionDealsTableHeader .ClosePrice {
+    text-align: right;
+}
+
+.OptionDealsTableRow .Profit,
+.OptionDealsTableHeader .Profit {
+    text-align: right;
+}
+
+.OptionDealsTableRow .Balance,
+.OptionDealsTableHeader .Balance {
+    text-align: right;
+}
+
+.OptionDealsTableRow .Type > div:nth-child(1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*-------------------------------------end OptionDealsTable-----------------------------------------------------------*/
+/*-------------------------------------ExecutedOrderTable-------------------------------------------------------------*/
+.ExecutedOrdersTableRow .Number > div:nth-child(1),
+.ExecutedOrdersTableRow .Type > div:nth-child(1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*-------------------------------------end ExecutedOrderTable---------------------------------------------------------*/
+/*-------------------------------------Integrated Web Office----------------------------------------------------------*/
+.Embed {
+    border: none;
+    position: absolute;
+    z-index: 13;
+}
+.ProtectScreen {
+    background-color: #282828;
+    position: absolute;
+    z-index: 12;
+}
+/*----------------------------------------DialogSelectRange-----------------------------------------------------------*/
+.dialogSelectRange {
+    font-size: 12px;
+}
+.dialogSelectRange .WTDialogContent {
+    border: none;
+}
+.dialogSelectRange .CenterBlock {
+    border: solid 1px #181818;
+    height: 255px;
+}
+.dialogSelectRange .DLeftControls,
+.dialogSelectRange .DRightControls {
+    vertical-align: top;
+    padding-top: 12px;
+}
+.dialogSelectRange .DLeftControls > div,
+.dialogSelectRange .DRightControls > div {
+    float: none;
+    padding-right: 0px;
+    margin-left: 12px;
+    text-align: left;
+}
+.dialogSelectRange .CalendarLabel {
+    margin-bottom: 6px;
+}
+.dialogSelectRange .CalendarPlacement {
+
+}
+.dialogSelectRange .DGreenButton {
+    background: linear-gradient(to top, #539f29, #63bf31);
+    color: #ffffff;
+    width: 125px;
+    height: 30px;
+    padding-top: 4px;
+    border: solid 1px #539f29;
+}
+.dialogSelectRange .DGreenButton.Hovered {
+    background: linear-gradient(to top, #64bf31, #78d048);
+    cursor: pointer;
+}
+
+.dialogSelectRange .DGreenButton:active {
+    background: #539f29;
+}
+
+
+.rc_calendar {
+    border: 1px solid #000000;
+}
+
+.rc_iframe_body {
+    margin: 0px;
+    background: #FFFFFF;
+    border: 0px;
+    cursor: default;
+}
+
+.rc_iframe_body .rc_table {
+    font-size: 11px;
+    font-family: verdana,Roboto,sans-serif,arial;
+}
+
+.rc_iframe_body .rc_wd_tr td {
+    border-bottom: 1px solid #000000;
+    padding: 2px;
+    text-align: center;
+    color: #000;
+    white-space: nowrap;
+}
+.rc_iframe_body .rc_time_tr td {
+    border-top: 1px solid #000000;
+    padding: 2px;
+    text-align: center;
+    color: #000;
+    white-space: nowrap;
+}
+
+.rc_iframe_body .rc_head_tr td,
+.rc_iframe_body .rc_nav_tr td {
+    border-bottom: 1px solid #000000;
+    padding: 2px;
+    text-align: center;
+    color: #000;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.rc_iframe_body .rc_cal_tr td {
+    border: 1px solid #fff;
+    padding: 4px 2px 4px 2px;
+    text-align: right;
+    color: #000;
+    white-space: nowrap;
+    width: 20px;
+}
+
+.rc_iframe_body .rc_footer_tr td {
+    border-top: 1px solid #000000;
+    padding: 2px;
+    text-align: center;
+    color: #000;
+    white-space: nowrap;
+}
+
+.rc_iframe_body .rc_hours {
+    width: 20px;
+}
+
+.rc_iframe_body .rc_colon_span {
+}
+
+.rc_iframe_body .rc_mins {
+    width: 20px;
+}
+
+.rc_iframe_body .rc_mins {
+    width: 20px;
+}
+
+.rc_iframe_body td.rc_current {
+    color: #fff;
+    background: #00f;
+    font-weight: bold;
+}
+
+.rc_iframe_body td.rc_today {
+    font-weight: bold;
+}
+
+.rc_iframe_body td.rc_weekend_head {
+    color: #f00;
+}
+
+.rc_iframe_body td.rc_weekend_day {
+    color: #f00;
+}
+
+.rc_iframe_body tr.rc_highlight,
+.rc_iframe_body tr.rc_highlight td {
+    border: 1px solid #ccccff;
+    background: #ccccff;
+}
+
+.rc_iframe_body tr.rc_highlight td.rc_highlight {
+    background: #3366cc;
+    border: 1px solid #9999ff;
+}
+/*-------------------------------------end DialogSelectRange----------------------------------------------------------*/
+/*------------------------------------- Scroller ---------------------------------------------------------------------*/
+.scrollable {
+    position: relative;
+    overflow: hidden;
+    -ms-overflow-style: none;
+    height: 100%;
+}
+
+.scrollable.showScroll::after {
+    /*Трэк. Сейчас не нужен, но потом может понадобится */
+    position: absolute;
+    content: '';
+    top: 5%;
+    right: 7px;
+    height: 90%;
+    width: 3px;
+    background: rgba(224, 224, 255, .3);
+    display: none;
+}
+
+.scrollable.showHScroll::after {
+    /*Трэк. Сейчас не нужен, но потом может понадобится */
+    position: absolute;
+    content: '';
+    left: 5%;
+    bottom: 7px;
+    width: 90%;
+    height: 3px;
+    background: rgba(224, 224, 255, .3);
+    display: none;
+}
+
+.scrollable .scroller-content-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+.WTMenu.scrollable .scroller-content-wrapper {
+    max-height: 120px;
+}
+.WTMenu.scrollable {
+    padding: 0px 1px;
+}
+
+.scroller {
+    z-index: 5;
+    cursor: pointer;
+    position: absolute;
+    width: 5px;
+    border-radius: 5px;
+    background: #6e6e6e;
+    opacity: 0.7;
+    top: 0px;
+    right: 5px;
+    -webkit-transition: top .08s;
+    -moz-transition: top .08s;
+    -ms-transition: top .08s;
+    -o-transition: top .08s;
+    transition: top .08s;
+}
+.hScroller {
+    z-index: 5;
+    cursor: pointer;
+    position: absolute;
+    height: 5px;
+    border-radius: 5px;
+    background: #6e6e6e;
+    opacity: 0.7;
+    left: 0px;
+    bottom: 3px;
+    -webkit-transition: top .08s;
+    -moz-transition: top .08s;
+    -ms-transition: top .08s;
+    -o-transition: top .08s;
+    transition: top .08s;
+}
+.scroller-content {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.InputSelectOptionsMenu.scrollable {
+    max-height: 130px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/*-------------------------------------end Scroller-------------------------------------------------------------------*/
+
+
+
+.SwiperCharts .WTSwiperTabsBlock .WTButton {
+    width: 120px;
+}
+.SwiperQuotes .WTSwiperTabsBlock {
+    margin-right: 30px;    
+}
+.SwiperQuotes .WTSwiperTabsBlock .WTButton {
+    width: 110px;
+}
+.SwiperTrade .WTSwiperTabsBlock .WTButton {
+    width: 100px;
+}
+.SwiperCharts .WTSwiperTabsBlock {
+    -ms-overflow: hidden;
+    overflow: hidden;
+}
+.SwiperCharts .WTSwiperTabsBlock .WTButton.newChartBtn {
+    width: 40px;
+}
+.SwiperCharts .WTSwiperTabsBlock .WTButton.newChartBtn.Empty {
+    border-radius: 5px;
+    height: 29px;
+    padding-top: 3px;
+}
+.WTSwiper .WTSwiperTabsBlock .WTButton {
+    margin-left: -1px;
+    cursor: pointer;
+    -webkit-transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -ms-transition: background .25s ease-in-out;
+    -o-transition: background .25s ease-in-out;
+    transition: background .25s ease-in-out;
+}
+.WTSwiper .WTSwiperTabsBlock .WTButton:first-child,
+.WTSwiper .WTSwiperTabsBlock .WTButton.First {
+    margin-left: 0;
+}
+.SwiperTrade .WTSwiperTabsBlock .WTButton .WTButtonText,
+.SwiperTrade .WTSwiperTabsBlock .WTButton.Pressed .WTButtonText {
+    margin-top: 6px;
+    font-size: 12px;
+}
+.SwiperCharts .WTSwiperTabsBlock .WTButton.Pressed {
+    border-bottom: 1px solid #1e1e1e;
+}
+.SwiperCharts .WTSwiperTabsBlock .WTButton.newChartBtn.Pressed {
+    padding-top: 4px;
+}
+.SwiperCharts .WTSwiperTabsBlock .WTButton.newChartBtn.Pressed.Empty {
+    padding-top: 3px;
+}
+.SwiperQuotes .WTSwiperTabsBlock .WTButton,
+.SwiperCharts .WTSwiperTabsBlock .WTButton,
+.SwiperTrade .WTSwiperTabsBlock .WTButton {
+    margin-top: 1px;
+}
+.SwiperQuotes .WTSwiperTabsBlock .WTButton .WTButtonText {
+    font-size: 12px;
+}
+.SwiperTrade .WTSwiperTabsBlock .WTButton {
+    margin-top: 0;
+}
+.SwiperQuotes .WTSwiperContent .QuotesTableContent .DivTable .DivTableRow > div.Ask,
+.SwiperQuotes .WTSwiperContent .QuotesTableContent .DivTableHeader > div.Ask {
+    padding-right: 15px;
+}
+.SwiperCharts .WTSwiperTabsBlock .WTButton .WTButtonText > div {
+    display: inline-block;
+    color: #969696;
+}
+.SwiperCharts .WTSwiperTabsBlock .WTButton.Pressed .WTButtonText > .Symbol {
+    color: #e6e6e6;
+}
+
+.SwiperCharts .WTSwiperTabsBlock .WTButton.Pressed .WTButtonText > .Symbol,
+.SwiperCharts .WTSwiperTabsBlock .WTButton .WTButtonText > .Symbol {
+    font-family: 'RobotoBold';
+}
+
+.SwiperTrade .WTSwiperButtonsPlacement .WTButton .WTButtonImage > div {
+    height: 22px !important;
+}
+
+.TableTradeRow > div,
+.TableQuotesRow > div,
+.OptionsSettingsTableRow > div,
+.DialogReportTableRow > div {
+    cursor: pointer;
+}
+.TableTradeRow .Type > div > div {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    float: left;
+}
+.TableTradeRow .Type > div .Buy.icon-buy,
+.TableTradeRow .Type > div .Sell.icon-sell {
+    font-size: 22px;
+    margin-top: -2px;
+    margin-right: 8px;
+    margin-left: -3px;
+}
+.TableTradeRow .Type > div .Buy.icon-buy {
+    color: #63bf31;
+}
+.TableTradeRow .Type > div .Sell.icon-sell {
+    color: #dd3b3b;
+}
+.TableTradeRow .Type > div .BuyLimit {
+    background: url('../res/img/PendingOrderIcon/buyLimitIcon.png');
+}
+.TableTradeRow .Type > div .SellLimit {
+    background: url('../res/img/PendingOrderIcon/sellLimitIcon.png');
+}
+.TableTradeRow .Type > div .BuyStop {
+    background: url('../res/img/PendingOrderIcon/buyStopIcon.png');
+}
+.TableTradeRow .Type > div .SellStop {
+    background: url('../res/img/PendingOrderIcon/sellStopIcon.png');
+}
+
+
+.WTDialog.DialogReport .WTSwiperTabsBlock .WTButton {
+    margin-top: 1px;
+}
+
+
+.NewSelect.WTMenu.scrollable .scroller-content-wrapper {
+    max-height: 360px;
+}
+
+
+.WTInput.Active .WTInputSelectField .InputSelectButton .WTInputSelectArrowImg {
+    transform: rotate(180deg);
+}
+
+
+.DialogNewOrderContent .DOrderSettsContainer .WTButton .WTButtonText,
+.DialogBuyOptionContent .BuyOptionContent .Buttons .WTButton .WTButtonText {
+    margin-top: 2px;
+}
+.DialogNewOrderContent .DOrderSettsContainer .WTButton .WTButtonImage {
+    display: inline-block !important;
+    background-size: 13px 13px;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+.DialogBuyOptionContent .BuyOptionContent .Buttons .WTButton .WTButtonImage {
+    display: inline-block !important;
+    width: 20px;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+.DialogNewOrderContent .DOrderSettsContainer .WTButton.Buy > .WTButtonImage {
+    background-image: url('../res/img/mobileImg/buttons/white_up.png');
+}
+.DialogNewOrderContent .DOrderSettsContainer .WTButton.Sell > .WTButtonImage {
+    background-image: url('../res/img/mobileImg/buttons/white_down.png');
+}
+.DialogBuyOptionContent .BuyOptionContent .Buttons .WTButton.Low > .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/lowIcon.png');
+}
+.DialogBuyOptionContent .BuyOptionContent .Buttons .WTButton.High > .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/highIcon.png');
+}
+.DialogBuyOptionContent .BuyOptionContent .Buttons .WTButton.Top > .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/topIcon.png');
+}
+.DialogBuyOptionContent .BuyOptionContent .Buttons .WTButton.Bottom > .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/bottomIcon.png');
+}
+.DialogBuyOptionContent .BuyOptionContent .Buttons .WTButton.Inside > .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/insideIcon.png');
+}
+.DialogBuyOptionContent .BuyOptionContent .Buttons .WTButton.Outside > .WTButtonImage {
+    background: url('../res/img/NewOptionIcon/outsideIcon.png');
+}
+
+
+.WTMenu.HorizontalMenu {
+    height: 40px !important;
+    margin-top: -4px;
+}
+.WTMenu.HorizontalMenu .WTMenuItem {
+    width: 30px !important;
+    height: 30px;
+    display: inline-block !important;
+    padding: 0;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+.WTMenu.HorizontalMenu .WTMenuItem.Hovered {
+    background: #646464;
+}
+.WTMenu.HorizontalMenu .WTMenuItem:nth-child(2) {
+    margin-left: 5px;
+}
+.WTMenu.HorizontalMenu .WTMenuItem:last-child {
+    margin-right: 5px;
+}
+.WTMenu.HorizontalMenu .WTMenuItem .WTMItemTxt {
+    display: none;
+}
+
+.WTMenu.HorizontalMenu .WTMenuItem .WTMItemImg > div {
+    margin: 4px;
+    margin-top: 5px;
+}
+
+.WTMenu.MenuPanelSettings {
+    margin-left: 1px;
+    background: #3c3c3c;
+}
+
+.WTDialog.dialogLineSettings .WTSwiperTabsBlock .WTButton {
+    margin-top: 1px;
+}
+
+.WTDialog.dialogLineSettings .DialogLineSettingsContent.LevelsSettings .DLeftControls {
+    height: calc(100% - 1px);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: 1px solid #1e1e1e;
+}
+
+.DialogOptionInfoContent .TableContainer {
+    background: #3c3c3c;
+}
+
+.WTMenu.BigMenu .WTMenuItem .WTMItemTxt {
+    margin-top: 5px;
+}
+.WTMenu.BigMenu div.WTMenuItem.Checked > div.WTMItemImg > div {
+    margin-top: 1px;
+}
+
+
+
+
+
+.overlay {
+    position: fixed;
+    display: none;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    width: 100%;
+    height: 100%;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #3c3c3c;
+
+    z-index: 14;
+
+    opacity: 0;
+
+    -webkit-transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -ms-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+}
+.overlay.animate {
+    transition: height .2s ease-in;
+}
+.overlay.opened {
+    display: flex;
+}
+.overlay.disabled div.comeback,
+.overlay.disabled div.language {
+    pointer-events: none;
+
+    opacity: .85;
+}
+
+.overlay .serverError {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    display: none;
+    height: 70px;
+
+    width: 100%;
+
+    color: #e6e6e6;
+    font-size: 20px;
+    background: #dd3b3b;
+    text-align: center;
+
+    z-index: 1;
+
+    margin-bottom: 10px;
+
+    opacity: 0;
+
+    -webkit-transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -ms-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+}
+.overlay .serverError.use {
+    display: block;
+}
+.overlay .serverError .title {
+    font-family: 'RobotoBold';
+    font-weight: 600;
+
+    padding-top: 23px;
+}
+.overlay .serverError .closeButton {
+    position: absolute;
+
+    left: calc(100% - 50px);
+    top: 0;
+
+    margin-top: 25px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.overlay .mainContainer {
+    position: relative;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.overlay .mainContainer .WTButtonText {
+    height: auto;
+    margin-top: 13px;
+
+    font-size: 14px;
+}
+
+.overlay .mainContainer .leftContainer,
+.overlay .mainContainer .rightContainer {
+    position: relative;
+}
+
+.overlay .mainContainer .leftContainer {
+    min-width: 150px;
+    max-width: 250px;
+    align-self: center;
+}
+.overlay .mainContainer .rightContainer {
+    padding-left: 40px;
+
+    border-left: 1px solid #323232;
+
+    -webkit-transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -ms-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+}
+
+.overlay .mainContainer .leftContainer .logotype {
+    position: relative;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+.overlay .mainContainer .leftContainer .logotype > img {
+    position: relative;
+    display: inline;
+
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay .mainContainer .leftContainer .controlButtonsContainer .WTButton {
+    -webkit-transition: opacity .10s ease-in-out;
+    -moz-transition: opacity .10s ease-in-out;
+    -ms-transition: opacity .10s ease-in-out;
+    -o-transition: opacity .10s ease-in-out;
+    transition: opacity .10s ease-in-out;
+
+    -webkit-transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -ms-transition: background .25s ease-in-out;
+    -o-transition: background .25s ease-in-out;
+    transition: background .25s ease-in-out;
+
+    cursor: pointer;
+
+    border: none;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #323232;
+    border-radius: 0;
+
+    width: 100%;
+}
+.overlay .mainContainer .leftContainer .controlButtonsContainer .WTButton:hover {
+    background: #333333;
+}
+.overlay .mainContainer .leftContainer .controlButtonsContainer .WTButton .WTButtonText {
+    margin-left: 5px;
+    width: calc(100% - 9px);
+    color: #e6e6e6;
+
+    -webkit-transition: color .25s ease-in-out;
+    -moz-transition: color .25s ease-in-out;
+    -ms-transition: color .25s ease-in-out;
+    -o-transition: color .25s ease-in-out;
+    transition: color .25s ease-in-out;
+}
+.overlay .mainContainer .leftContainer .controlButtonsContainer .WTButton.selected {
+    border: none;
+    border-right: 3px solid #66b41c;
+    border-bottom: 1px solid #323232;
+    border-radius: 0;
+
+    background: #333333;
+
+    cursor: default;
+}
+.overlay .mainContainer .leftContainer .controlButtonsContainer .WTButton.selected .WTButtonText {
+    margin-left: 7px;
+    width: calc(100% - 7px);
+    color: #66b41c;
+}
+.overlay .mainContainer .leftContainer .controlButtonsContainer .WTButton:first-child {
+    border-top: 1px solid #323232;
+}
+.overlay .mainContainer .leftContainer .controlButtonsContainer.disabled .WTButton {
+    pointer-events: none;
+
+    opacity: .5;
+}
+
+
+
+.overlay .mainContainer .rightContainer .content > div.WTInput:first-child {
+    height: 43px;
+
+    padding-top: 0;
+}
+
+.overlay .mainContainer .rightContainer .content .WTInput.Server input,
+.overlay .mainContainer .rightContainer .content .WTInput.AccountType input,
+.overlay .mainContainer .rightContainer .content .WTInput.Leverage input {
+    pointer-events: none;
+}
+
+.overlay .mainContainer .rightContainer .content .WTInput {
+    position: relative;
+
+    margin-top: 1px;
+    margin-bottom: 2px;
+
+    padding: 5px;
+    padding-left: 0;
+    padding-right: 0;
+
+    -webkit-transition: opacity .10s ease-in-out;
+    -moz-transition: opacity .10s ease-in-out;
+    -ms-transition: opacity .10s ease-in-out;
+    -o-transition: opacity .10s ease-in-out;
+    transition: opacity .10s ease-in-out;
+}
+.overlay .mainContainer .rightContainer .content.disabled .WTInput {
+    pointer-events: none;
+
+    opacity: .5;
+}
+.overlay .mainContainer .rightContainer .content .WTInput input {
+    height: 38px;
+
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #e6e6e6;
+
+    padding-left: 0;
+    padding-top: 3px;
+}
+::-webkit-input-placeholder { color: #969696; }
+::-moz-placeholder          { color: #969696; }
+:-moz-placeholder           { color: #969696; }
+:-ms-input-placeholder      { color: #969696; }
+.overlay .mainContainer .rightContainer .content .WTInput.padding .WTInputField {
+    padding-left: 39px;
+}
+.overlay .mainContainer .rightContainer .content .WTInput.padding .WTInputSelectIcon {
+    position: absolute;
+}
+.overlay .mainContainer .rightContainer .content .WTInput input.hasCharacters[type='password'] {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.overlay .mainContainer .rightContainer .content .WTInput.Server {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    height: 43px;
+}
+.overlay .mainContainer .rightContainer .content .WTInput.Select {
+    height: 48px;
+}
+.overlay .mainContainer .rightContainer .content .WTInput .InputSelectButton {
+    margin-top: 4px;
+    margin-right: 6px;
+}
+.overlay .mainContainer .WTInputSelectArrowImg:before {
+    content: "\e90a";
+}
+.overlay .mainContainer .searching .WTInputSelectArrowImg:before {
+    content: "\e931";
+}
+.overlay .mainContainer .searching .WTInputSelectIcon:before {
+    content: "\e932";
+}
+.overlay .mainContainer .rightContainer .content .WTInput.Server.searching input.WTInputField {
+    pointer-events: all;
+}
+.overlay .mainContainer .WTInputSelectArrowImg {
+    height: 21px;
+
+    font-size: 12px;
+    font-family: 'icomoon' !important;
+    color: #878787;
+
+    text-align: center;
+
+    padding-top: calc(29px / 2 - 10px / 2);
+
+    background-image: none;
+}
+.overlay .mainContainer .WTInputSelectArrowImg:hover {
+    color: #b6b6b6;
+}
+.overlay .mainContainer .WTInput.Active .WTInputSelectArrowImg {
+    color: #b6b6b6;
+}
+.overlay .mainContainer .WTInput.Active.searching .WTInputSelectArrowImg {
+    color: #878787;
+}
+.overlay .mainContainer .rightContainer .content .WTInput .WTInputSelectField input {
+    width: calc(100% - 40px) !important;
+}
+.overlay .mainContainer .rightContainer .content .WTInput .WTInputSelectIcon,
+.overlay .mainContainer .rightContainer .content .WTInput .WTInputSelectField .WTInputSelectIcon {
+    width: 28px;
+    height: 26px;
+
+    display: inline-block;
+    float: left;
+
+    font-size: 16px;
+    color: #878787;
+
+    padding-top: 12px;
+    padding-left: 12px;
+
+    -webkit-transition: color .20s ease-in-out;
+    -moz-transition: color .20s ease-in-out;
+    -ms-transition: color .20s ease-in-out;
+    -o-transition: color .20s ease-in-out;
+    transition: color .20s ease-in-out;
+}
+.overlay .mainContainer .eye.icon-eye {
+    position: absolute;
+
+    width: 27px;
+    height: 27px;
+
+    top: 5px;
+    left: calc(250px - 39px);
+
+    font-size: 16px;
+    color: #878787;
+
+    padding-top: 11px;
+    padding-left: 11px;
+
+    cursor: pointer;
+}
+.overlay .mainContainer .eye.icon-eye:hover {
+    color: #b6b6b6;
+}
+.overlay .mainContainer .eye.icon-eye:active {
+    color: #66b41c;
+}
+.overlay .mainContainer .WTInput.Active .WTInputSelectField .InputSelectButton {
+    background: transparent;
+    border: 1px solid transparent;
+}
+.overlay .mainContainer .rightContainer .content .WTInput > .WTInputField,
+.overlay .mainContainer .rightContainer .content .WTInput .WTInputSelectField {
+    border: 1px solid #1e1e1e;
+    background: #282828;
+
+    -webkit-transition: border .20s ease-in-out;
+    -moz-transition: border .20s ease-in-out;
+    -ms-transition: border .20s ease-in-out;
+    -o-transition: border .20s ease-in-out;
+    transition: border .20s ease-in-out;
+}
+.overlay .mainContainer .rightContainer .content .WTInput.error .WTInputSelectField,
+.overlay .mainContainer .rightContainer .content .WTInput.error > .WTInputField {
+    border: 1px solid #dd3b3b;
+}
+.overlay .mainContainer .rightContainer .content .WTInput.error .WTInputSelectIcon {
+    color: #dd3b3b;
+}
+.overlay .mainContainer .WTInputSelectField .InputSelectButton:active {
+    border: 1px solid transparent;
+    background: transparent;
+}
+.overlay .mainContainer .rightContainer .content .WTInput .WTInputLabel.PositionLeft {
+    display: none;
+}
+
+.overlay .mainContainer .rightContainer .content .WTButton {
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid #1e1e1e;
+    background: linear-gradient(to top, #539f29, #63bf31);
+
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    cursor: pointer;
+}
+.overlay .mainContainer .rightContainer .content .WTButton .WTButtonText {
+    text-transform: uppercase;
+}
+.overlay .mainContainer .rightContainer .content .WTButton:hover {
+    background: linear-gradient(to top, #64bf31, #78d048);
+}
+.overlay .mainContainer .rightContainer .content .WTButton:active {
+    background: #539f29;
+}
+
+.overlay .mainContainer .rightContainer .content .WTInput.CheckBox {
+    margin-bottom: 0;
+
+    padding: 10px;
+    padding-left: 2px;
+    padding-right: 0;
+}
+.overlay .mainContainer .rightContainer .content .WTInput.CheckBox .Check {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.overlay .mainContainer .rightContainer .content .WTInput.CheckBox .WTInputLabel.PositionRight {
+    margin-left: 5px;
+    margin-top: -1px;
+
+    font-size: 14px;
+    color: #e6e6e6;
+}
+
+.overlay .mainContainer .rightContainer .content .sheath {
+    margin-top: 5px;
+
+    background: -webkit-linear-gradient(to top, #539f29, #63bf31);
+    background: -moz-linear-gradient(to top, #539f29, #63bf31);
+    background: -ms-linear-gradient(to top, #539f29, #63bf31);
+    background: -o-linear-gradient(to top, #539f29, #63bf31);
+    background: linear-gradient(to top, #539f29, #63bf31);
+    -pie-background: linear-gradient(to top, #539f29, #63bf31);
+
+    color: #6b635b;
+
+    border-radius: 5px;
+}
+
+.overlay .mainContainer .rightContainer .content .authView .sheath {
+    margin-top: 4px;
+}
+.overlay .mainContainer .rightContainer .content .demoView .sheath {
+    margin-top: 6px;
+}
+
+
+
+.overlay .mainContainer .rightContainer .content .sheath.inProgress .WTButton {
+    text-shadow: none;
+    background: -webkit-linear-gradient(-69deg, rgba(0, 0, 0, 0.00001) 34%, rgba(255, 255, 255, 0.2) 34%, rgba(255, 255, 255, .2) 67%, rgba(0, 0, 0, 0.00001) 66%);
+    background: -moz-linear-gradient(-69deg, rgba(0, 0, 0, 0.00001) 34%, rgba(255, 255, 255, 0.2) 34%, rgba(255, 255, 255, .2) 67%, rgba(0, 0, 0, 0.00001) 66%);
+    background: -ms-linear-gradient(-69deg, rgba(0, 0, 0, 0.00001) 34%, rgba(255, 255, 255, 0.2) 34%, rgba(255, 255, 255, .2) 67%, rgba(0, 0, 0, 0.00001) 66%);
+    background: -o-linear-gradient(-69deg, rgba(0, 0, 0, 0.00001) 34%, rgba(255, 255, 255, 0.2) 34%, rgba(255, 255, 255, .2) 67%, rgba(0, 0, 0, 0.00001) 66%);
+    background: linear-gradient(-69deg, rgba(0, 0, 0, 0.00001) 34%, rgba(255, 255, 255, 0.2) 34%, rgba(255, 255, 255, .2) 67%, rgba(0, 0, 0, 0.00001) 66%);
+    -pie-background: linear-gradient(-69deg, rgba(0, 0, 0, 0.00001) 34%, rgba(255, 255, 255, 0.2) 34%, rgba(255, 255, 255, .2) 67%, rgba(0, 0, 0, 0.00001) 66%);
+    background-repeat: repeat;
+
+    -webkit-background-size: 36px 50px, 100% 100%;
+    -moz-background-size: 36px 50px, 100% 100%;
+    -ms-background-size: 36px 50px, 100% 100%;
+    -o-background-size: 36px 50px, 100% 100%;
+    background-size: 36px 50px, 100% 100%;
+
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    -moz-animation: progress-bar-stripes 1s linear infinite;
+    -ms-animation: progress-bar-stripes 1s linear infinite;
+    -o-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+
+    pointer-events: none;
+
+    cursor: default;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+    from { background-position: 0 0; }
+    to { background-position: 36px 0; }
+}
+@-moz-keyframes progress-bar-stripes {
+    from { background-position: 0 0; }
+    to { background-position: 36px 0; }
+}
+@keyframes progress-bar-stripes {
+    from { background-position: 0 0; }
+    to { background-position: 36px 0; }
+}
+
+
+
+.overlay .mainContainer .rightContainer .errorDialog {
+    position: absolute;
+    left: 250px;
+    top: 5px;
+
+    width: 220px;
+    height: auto;
+
+    background: #dd3b3b;
+
+    margin-left: 20px;
+
+    padding: 10px;
+
+    -webkit-transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -ms-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    opacity: 0;
+
+    cursor: default;
+}
+
+.overlay .mainContainer .rightContainer .errorDialog .title,
+.overlay .mainContainer .rightContainer .errorDialog .description {
+    display: block;
+
+    color: #ffffff;
+
+    line-height: normal;
+
+    margin-bottom: 0;
+}
+.overlay .mainContainer .rightContainer .errorDialog .triangle {
+    position: absolute;
+    left: -10px;
+    top: 12px;
+
+    width: 0;
+    height: 0;
+
+    border-style: solid;
+    border-width: 8px 10px 8px 0;
+    border-color: transparent #dd3b3b transparent transparent;
+}
+.overlay .mainContainer .rightContainer .errorDialog .title {
+    font-size: 16px;
+}
+.overlay .mainContainer .rightContainer .errorDialog .description {
+    font-size: 14px;
+}
+
+
+
+.overlay .comeback {
+    position: fixed;
+
+    display: none;
+
+    left: 0;
+    top: 0;
+
+    text-transform: uppercase;
+
+    font-size: 20px;
+    color: #919191;
+
+    cursor: pointer;
+}
+.overlay .comeback:active {
+    color: #539f29;
+    border: 1px solid #539f29;
+}
+.overlay .comeback.use {
+    display: block;
+
+    width: 38px;
+    height: 38px;
+
+    color: #919191;
+
+    border-radius: 20px;
+    border: 1px solid #919191;
+}
+.overlay .comeback:hover {
+    color: #bbbbbb;
+    border: 1px solid #bbbbbb;
+}
+.overlay .comeback div {
+    float: left;
+
+    padding: 9px;
+}
+.overlay .comeback .icon-option-arrow-up {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    margin-top: 2px;
+    margin-right: 12.5px;
+}
+
+.overlay .language {
+    position: fixed;
+
+    width: 38px;
+    height: 38px;
+
+    color: #919191;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid #919191;
+
+    background: transparent;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    cursor: pointer;
+}
+.overlay .language:hover {
+    color: #bbbbbb;
+    border: 1px solid #bbbbbb;
+}
+.overlay .language.active {
+    color: #63bf31;
+    border: 1px solid #63bf31;
+}
+.overlay .language .text {
+    padding-top: 11px;
+}
+
+.WTMenu.savedServers .WTMenuItem:last-child {
+    border-top: 1px solid #323232;
+}
+
+
+
+.SwiperSmoothlyContent > div {
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.SwiperSmoothlyContent.Animate {
+    -webkit-transition: transform .25s ease-in-out;
+    -moz-transition: transform .25s ease-in-out;
+    -ms-transition: transform .25s ease-in-out;
+    -o-transition: transform .25s ease-in-out;
+    transition: transform .25s ease-in-out;
+}
+.WTDialog .WTSwiperContent > div.FadeAnimate {
+    -webkit-transition: opacity .07s ease-in-out;
+    -moz-transition: opacity .07s ease-in-out;
+    -ms-transition: opacity .07s ease-in-out;
+    -o-transition: opacity .07s ease-in-out;
+    transition: opacity .07s ease-in-out;
+}
